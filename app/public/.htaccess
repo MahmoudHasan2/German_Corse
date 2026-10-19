@@ -1,0 +1,43 @@
+# German AI Coach — web root rules (Apache / LiteSpeed on Hostinger)
+
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Force HTTPS (microphone access requires a secure origin).
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:\d+)?$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Never serve dotfiles, app-path.php or backups directly.
+    RewriteRule (^|/)\. - [F,L]
+    RewriteRule ^app-path\.php$ - [F,L]
+    RewriteRule \.(sql|log|env|ini|bak|zip|tar|gz|json\.dist)$ - [F,L,NC]
+
+    # Existing static assets are served as-is; everything else goes to the front controller.
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^assets/ - [L]
+    RewriteRule ^ index.php [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "same-origin"
+    <FilesMatch "\.(css|js|svg|png|woff2)$">
+        Header set Cache-Control "public, max-age=604800"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddType text/javascript .js .mjs
+    AddType image/svg+xml .svg
+</IfModule>
+
+# Upload limits for voice answers (ignored where the host disallows php_value; use .user.ini instead).
+<IfModule mod_php.c>
+    php_value upload_max_filesize 8M
+    php_value post_max_size 10M
+</IfModule>

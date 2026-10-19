@@ -1,0 +1,781 @@
+{
+  "version": 1,
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-17-body-health",
+      "level": "A1",
+      "category": "health",
+      "sort_order": 170,
+      "title_de": "Der Körper und die Gesundheit",
+      "title_ar": "الجسم والصحة",
+      "objective_ar": "أن تسمّي أجزاء الجسم، وتقول كيف حالك، وتتصل لتطلب موعدًا عند الطبيب بجمل بسيطة.",
+      "description_ar": "Wie geht es Ihnen?، Mein Kopf tut weh، وجمع أجزاء الجسم.",
+      "skills": ["speaking", "vocabulary"],
+      "prerequisites": ["a1-16-imperative"],
+      "estimated_minutes": 45,
+      "review_targets": ["vocabulary", "verb_conjugation"],
+      "grammar_notes": [
+        {
+          "title_ar": "… tut weh / … tun weh",
+          "body_ar": "مع المفرد: Mein Kopf tut weh. مع الجمع: Meine Füße tun weh.",
+          "examples_de": ["Mein Bauch tut weh.", "Meine Augen tun weh."]
+        },
+        {
+          "title_ar": "Wie geht es Ihnen?",
+          "body_ar": "الأجوبة: Gut, danke. / Es geht. / Nicht so gut. / Schlecht. — ومع du: Wie geht es dir?",
+          "examples_de": ["Mir geht es gut, danke.", "Mir geht es nicht so gut."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Kollege", "de": "Hallo Sara, wie geht es dir?", "ar": "مرحبًا سارة، كيف حالك؟"},
+        {"speaker": "Sara", "de": "Nicht so gut. Mein Kopf tut weh und ich bin sehr müde.", "ar": "لستُ بخير. رأسي يؤلمني وأنا متعبة جدًا."},
+        {"speaker": "Kollege", "de": "Geh doch zum Arzt!", "ar": "اذهبي إلى الطبيب!"},
+        {"speaker": "Sara", "de": "Ja, ich rufe gleich in der Praxis an.", "ar": "نعم، سأتصل بالعيادة حالًا."}
+      ],
+      "vocabulary": [
+        {"de": "Kopf", "article": "der", "plural": "Köpfe", "ar": "الرأس", "example_de": "Mein Kopf tut weh."},
+        {"de": "Bauch", "article": "der", "plural": "Bäuche", "ar": "البطن", "example_de": "Das Kind hat Bauchschmerzen."},
+        {"de": "Hals", "article": "der", "plural": "Hälse", "ar": "الحلق / الرقبة", "example_de": "Mein Hals tut weh."},
+        {"de": "Rücken", "article": "der", "ar": "الظهر", "example_de": "Er hat Rückenschmerzen."},
+        {"de": "Auge", "article": "das", "plural": "Augen", "ar": "العين", "example_de": "Meine Augen sind rot."},
+        {"de": "Fuß", "article": "der", "plural": "Füße", "ar": "القدم", "example_de": "Meine Füße tun weh."},
+        {"de": "krank", "pos": "adjective", "ar": "مريض", "example_de": "Ich bin krank."},
+        {"de": "müde", "pos": "adjective", "ar": "متعب", "example_de": "Heute bin ich sehr müde."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-17-how-are-you",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "زميلك يسأل عن حالك. أنت لست بخير وظهرك يؤلمك.",
+          "prompt_de": "Wie geht es Ihnen? (nicht gut – Rücken)",
+          "reference_answers": ["Mir geht es nicht gut. Mein Rücken tut weh.", "Nicht so gut. Ich habe Rückenschmerzen.", "Es geht mir nicht gut, mein Rücken tut weh."],
+          "key_points": ["Befinden (nicht gut)", "Rücken tut weh / Rückenschmerzen"],
+          "hint_de": "Mir geht es nicht gut. Mein … tut weh.",
+          "hint_ar": "Mir geht es … = حالي …",
+          "explanation_ar": "mir (لي) وليس ich: Mir geht es gut.",
+          "transfer_tasks": [
+            {"prompt_de": "Ihr Kind ist krank. Die Lehrerin fragt: „Wie geht es Ihrem Sohn?“ (Bauch)", "instruction_ar": "ابنك مريض وبطنه يؤلمه. أجب.", "reference_answers": ["Es geht ihm nicht gut. Sein Bauch tut weh.", "Er ist krank. Er hat Bauchschmerzen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        },
+        {
+          "slug": "a1-17-gap-tut-tun",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بـ tut أو tun.",
+          "prompt_de": "Ergänzen Sie: Meine Füße ___ weh.",
+          "reference_answers": ["Meine Füße tun weh.", "tun"],
+          "hint_de": "Plural → tun",
+          "hint_ar": "Füße جمع.",
+          "explanation_ar": "المفرد: tut weh، الجمع: tun weh.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Mein Hals ___ weh.", "instruction_ar": "أكمل بـ tut أو tun.", "reference_answers": ["Mein Hals tut weh.", "tut"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-17-call-doctor",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "اتصل بالعيادة: قل اسمك، وإنك مريض، واطلب موعدًا اليوم.",
+          "prompt_de": "Rufen Sie in der Arztpraxis an: Nennen Sie Ihren Namen, sagen Sie, dass Sie krank sind, und fragen Sie nach einem Termin heute.",
+          "reference_answers": ["Guten Tag, mein Name ist Ali Hassan. Ich bin krank. Kann ich heute einen Termin bekommen?", "Hallo, hier ist Ali Hassan. Ich habe Fieber. Haben Sie heute einen Termin frei?"],
+          "key_points": ["Name", "krank / Symptom", "Frage nach Termin heute"],
+          "hint_de": "Guten Tag, mein Name ist … Ich bin krank. Kann ich …?",
+          "hint_ar": "ثلاث معلومات: الاسم، المرض، طلب الموعد.",
+          "explanation_ar": "Kann ich heute einen Termin bekommen? — الفعل bekommen في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Praxis hat heute keinen Termin. Fragen Sie nach morgen früh.", "instruction_ar": "لا يوجد موعد اليوم. اسأل عن الغد صباحًا.", "reference_answers": ["Geht es morgen früh?", "Haben Sie morgen früh einen Termin frei?", "Kann ich morgen früh kommen?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-17-body-plural",
+          "type": "gap_fill",
+          "skill_area": "vocabulary",
+          "grammar_focus": "plural",
+          "instruction_ar": "اكتب جمع الكلمة.",
+          "prompt_de": "Schreiben Sie den Plural: der Fuß → die ___",
+          "reference_answers": ["Füße", "die Füße"],
+          "hint_de": "u → ü + e",
+          "hint_ar": "يتغيّر u إلى ü ويُضاف ‎-e‎.",
+          "explanation_ar": "der Fuß – die Füße، der Kopf – die Köpfe.",
+          "transfer_tasks": [
+            {"prompt_de": "Schreiben Sie den Plural: das Auge → die ___", "instruction_ar": "اكتب الجمع.", "reference_answers": ["Augen", "die Augen"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-17-listen-sick-note",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى رسالة المدرسة: لماذا لا يأتي يوسف اليوم؟",
+          "prompt_de": "Warum kommt Yusuf heute nicht in die Schule?",
+          "context_de": "Guten Morgen, hier ist Frau Saleh, die Mutter von Yusuf. Yusuf ist krank. Er hat Fieber und Halsschmerzen. Er kommt heute nicht in die Schule.",
+          "context_mode": "listen",
+          "reference_answers": ["Er ist krank. Er hat Fieber und Halsschmerzen.", "Weil er krank ist.", "Yusuf hat Fieber und Halsschmerzen."],
+          "key_points": ["krank", "Fieber und/oder Halsschmerzen"],
+          "hint_de": "Er ist … Er hat …",
+          "hint_ar": "Fieber = حمّى، Halsschmerzen = ألم في الحلق.",
+          "explanation_ar": "Hals + Schmerzen = Halsschmerzen.",
+          "transfer_tasks": [
+            {"prompt_de": "Eine Nachricht: „Ich kann heute nicht kommen, ich habe Rückenschmerzen.“ Was hat die Person?", "instruction_ar": "ممّ تشكو الشخصية؟", "reference_answers": ["Sie hat Rückenschmerzen.", "Rückenschmerzen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        }
+      ]
+    },
+    {
+      "slug": "a1-18-clothes",
+      "level": "A1",
+      "category": "clothes",
+      "sort_order": 180,
+      "title_de": "Kleidung und Farben",
+      "title_ar": "الملابس والألوان",
+      "objective_ar": "أن تشتري ملابس: تسأل عن المقاس واللون والسعر، وتقول رأيك بالقطعة.",
+      "description_ar": "ضمائر Akkusativ ihn/sie/es، و gefällt mir / gefallen mir.",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": ["a1-17-body-health"],
+      "estimated_minutes": 45,
+      "review_targets": ["pronoun", "case_accusative"],
+      "grammar_notes": [
+        {
+          "title_ar": "ihn / sie / es",
+          "body_ar": "بدل تكرار الاسم في Akkusativ: der Pullover ← ihn، die Jacke ← sie، das Hemd ← es، الجمع ← sie.",
+          "examples_de": ["Der Pullover ist schön. Ich nehme ihn.", "Die Jacke ist zu teuer. Ich kaufe sie nicht."]
+        },
+        {
+          "title_ar": "gefallen",
+          "body_ar": "Der Rock gefällt mir. (مفرد) / Die Schuhe gefallen mir. (جمع) = يعجبني / تعجبني.",
+          "examples_de": ["Das Kleid gefällt mir sehr.", "Die Farben gefallen mir nicht."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Verkäuferin", "de": "Kann ich Ihnen helfen?", "ar": "هل أستطيع مساعدتك؟"},
+        {"speaker": "Kamal", "de": "Ja, ich suche eine Jacke in Größe L.", "ar": "نعم، أبحث عن سترة بمقاس L."},
+        {"speaker": "Verkäuferin", "de": "Hier, diese Jacke in Blau. Sie kostet 49 Euro.", "ar": "تفضّل، هذه السترة باللون الأزرق. سعرها 49 يورو."},
+        {"speaker": "Kamal", "de": "Die gefällt mir. Kann ich sie anprobieren?", "ar": "تعجبني. هل أستطيع تجربتها؟"}
+      ],
+      "vocabulary": [
+        {"de": "Jacke", "article": "die", "plural": "Jacken", "ar": "السترة / الجاكيت", "example_de": "Die Jacke ist warm."},
+        {"de": "Hose", "article": "die", "plural": "Hosen", "ar": "البنطال", "example_de": "Die Hose ist zu lang."},
+        {"de": "Pullover", "article": "der", "plural": "Pullover", "ar": "الكنزة", "example_de": "Der Pullover ist aus Wolle."},
+        {"de": "Hemd", "article": "das", "plural": "Hemden", "ar": "القميص", "example_de": "Er trägt ein weißes Hemd."},
+        {"de": "Schuh", "article": "der", "plural": "Schuhe", "ar": "الحذاء", "example_de": "Die Schuhe sind bequem."},
+        {"de": "Größe", "article": "die", "plural": "Größen", "ar": "المقاس", "example_de": "Haben Sie das in Größe M?"},
+        {"de": "anprobieren", "pos": "verb", "ar": "يجرّب (ملابس)", "example_de": "Kann ich die Hose anprobieren?"},
+        {"de": "blau", "pos": "adjective", "ar": "أزرق", "example_de": "Meine Jacke ist blau."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-18-ask-size",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "أنت في محل ملابس. قل إنك تبحث عن بنطال بمقاس M.",
+          "prompt_de": "Sie sind im Kleidungsgeschäft. Sie suchen eine Hose in Größe M.",
+          "reference_answers": ["Ich suche eine Hose in Größe M.", "Haben Sie diese Hose in Größe M?", "Entschuldigung, ich suche eine Hose in M."],
+          "key_points": ["eine Hose (Akkusativ)", "Größe M"],
+          "hint_de": "Ich suche eine … in Größe …",
+          "hint_ar": "suchen + Akkusativ: eine Hose.",
+          "explanation_ar": "in Größe M = بمقاس M.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie suchen jetzt einen Pullover in Blau.", "instruction_ar": "قل إنك تبحث عن كنزة زرقاء.", "reference_answers": ["Ich suche einen Pullover in Blau.", "Haben Sie einen blauen Pullover?"], "key_points": ["einen Pullover (der → einen)"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-18-pronoun-ihn",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "عوّض الاسم بالضمير المناسب (ihn/sie/es).",
+          "prompt_de": "Ersetzen Sie das Nomen: Der Pullover ist schön. Ich nehme den Pullover.",
+          "reference_answers": ["Ich nehme ihn.", "Der Pullover ist schön. Ich nehme ihn."],
+          "hint_de": "den Pullover → …",
+          "hint_ar": "der Pullover في Akkusativ ← ihn.",
+          "explanation_ar": "der ← ihn، die ← sie، das ← es.",
+          "transfer_tasks": [
+            {"prompt_de": "Ersetzen Sie das Nomen: Die Jacke ist zu teuer. Ich kaufe die Jacke nicht.", "instruction_ar": "عوّض الاسم بالضمير.", "reference_answers": ["Ich kaufe sie nicht.", "Die Jacke ist zu teuer. Ich kaufe sie nicht."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-18-gefaellt",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بـ gefällt أو gefallen.",
+          "prompt_de": "Ergänzen Sie: Die Schuhe ___ mir sehr.",
+          "reference_answers": ["Die Schuhe gefallen mir sehr.", "gefallen"],
+          "hint_de": "Plural → gefallen",
+          "hint_ar": "Schuhe جمع.",
+          "explanation_ar": "الشيء المعجِب هو الفاعل: Die Schuhe gefallen mir.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Das Hemd ___ mir nicht.", "instruction_ar": "أكمل بـ gefällt أو gefallen.", "reference_answers": ["Das Hemd gefällt mir nicht.", "gefällt"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-18-what-wearing",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "صِف ماذا تلبس اليوم (قطعتان مع اللون).",
+          "prompt_de": "Was tragen Sie heute? Nennen Sie zwei Kleidungsstücke und die Farben.",
+          "reference_answers": ["Heute trage ich eine blaue Hose und einen schwarzen Pullover.", "Ich trage eine Jeans und ein weißes Hemd. Die Jeans ist blau."],
+          "key_points": ["zwei Kleidungsstücke", "Farben", "tragen richtig konjugiert"],
+          "hint_de": "Heute trage ich …",
+          "hint_ar": "tragen = يلبس. أسهل طريقة للون: Die Hose ist blau.",
+          "explanation_ar": "إذا كانت الصفة قبل الاسم تأخذ نهاية (eine blaue Hose)؛ بعد ist بدون نهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Was trägt Ihre Lehrerin oder Ihr Kollege heute?", "instruction_ar": "ماذا تلبس معلّمتك أو زميلك اليوم؟", "reference_answers": ["Meine Lehrerin trägt ein rotes Kleid.", "Mein Kollege trägt eine Jacke. Sie ist grau."], "key_points": ["trägt (er/sie)"]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a1-18-try-on",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "اسأل البائعة إن كنت تستطيع تجربة السترة.",
+          "prompt_de": "Fragen Sie, ob Sie die Jacke anprobieren können.",
+          "reference_answers": ["Kann ich die Jacke anprobieren?", "Kann ich sie anprobieren?", "Darf ich die Jacke anprobieren?"],
+          "key_points": ["Kann/Darf ich … anprobieren?"],
+          "hint_de": "Kann ich … anprobieren?",
+          "hint_ar": "anprobieren في آخر السؤال.",
+          "explanation_ar": "بعد kann يبقى الفعل المنفصل متصلًا في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Hose ist zu klein. Fragen Sie nach einer größeren Größe.", "instruction_ar": "البنطال صغير. اسأل عن مقاس أكبر.", "reference_answers": ["Haben Sie die Hose eine Nummer größer?", "Haben Sie das in Größe L?", "Die Hose ist zu klein. Haben Sie sie größer?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-19-weather-dates",
+      "level": "A1",
+      "category": "weather_calendar",
+      "sort_order": 190,
+      "title_de": "Wetter, Monate und Datum",
+      "title_ar": "الطقس والأشهر والتاريخ",
+      "objective_ar": "أن تتحدّث عن الطقس والفصول، وتقول التاريخ وعيد ميلادك.",
+      "description_ar": "Es ist kalt / Es regnet، im Winter، والأعداد الترتيبية للتاريخ (am ersten Mai).",
+      "skills": ["speaking", "listening", "grammar"],
+      "prerequisites": ["a1-18-clothes"],
+      "estimated_minutes": 45,
+      "review_targets": ["preposition", "vocabulary"],
+      "grammar_notes": [
+        {
+          "title_ar": "الطقس مع es",
+          "body_ar": "Es ist kalt / warm / sonnig. Es regnet. Es schneit. — الفاعل es دائمًا.",
+          "examples_de": ["Heute ist es sonnig.", "Im Winter schneit es oft."]
+        },
+        {
+          "title_ar": "التاريخ",
+          "body_ar": "Heute ist der zweite März. — وللسؤال متى: am + عدد ترتيبي + ‎-en‎: am zweiten März، am ersten Mai.",
+          "examples_de": ["Mein Geburtstag ist am fünften Juni.", "Heute ist der 12. Oktober."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Nina", "de": "Wie ist das Wetter heute?", "ar": "كيف الطقس اليوم؟"},
+        {"speaker": "Omar", "de": "Es ist kalt und es regnet. Nimm eine Jacke mit!", "ar": "الجو بارد وتمطر. خذ سترة معك!"},
+        {"speaker": "Nina", "de": "Ich mag den Sommer lieber. Wann hast du Geburtstag?", "ar": "أفضّل الصيف. متى عيد ميلادك؟"},
+        {"speaker": "Omar", "de": "Am zwanzigsten Juli – im Sommer!", "ar": "في العشرين من تموز — في الصيف!"}
+      ],
+      "vocabulary": [
+        {"de": "Wetter", "article": "das", "ar": "الطقس", "example_de": "Das Wetter ist heute schön."},
+        {"de": "regnen", "pos": "verb", "ar": "تمطر", "example_de": "Es regnet seit Stunden."},
+        {"de": "Sonne", "article": "die", "ar": "الشمس", "example_de": "Die Sonne scheint."},
+        {"de": "kalt", "pos": "adjective", "ar": "بارد", "example_de": "Im Januar ist es kalt."},
+        {"de": "warm", "pos": "adjective", "ar": "دافئ", "example_de": "Heute ist es warm."},
+        {"de": "Winter", "article": "der", "ar": "الشتاء", "example_de": "Im Winter schneit es."},
+        {"de": "Sommer", "article": "der", "ar": "الصيف", "example_de": "Im Sommer fahren wir ans Meer."},
+        {"de": "Geburtstag", "article": "der", "plural": "Geburtstage", "ar": "عيد الميلاد", "example_de": "Herzlichen Glückwunsch zum Geburtstag!"}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-19-weather-today",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "صِف طقس اليوم في جملة أو جملتين (يمكنك التخيّل).",
+          "prompt_de": "Wie ist das Wetter heute?",
+          "reference_answers": ["Heute ist es kalt und es regnet.", "Es ist sonnig und warm.", "Das Wetter ist schön. Die Sonne scheint."],
+          "key_points": ["Wetter mit „es“ (es ist kalt, es regnet)", "Jede Wetterbeschreibung ist richtig"],
+          "hint_de": "Heute ist es …",
+          "hint_ar": "استخدم es: Es ist kalt / Es regnet.",
+          "explanation_ar": "بعد Heute يأتي الفعل ثم es: Heute ist es kalt.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie ist das Wetter im Sommer in Ihrem Heimatland?", "instruction_ar": "كيف الطقس صيفًا في بلدك؟", "reference_answers": ["Im Sommer ist es sehr heiß in Syrien.", "In meinem Heimatland ist es im Sommer heiß und trocken."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-19-birthday",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "متى عيد ميلادك؟ قل اليوم والشهر.",
+          "prompt_de": "Wann haben Sie Geburtstag?",
+          "reference_answers": ["Ich habe am fünften Juni Geburtstag.", "Mein Geburtstag ist am 5. Juni.", "Am ersten März."],
+          "key_points": ["am + Ordinalzahl (-ten/-sten) + Monat", "Jedes Datum ist richtig"],
+          "hint_de": "Ich habe am … Geburtstag.",
+          "hint_ar": "am fünften Juni = في الخامس من حزيران.",
+          "explanation_ar": "الأعداد الترتيبية: erste، zweite، dritte، vierte … zwanzigste. بعد am تنتهي بـ ‎-en‎.",
+          "transfer_tasks": [
+            {"prompt_de": "Wann hat Ihre Mutter oder Ihr Kind Geburtstag?", "instruction_ar": "متى عيد ميلاد أمك أو طفلك؟", "reference_answers": ["Meine Mutter hat am zehnten Oktober Geburtstag.", "Mein Sohn hat am 3. Mai Geburtstag."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-19-gap-im-am",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أكمل بـ im أو am.",
+          "prompt_de": "Ergänzen Sie: ___ Winter ist es oft kalt.",
+          "reference_answers": ["Im Winter ist es oft kalt.", "Im"],
+          "hint_de": "Jahreszeit/Monat → im",
+          "hint_ar": "مع الفصول والأشهر: im. مع الأيام والتواريخ: am.",
+          "explanation_ar": "im Winter، im Mai — am Montag، am 3. Mai.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Die Party ist ___ Samstag.", "instruction_ar": "أكمل بـ im أو am.", "reference_answers": ["Die Party ist am Samstag.", "am"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-19-listen-forecast",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى النشرة الجوية: كيف سيكون الطقس غدًا؟",
+          "prompt_de": "Wie wird das Wetter morgen?",
+          "context_de": "Und jetzt das Wetter: Heute bleibt es sonnig bei 18 Grad. Morgen kommt Regen, und es wird kühler, nur noch 11 Grad.",
+          "context_mode": "listen",
+          "reference_answers": ["Morgen regnet es und es ist kühler, nur 11 Grad.", "Regen und 11 Grad.", "Es regnet und es wird kälter."],
+          "key_points": ["Regen", "kühler / 11 Grad"],
+          "hint_de": "Morgen kommt …",
+          "hint_ar": "Regen = مطر، Grad = درجة.",
+          "explanation_ar": "اليوم مشمس 18 درجة، وغدًا مطر و11 درجة فقط.",
+          "transfer_tasks": [
+            {"prompt_de": "Im Radio hört man: „Am Wochenende wird es warm und sonnig.“ Wie wird das Wetter am Wochenende?", "instruction_ar": "كيف سيكون الطقس في عطلة نهاية الأسبوع؟", "reference_answers": ["Warm und sonnig.", "Am Wochenende wird es warm und sonnig."]}
+          ],
+          "difficulty": 2,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-19-today-date",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "ترجم: «اليوم هو الأول من أيار.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Heute ist der erste Mai.", "Heute ist der 1. Mai."],
+          "hint_de": "Heute ist der …",
+          "hint_ar": "مع Heute ist نقول der erste (بدون ‎-n‎).",
+          "explanation_ar": "Heute ist der erste Mai، لكن: am ersten Mai.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «موعدي في الثالث من حزيران.»", "reference_answers": ["Mein Termin ist am dritten Juni.", "Ich habe am 3. Juni einen Termin."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-20-work",
+      "level": "A1",
+      "category": "work",
+      "sort_order": 200,
+      "title_de": "Arbeit und Berufe",
+      "title_ar": "العمل والمهن",
+      "objective_ar": "أن تتحدّث عن عملك: أين تعمل، متى، وكم ساعة، وماذا تفعل.",
+      "description_ar": "arbeiten als / bei، أوقات العمل، والسؤال عن العمل.",
+      "skills": ["speaking", "reading", "vocabulary"],
+      "prerequisites": ["a1-19-weather-dates"],
+      "estimated_minutes": 45,
+      "review_targets": ["preposition", "word_order"],
+      "grammar_notes": [
+        {
+          "title_ar": "als و bei",
+          "body_ar": "als + المهنة (بدون أداة): Ich arbeite als Koch. — bei + الشركة/الشخص (Dativ): Ich arbeite bei Siemens / bei einer Firma.",
+          "examples_de": ["Sie arbeitet als Verkäuferin.", "Er arbeitet bei der Post."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Kursleiter", "de": "Was machen Sie beruflich, Frau Nasser?", "ar": "ما عملك يا سيدة ناصر؟"},
+        {"speaker": "Frau Nasser", "de": "Ich arbeite als Reinigungskraft in einem Hotel.", "ar": "أعمل عاملة نظافة في فندق."},
+        {"speaker": "Kursleiter", "de": "Und wie lange arbeiten Sie pro Tag?", "ar": "وكم ساعة تعملين في اليوم؟"},
+        {"speaker": "Frau Nasser", "de": "Ich arbeite Teilzeit, vier Stunden am Tag, von 8 bis 12 Uhr.", "ar": "أعمل دوامًا جزئيًا، أربع ساعات يوميًا، من الثامنة حتى الثانية عشرة."}
+      ],
+      "vocabulary": [
+        {"de": "Arbeit", "article": "die", "ar": "العمل", "example_de": "Ich fahre mit dem Bus zur Arbeit."},
+        {"de": "arbeiten", "pos": "verb", "ar": "يعمل", "example_de": "Er arbeitet als Fahrer."},
+        {"de": "Firma", "article": "die", "plural": "Firmen", "ar": "الشركة", "example_de": "Die Firma ist in Leipzig."},
+        {"de": "Stunde", "article": "die", "plural": "Stunden", "ar": "الساعة (مدة)", "example_de": "Ich arbeite acht Stunden am Tag."},
+        {"de": "Teilzeit", "article": "die", "ar": "دوام جزئي", "example_de": "Sie arbeitet in Teilzeit."},
+        {"de": "Vollzeit", "article": "die", "ar": "دوام كامل", "example_de": "Ich suche eine Arbeit in Vollzeit."},
+        {"de": "Chef", "article": "der", "plural": "Chefs", "ar": "المدير / المسؤول", "example_de": "Mein Chef ist sehr nett."},
+        {"de": "verdienen", "pos": "verb", "ar": "يكسب (مالًا)", "example_de": "Wie viel verdienst du?"}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-20-what-job",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أين وكمَ تعمل؟ استخدم als و/أو bei (أي عمل صحيح، أو قل إنك تبحث عن عمل).",
+          "prompt_de": "Was machen Sie beruflich?",
+          "reference_answers": ["Ich arbeite als Koch in einem Restaurant.", "Ich arbeite bei einer Firma als Lagerhelfer.", "Ich suche gerade Arbeit."],
+          "key_points": ["arbeiten als + Beruf ohne Artikel", "bei + Firma (Dativ)", "Arbeitssuche ist auch richtig"],
+          "hint_de": "Ich arbeite als …",
+          "hint_ar": "als + المهنة بدون أداة.",
+          "explanation_ar": "Ich arbeite als Koch (وليس als ein Koch).",
+          "transfer_tasks": [
+            {"prompt_de": "Was macht Ihr Mann, Ihre Frau oder ein Freund beruflich?", "instruction_ar": "ما عمل زوجك/زوجتك أو صديق؟", "reference_answers": ["Mein Mann arbeitet als Busfahrer.", "Meine Freundin arbeitet bei einer Bank."], "key_points": ["arbeitet (er/sie)"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-20-working-hours",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "قل من متى إلى متى تعمل أو تدرس.",
+          "prompt_de": "Von wann bis wann arbeiten oder lernen Sie?",
+          "reference_answers": ["Ich arbeite von 8 bis 16 Uhr.", "Ich lerne von neun bis eins im Kurs.", "Von Montag bis Freitag arbeite ich von 7 bis 15 Uhr."],
+          "key_points": ["von … bis …"],
+          "hint_de": "Ich arbeite von … bis …",
+          "hint_ar": "von … bis … = من … إلى …",
+          "explanation_ar": "Von Montag bis Freitag (أيام) / von 8 bis 16 Uhr (ساعات).",
+          "transfer_tasks": [
+            {"prompt_de": "Wie viele Stunden arbeiten Sie pro Woche?", "instruction_ar": "كم ساعة تعمل في الأسبوع؟", "reference_answers": ["Ich arbeite 40 Stunden pro Woche.", "Ich arbeite 20 Stunden in der Woche."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-20-gap-als-bei",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أكمل بـ als أو bei.",
+          "prompt_de": "Ergänzen Sie: Sie arbeitet ___ Krankenschwester.",
+          "reference_answers": ["Sie arbeitet als Krankenschwester.", "als"],
+          "hint_de": "Beruf → als",
+          "hint_ar": "مع المهنة: als.",
+          "explanation_ar": "als + المهنة، bei + مكان العمل.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Er arbeitet ___ der Post.", "instruction_ar": "أكمل بـ als أو bei.", "reference_answers": ["Er arbeitet bei der Post.", "bei"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-20-read-job-ad",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ إعلان الوظيفة ثم أجب: ما الوظيفة؟ وما ساعات العمل؟",
+          "prompt_de": "Was für eine Stelle ist das und wann arbeitet man?",
+          "context_de": "Wir suchen: Küchenhilfe (m/w/d) in Teilzeit. Arbeitszeit: Montag bis Freitag, 10 bis 14 Uhr. Deutschkenntnisse A1 reichen. Bewerbung bitte per E-Mail an jobs@restaurant-linde.de",
+          "context_mode": "read",
+          "reference_answers": ["Das ist eine Stelle als Küchenhilfe in Teilzeit. Man arbeitet Montag bis Freitag von 10 bis 14 Uhr."],
+          "key_points": ["Küchenhilfe", "Teilzeit", "Mo–Fr, 10–14 Uhr"],
+          "hint_de": "Küchenhilfe … von … bis …",
+          "hint_ar": "Küchenhilfe = مساعد مطبخ. (m/w/d) = للجميع.",
+          "explanation_ar": "Deutschkenntnisse A1 reichen = مستوى A1 في الألمانية يكفي.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie bewirbt man sich auf die Stelle?", "instruction_ar": "كيف يتقدّم المرء للوظيفة؟", "reference_answers": ["Per E-Mail.", "Man schickt eine E-Mail an jobs@restaurant-linde.de."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a1-20-ask-colleague",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "زميل جديد في العمل. اسأله (du) سؤالين: منذ متى يعمل هنا؟ وفي أي قسم؟",
+          "prompt_de": "Ein neuer Kollege (du). Fragen Sie: Seit wann arbeitet er hier, und in welcher Abteilung?",
+          "reference_answers": ["Seit wann arbeitest du hier? In welcher Abteilung arbeitest du?", "Wie lange arbeitest du schon hier? Und in welcher Abteilung bist du?"],
+          "key_points": ["Zwei Fragen", "du-Form (arbeitest)"],
+          "hint_de": "Seit wann arbeitest du …?",
+          "hint_ar": "Abteilung = قسم.",
+          "explanation_ar": "arbeiten مع du: arbeitest (يُضاف ‎-e-‎ قبل ‎-st‎).",
+          "transfer_tasks": [
+            {"prompt_de": "Fragen Sie Ihre Chefin höflich (Sie): Wann ist morgen die Pause?", "instruction_ar": "اسأل المديرة بأدب عن وقت الاستراحة غدًا.", "reference_answers": ["Wann ist morgen die Pause?", "Entschuldigung, wann haben wir morgen Pause?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a1-21-war-hatte",
+      "level": "A1",
+      "category": "past_simple",
+      "sort_order": 210,
+      "title_de": "Gestern war ich … – war und hatte",
+      "title_ar": "أمس كنتُ … — war و hatte",
+      "objective_ar": "أن تقول أين كنت وماذا كان عندك في الماضي باستخدام war و hatte.",
+      "description_ar": "الماضي البسيط لـ sein و haben، الأكثر استعمالًا في الكلام.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a1-20-work"],
+      "estimated_minutes": 45,
+      "review_targets": ["verb_tense", "verb_conjugation"],
+      "grammar_notes": [
+        {
+          "title_ar": "war و hatte",
+          "body_ar": "sein ← ich war، du warst، er war، wir waren. haben ← ich hatte، du hattest، er hatte، wir hatten.",
+          "examples_de": ["Gestern war ich beim Arzt.", "Ich hatte keine Zeit.", "Wo warst du am Wochenende?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Lehrerin", "de": "Herr Darwish, Sie waren gestern nicht im Kurs. Was war los?", "ar": "سيد درويش، لم تكن في الدورة أمس. ماذا حدث؟"},
+        {"speaker": "Herr Darwish", "de": "Ich war beim Jobcenter. Ich hatte einen Termin um zehn Uhr.", "ar": "كنت في مركز العمل. كان عندي موعد الساعة العاشرة."},
+        {"speaker": "Lehrerin", "de": "Und wie war es?", "ar": "وكيف كان؟"},
+        {"speaker": "Herr Darwish", "de": "Es war gut, aber ich hatte viele Fragen.", "ar": "كان جيدًا، لكن كانت لديّ أسئلة كثيرة."}
+      ],
+      "vocabulary": [
+        {"de": "war", "pos": "verb", "ar": "كان (ماضي sein)", "example_de": "Ich war gestern zu Hause."},
+        {"de": "hatte", "pos": "verb", "ar": "كان لديه (ماضي haben)", "example_de": "Ich hatte Kopfschmerzen."},
+        {"de": "letztes Jahr", "pos": "phrase", "ar": "السنة الماضية", "example_de": "Letztes Jahr war ich in Hamburg."},
+        {"de": "vorgestern", "pos": "adverb", "ar": "أول أمس", "example_de": "Vorgestern hatte ich frei."},
+        {"de": "zu Hause", "pos": "phrase", "ar": "في البيت", "example_de": "Am Sonntag war ich zu Hause."},
+        {"de": "Wochenende", "article": "das", "plural": "Wochenenden", "ar": "عطلة نهاية الأسبوع", "example_de": "Wie war dein Wochenende?"},
+        {"de": "Glück", "article": "das", "ar": "الحظ", "example_de": "Ich hatte Glück."},
+        {"de": "frei haben", "pos": "phrase", "ar": "يكون في إجازة / غير مشغول", "example_de": "Am Montag habe ich frei."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-21-where-yesterday",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "أين كنت أمس؟ أجب بـ war.",
+          "prompt_de": "Wo waren Sie gestern?",
+          "reference_answers": ["Gestern war ich zu Hause.", "Ich war gestern beim Arzt.", "Ich war gestern im Deutschkurs."],
+          "key_points": ["war (Präteritum von sein)", "Ortsangabe"],
+          "hint_de": "Gestern war ich …",
+          "hint_ar": "war = كنتُ.",
+          "explanation_ar": "Gestern war ich … — الفعل war في المكان الثاني.",
+          "transfer_tasks": [
+            {"prompt_de": "Wo war Ihre Familie letztes Jahr im Sommer?", "instruction_ar": "أين كانت عائلتك الصيف الماضي؟", "reference_answers": ["Letztes Jahr im Sommer waren wir in der Türkei.", "Meine Familie war im Sommer zu Hause."], "key_points": ["waren (wir) / war (sie Singular)"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-21-gap-hatte",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "أكمل بالماضي من haben.",
+          "prompt_de": "Ergänzen Sie „haben“ im Präteritum: Ich ___ gestern keine Zeit.",
+          "reference_answers": ["Ich hatte gestern keine Zeit.", "hatte"],
+          "hint_de": "ich → hatte",
+          "hint_ar": "haben ← hatte.",
+          "explanation_ar": "ich hatte، du hattest، er hatte، wir hatten.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „sein“ im Präteritum: Wo ___ du am Wochenende?", "instruction_ar": "أكمل بالماضي من sein.", "reference_answers": ["Wo warst du am Wochenende?", "warst"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-21-transform-past",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "حوّل الجملة إلى الماضي (أمس).",
+          "prompt_de": "Setzen Sie in die Vergangenheit: Heute bin ich müde. → Gestern …",
+          "reference_answers": ["Gestern war ich müde."],
+          "hint_de": "Gestern war ich …",
+          "hint_ar": "bin ← war.",
+          "explanation_ar": "sein في الماضي: war.",
+          "transfer_tasks": [
+            {"prompt_de": "Setzen Sie in die Vergangenheit: Heute haben wir viel Arbeit. → Gestern …", "instruction_ar": "حوّل إلى الماضي.", "reference_answers": ["Gestern hatten wir viel Arbeit."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-21-how-was-weekend",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "كيف كانت عطلة نهاية الأسبوع؟ جملتان مع war وhatte.",
+          "prompt_de": "Wie war Ihr Wochenende?",
+          "reference_answers": ["Mein Wochenende war schön. Ich war im Park und hatte viel Zeit für meine Kinder."],
+          "key_points": ["war und/oder hatte", "Mindestens zwei Sätze"],
+          "hint_de": "Mein Wochenende war … Ich hatte …",
+          "hint_ar": "استخدم war للوصف وأين كنت، وhatte لما كان لديك.",
+          "explanation_ar": "Es war schön = كان جميلًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie war Ihr erster Tag in Deutschland?", "instruction_ar": "كيف كان يومك الأول في ألمانيا؟", "reference_answers": ["Mein erster Tag in Deutschland war schwer. Ich hatte viele Fragen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 7
+        },
+        {
+          "slug": "a1-21-excuse",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "لم تحضر الدورة أمس. اعتذر للمعلّمة واذكر السبب (كنت مريضًا).",
+          "prompt_de": "Sie waren gestern nicht im Kurs. Entschuldigen Sie sich bei der Lehrerin und nennen Sie den Grund (krank).",
+          "reference_answers": ["Entschuldigung, ich war gestern krank.", "Es tut mir leid, ich war gestern krank und hatte Fieber."],
+          "key_points": ["Entschuldigung / Es tut mir leid", "war krank"],
+          "hint_de": "Entschuldigung, ich war gestern …",
+          "hint_ar": "اعتذر ثم استخدم war.",
+          "explanation_ar": "Ich war krank = كنتُ مريضًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie kommen zu spät zur Arbeit, weil Sie einen Termin hatten. Was sagen Sie?", "instruction_ar": "تأخّرت لأنه كان عندك موعد. ماذا تقول؟", "reference_answers": ["Entschuldigung, ich hatte einen Termin beim Arzt.", "Tut mir leid, ich hatte einen Termin."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-22-perfekt-intro",
+      "level": "A1",
+      "category": "past_experiences",
+      "sort_order": 220,
+      "title_de": "Was hast du gemacht? – Perfekt (Einstieg)",
+      "title_ar": "ماذا فعلت؟ — مدخل إلى Perfekt",
+      "objective_ar": "أن تحكي ما فعلته بالأفعال المنتظمة الشائعة مع haben.",
+      "description_ar": "haben + ge…t (gemacht، gekauft، gelernt) — والأفعال مع sein تأتي في درس A2.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a1-21-war-hatte"],
+      "estimated_minutes": 45,
+      "review_targets": ["verb_tense", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "Perfekt مع haben",
+          "body_ar": "haben (مصرَّف، المكان الثاني) + Partizip II في النهاية. الأفعال المنتظمة: ge + جذر + t: machen ← gemacht، kaufen ← gekauft، kochen ← gekocht.",
+          "examples_de": ["Ich habe Deutsch gelernt.", "Wir haben Pizza gekocht.", "Hast du eingekauft?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Mitbewohner", "de": "Was hast du heute gemacht?", "ar": "ماذا فعلت اليوم؟"},
+        {"speaker": "Rana", "de": "Ich habe Deutsch gelernt und dann habe ich eingekauft.", "ar": "تعلّمت الألمانية ثم تسوّقت."},
+        {"speaker": "Mitbewohner", "de": "Hast du auch Brot gekauft?", "ar": "هل اشتريت خبزًا أيضًا؟"},
+        {"speaker": "Rana", "de": "Ja, und ich habe Suppe gekocht. Komm, wir essen!", "ar": "نعم، وطبختُ شوربة. تعال لنأكل!"}
+      ],
+      "vocabulary": [
+        {"de": "gemacht", "pos": "verb", "ar": "فعلَ (Partizip machen)", "example_de": "Was hast du gemacht?"},
+        {"de": "gekauft", "pos": "verb", "ar": "اشترى (Partizip kaufen)", "example_de": "Ich habe Obst gekauft."},
+        {"de": "gelernt", "pos": "verb", "ar": "تعلّم (Partizip lernen)", "example_de": "Wir haben viel gelernt."},
+        {"de": "gekocht", "pos": "verb", "ar": "طبخ (Partizip kochen)", "example_de": "Mama hat gekocht."},
+        {"de": "gearbeitet", "pos": "verb", "ar": "عمل (Partizip arbeiten)", "example_de": "Er hat bis 18 Uhr gearbeitet."},
+        {"de": "gespielt", "pos": "verb", "ar": "لعب (Partizip spielen)", "example_de": "Die Kinder haben gespielt."},
+        {"de": "eingekauft", "pos": "verb", "ar": "تسوّق (Partizip einkaufen)", "example_de": "Hast du schon eingekauft?"},
+        {"de": "telefoniert", "pos": "verb", "ar": "تكلّم بالهاتف (Partizip telefonieren)", "example_de": "Ich habe mit meiner Mutter telefoniert."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-22-what-today",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "ماذا فعلت اليوم؟ استخدم Perfekt مع haben (نشاط واحد أو اثنان).",
+          "prompt_de": "Was haben Sie heute gemacht?",
+          "reference_answers": ["Ich habe heute Deutsch gelernt.", "Heute habe ich gearbeitet und eingekauft.", "Ich habe gekocht und mit meiner Mutter telefoniert."],
+          "key_points": ["habe + Partizip II am Satzende", "Jede Aktivität ist richtig"],
+          "hint_de": "Ich habe heute … ge…t.",
+          "hint_ar": "habe في المكان الثاني، وPartizip في النهاية.",
+          "explanation_ar": "«Ich habe gelernt Deutsch» خطأ؛ الصحيح «Ich habe Deutsch gelernt».",
+          "transfer_tasks": [
+            {"prompt_de": "Was hat Ihr Kind oder Ihr Freund gestern gemacht?", "instruction_ar": "ماذا فعل طفلك أو صديقك أمس؟", "reference_answers": ["Mein Sohn hat gestern Fußball gespielt.", "Mein Freund hat gestern lange gearbeitet."], "key_points": ["hat + Partizip II"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-22-gap-partizip",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "اكتب Partizip II للفعل kaufen.",
+          "prompt_de": "Ergänzen Sie: Ich habe Brot ___. (kaufen)",
+          "reference_answers": ["Ich habe Brot gekauft.", "gekauft"],
+          "hint_de": "ge…t",
+          "hint_ar": "ge + kauf + t.",
+          "explanation_ar": "الأفعال المنتظمة: ge + الجذر + t.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Wir haben Fußball ___. (spielen)", "instruction_ar": "اكتب Partizip II.", "reference_answers": ["Wir haben Fußball gespielt.", "gespielt"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-22-transform-perfekt",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "حوّل الجملة إلى Perfekt.",
+          "prompt_de": "Setzen Sie ins Perfekt: Ich koche Reis.",
+          "reference_answers": ["Ich habe Reis gekocht."],
+          "hint_de": "Ich habe … gekocht.",
+          "hint_ar": "habe + gekocht في النهاية.",
+          "explanation_ar": "koche ← habe … gekocht.",
+          "transfer_tasks": [
+            {"prompt_de": "Setzen Sie ins Perfekt: Sie arbeitet bis 17 Uhr.", "instruction_ar": "حوّل إلى Perfekt.", "reference_answers": ["Sie hat bis 17 Uhr gearbeitet."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-22-separable-perfekt",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "اكتب Partizip II للفعل المنفصل einkaufen.",
+          "prompt_de": "Ergänzen Sie: Hast du schon ___? (einkaufen)",
+          "reference_answers": ["Hast du schon eingekauft?", "eingekauft"],
+          "hint_de": "ein + ge + kauft",
+          "hint_ar": "في الأفعال المنفصلة تأتي ge في الوسط.",
+          "explanation_ar": "einkaufen ← eingekauft، aufräumen ← aufgeräumt.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Ich habe mein Zimmer ___. (aufräumen)", "instruction_ar": "اكتب Partizip II.", "reference_answers": ["Ich habe mein Zimmer aufgeräumt.", "aufgeräumt"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-22-ask-past",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "اسأل صديقك (du) ماذا فعل في عطلة نهاية الأسبوع.",
+          "prompt_de": "Fragen Sie einen Freund (du), was er am Wochenende gemacht hat.",
+          "reference_answers": ["Was hast du am Wochenende gemacht?"],
+          "key_points": ["W-Frage im Perfekt: Was hast du … gemacht?"],
+          "hint_de": "Was hast du …?",
+          "hint_ar": "Was + hast + du + … + gemacht?",
+          "explanation_ar": "في السؤال: كلمة السؤال، ثم hast، ثم du، وPartizip في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Fragen Sie Ihre Nachbarin höflich (Sie), ob sie schon eingekauft hat.", "instruction_ar": "اسأل الجارة بأدب إن كانت تسوّقت.", "reference_answers": ["Haben Sie schon eingekauft?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        }
+      ]
+    }
+  ]
+}

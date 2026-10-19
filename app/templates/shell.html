@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <meta name="referrer" content="same-origin">
+    <title>German AI Coach — مدرّبك الشخصي للغة الألمانية</title>
+    <link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/app.css?v={{v}}">
+    <script type="module" src="assets/js/app.js?v={{v}}"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+    <header class="topbar" id="topbar" hidden>
+        <div class="topbar__inner">
+            <a class="brand" href="#/" aria-label="German AI Coach — الصفحة الرئيسية">
+                <img src="assets/img/icon.svg" alt="" width="32" height="32">
+                <span class="brand__name"><span lang="en" dir="ltr">German AI Coach</span></span>
+            </a>
+            <nav class="mainnav" id="mainnav" aria-label="القائمة الرئيسية"></nav>
+            <button class="btn btn--ghost btn--icon menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mainnav" aria-label="القائمة">
+                <span class="menu-toggle__bar"></span>
+            </button>
+        </div>
+    </header>
+    <main id="main" class="main" tabindex="-1">
+        <div class="boot" id="boot" role="status">
+            <div class="spinner" aria-hidden="true"></div>
+            <p>جارٍ التحميل…</p>
+        </div>
+        <noscript>
+            <div class="card card--warning">يتطلّب هذا التطبيق تفعيل JavaScript في المتصفح.</div>
+        </noscript>
+        <div id="app"></div>
+    </main>
+    <div class="toasts" id="toasts" role="status" aria-live="polite" aria-atomic="false"></div>
+</body>
+</html>

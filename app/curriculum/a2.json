@@ -1,0 +1,754 @@
+{
+  "version": 1,
+  "level": "A2",
+  "lessons": [
+    {
+      "slug": "a2-01-housing",
+      "level": "A2",
+      "category": "housing",
+      "title_de": "Wohnung und Vermieter",
+      "title_ar": "السكن والتعامل مع المؤجّر",
+      "objective_ar": "أن تبلّغ عن عطل في الشقة، وتطلب الإصلاح بأدب، وتفهم قواعد البيت.",
+      "description_ar": "الأفعال المساعدة können وmüssen وdürfen، والطلب المهذّب بـ Könnten Sie …?",
+      "skills": ["speaking", "reading", "grammar"],
+      "prerequisites": ["a1-27-exam-practice"],
+      "estimated_minutes": 50,
+      "review_targets": ["modal_verb", "register"],
+      "grammar_notes": [
+        {
+          "title_ar": "الأفعال المساعدة (Modalverben)",
+          "body_ar": "الفعل المساعد في المكان الثاني، والفعل الأساسي بصيغة المصدر في نهاية الجملة.",
+          "examples_de": ["Können Sie die Heizung reparieren?", "Wir müssen die Miete pünktlich bezahlen.", "Hier darf man nicht rauchen."]
+        },
+        {
+          "title_ar": "الطلب المهذّب",
+          "body_ar": "Könnten Sie bitte …? أكثر تهذيبًا من Können Sie …? وأكثر تهذيبًا بكثير من صيغة الأمر.",
+          "examples_de": ["Könnten Sie bitte jemanden schicken?", "Würden Sie mich bitte zurückrufen?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Ali", "de": "Guten Tag, Herr Becker. Hier ist Ali Hassan aus der Wohnung im zweiten Stock.", "ar": "نهارك سعيد يا سيد بيكر. معك علي حسن من الشقة في الطابق الثاني."},
+        {"speaker": "Herr Becker", "de": "Guten Tag, Herr Hassan. Was kann ich für Sie tun?", "ar": "نهارك سعيد يا سيد حسن. كيف يمكنني مساعدتك؟"},
+        {"speaker": "Ali", "de": "Die Heizung funktioniert seit gestern nicht. Könnten Sie bitte einen Techniker schicken?", "ar": "التدفئة لا تعمل منذ أمس. هل يمكنك إرسال فنّي من فضلك؟"},
+        {"speaker": "Herr Becker", "de": "Natürlich. Der Techniker kann morgen Vormittag kommen.", "ar": "طبعًا. يمكن للفنّي أن يأتي غدًا قبل الظهر."}
+      ],
+      "vocabulary": [
+        {"de": "Vermieter", "article": "der", "plural": "Vermieter", "ar": "المؤجّر / صاحب الشقة", "example_de": "Ich rufe den Vermieter an."},
+        {"de": "Miete", "article": "die", "plural": "Mieten", "ar": "الإيجار", "example_de": "Die Miete ist am Ersten fällig."},
+        {"de": "Heizung", "article": "die", "plural": "Heizungen", "ar": "التدفئة", "example_de": "Die Heizung ist kaputt."},
+        {"de": "Hausordnung", "article": "die", "ar": "نظام البيت", "example_de": "Lesen Sie bitte die Hausordnung."},
+        {"de": "Nebenkosten", "article": "die", "ar": "التكاليف الإضافية (ماء، تدفئة…)", "example_de": "Die Nebenkosten sind gestiegen."},
+        {"de": "reparieren", "pos": "verb", "ar": "يصلح", "example_de": "Der Hausmeister repariert das Fenster."},
+        {"de": "kaputt", "pos": "adjective", "ar": "معطّل / مكسور", "example_de": "Die Waschmaschine ist kaputt."},
+        {"de": "Mietvertrag", "article": "der", "plural": "Mietverträge", "ar": "عقد الإيجار", "example_de": "Bitte unterschreiben Sie den Mietvertrag."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-01-heating-broken",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "التدفئة في شقتك معطّلة. قل للمؤجّر المشكلة واطلب الإصلاح.",
+          "prompt_de": "Die Heizung in Ihrer Wohnung ist kaputt. Sagen Sie es dem Vermieter und bitten Sie um Reparatur.",
+          "reference_answers": ["Die Heizung in meiner Wohnung ist kaputt. Können Sie sie bitte reparieren?", "Meine Heizung funktioniert nicht. Könnten Sie bitte jemanden schicken?"],
+          "key_points": ["Problem nennen", "Höfliche Bitte mit Modalverb (können/könnten)", "Infinitiv am Satzende"],
+          "hint_de": "Die Heizung ist … Können Sie …?",
+          "hint_ar": "اذكر المشكلة ثم اطلب: Können Sie sie bitte reparieren?",
+          "explanation_ar": "بعد können يأتي الفعل الأساسي في آخر الجملة بصيغة المصدر: … reparieren?",
+          "transfer_tasks": [
+            {"prompt_de": "Das Fenster im Bad schließt nicht. Was sagen Sie dem Hausmeister?", "instruction_ar": "نافذة الحمّام لا تُغلق. ماذا تقول لمسؤول المبنى؟", "reference_answers": ["Das Fenster im Bad schließt nicht. Können Sie es bitte reparieren?", "Das Badfenster geht nicht zu. Könnten Sie bitte vorbeikommen?"], "key_points": ["Problem + höfliche Bitte"]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-01-polite-request",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "register",
+          "instruction_ar": "حوّل الأمر إلى طلب مهذّب.",
+          "prompt_de": "Formulieren Sie höflicher: Reparieren Sie die Tür!",
+          "reference_answers": ["Könnten Sie bitte die Tür reparieren?", "Können Sie bitte die Tür reparieren?", "Würden Sie bitte die Tür reparieren?", "Könnten Sie die Tür bitte reparieren?"],
+          "hint_de": "Könnten Sie bitte …?",
+          "hint_ar": "استخدم Könnten Sie bitte … + الفعل في النهاية.",
+          "explanation_ar": "Könnten/Würden Sie bitte … reparieren? أكثر لطفًا من الأمر المباشر.",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie höflicher: Rufen Sie mich zurück!", "instruction_ar": "حوّل إلى طلب مهذّب.", "reference_answers": ["Könnten Sie mich bitte zurückrufen?", "Würden Sie mich bitte zurückrufen?", "Können Sie mich bitte zurückrufen?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a2-01-gap-duerfen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل dürfen.",
+          "prompt_de": "Ergänzen Sie „dürfen“: ___ ich hier rauchen?",
+          "reference_answers": ["Darf ich hier rauchen?", "Darf"],
+          "hint_de": "ich → darf",
+          "hint_ar": "dürfen مع ich: darf.",
+          "explanation_ar": "dürfen: ich darf، du darfst، er darf، wir dürfen.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „müssen“: Wir ___ die Miete am Monatsanfang bezahlen.", "instruction_ar": "أكمل بالشكل الصحيح للفعل müssen.", "reference_answers": ["Wir müssen die Miete am Monatsanfang bezahlen.", "müssen"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a2-01-read-house-rules",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ نظام البيت ثم أجب عن السؤال.",
+          "prompt_de": "Wann dürfen Sie keine laute Musik hören?",
+          "context_de": "Hausordnung: Die Mittagsruhe ist von 13 bis 15 Uhr. In dieser Zeit dürfen Sie keine laute Musik hören. Der Müll muss getrennt werden.",
+          "context_mode": "read",
+          "reference_answers": ["Von 13 bis 15 Uhr.", "Während der Mittagsruhe von 13 bis 15 Uhr.", "Ich darf von 13 bis 15 Uhr keine laute Musik hören."],
+          "key_points": ["13 bis 15 Uhr (Mittagsruhe)"],
+          "hint_de": "Mittagsruhe …",
+          "hint_ar": "ابحث عن كلمة Mittagsruhe في النص.",
+          "explanation_ar": "Mittagsruhe = وقت الهدوء في منتصف النهار، من 13 إلى 15.",
+          "transfer_tasks": [
+            {"prompt_de": "In der Hausordnung steht: „Fahrräder dürfen nicht im Treppenhaus stehen.“ Wo dürfen die Fahrräder nicht stehen?", "instruction_ar": "أين لا يُسمح بوضع الدراجات؟", "reference_answers": ["Im Treppenhaus.", "Die Fahrräder dürfen nicht im Treppenhaus stehen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a2-01-describe-flat",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "صِف شقتك: كم مساحتها وكم غرفة فيها؟",
+          "prompt_de": "Wie groß ist Ihre Wohnung und wie viele Zimmer hat sie?",
+          "reference_answers": ["Meine Wohnung ist 60 Quadratmeter groß und hat drei Zimmer.", "Sie hat zwei Zimmer, eine Küche und ein Bad."],
+          "key_points": ["Größe oder Zimmeranzahl", "„hat“ + Akkusativ", "Alle realistischen Angaben sind richtig"],
+          "hint_de": "Meine Wohnung ist … groß und hat …",
+          "hint_ar": "استخدم ist … groß للمساحة وhat للغرف.",
+          "explanation_ar": "Quadratmeter = متر مربع. haben + Akkusativ: einen Balkon، eine Küche، ein Bad.",
+          "transfer_tasks": [
+            {"prompt_de": "Was gefällt Ihnen an Ihrer Wohnung?", "instruction_ar": "ما الذي يعجبك في شقتك؟", "reference_answers": ["Mir gefällt der Balkon.", "Die Küche gefällt mir sehr gut.", "Mir gefällt, dass die Wohnung hell ist."], "key_points": ["„gefallen“ mit Dativ: mir gefällt …"]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a2-02-doctor-pharmacy",
+      "level": "A2",
+      "category": "doctor_pharmacy",
+      "title_de": "Beim Arzt und in der Apotheke",
+      "title_ar": "عند الطبيب وفي الصيدلية",
+      "objective_ar": "أن تصف الأعراض، وتقول منذ متى، وتفهم تعليمات الدواء، وتطلب شهادة مرضية.",
+      "description_ar": "Ich habe …schmerzen / … tut mir weh، وseit + Dativ.",
+      "skills": ["speaking", "listening", "vocabulary"],
+      "prerequisites": ["a2-01-housing"],
+      "estimated_minutes": 50,
+      "review_targets": ["case_dative", "vocabulary"],
+      "grammar_notes": [
+        {
+          "title_ar": "وصف الألم",
+          "body_ar": "طريقتان: Ich habe Kopfschmerzen / Mir tut der Kopf weh. لاحظ mir (Dativ) في الطريقة الثانية.",
+          "examples_de": ["Ich habe Bauchschmerzen.", "Mir tut der Rücken weh.", "Mir tun die Füße weh."]
+        },
+        {
+          "title_ar": "seit + Dativ",
+          "body_ar": "seit تعني «منذ» وتأخذ Dativ: seit einer Woche، seit drei Tagen.",
+          "examples_de": ["Ich habe seit einer Woche Husten.", "Seit gestern habe ich Fieber."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Ärztin", "de": "Guten Morgen. Was fehlt Ihnen?", "ar": "صباح الخير. ممّ تشكو؟"},
+        {"speaker": "Samira", "de": "Ich habe starke Halsschmerzen und Fieber.", "ar": "عندي ألم شديد في الحلق وحمّى."},
+        {"speaker": "Ärztin", "de": "Seit wann haben Sie die Beschwerden?", "ar": "منذ متى عندك هذه الأعراض؟"},
+        {"speaker": "Samira", "de": "Seit drei Tagen. Ich brauche auch eine Krankmeldung für die Arbeit.", "ar": "منذ ثلاثة أيام. وأحتاج أيضًا إلى شهادة مرضية للعمل."},
+        {"speaker": "Ärztin", "de": "Kein Problem. Ich schreibe Sie bis Freitag krank.", "ar": "لا مشكلة. سأعطيك إجازة مرضية حتى يوم الجمعة."}
+      ],
+      "vocabulary": [
+        {"de": "Schmerz", "article": "der", "plural": "Schmerzen", "ar": "الألم", "example_de": "Ich habe Schmerzen im Knie."},
+        {"de": "Fieber", "article": "das", "ar": "الحمّى", "example_de": "Das Kind hat Fieber."},
+        {"de": "Husten", "article": "der", "ar": "السعال", "example_de": "Ich habe seit einer Woche Husten."},
+        {"de": "Rezept", "article": "das", "plural": "Rezepte", "ar": "الوصفة الطبية", "example_de": "Für dieses Medikament brauchen Sie ein Rezept."},
+        {"de": "Krankmeldung", "article": "die", "plural": "Krankmeldungen", "ar": "الشهادة المرضية", "example_de": "Ich schicke die Krankmeldung an meinen Chef."},
+        {"de": "Versichertenkarte", "article": "die", "plural": "Versichertenkarten", "ar": "بطاقة التأمين الصحي", "example_de": "Haben Sie Ihre Versichertenkarte dabei?"},
+        {"de": "Tablette", "article": "die", "plural": "Tabletten", "ar": "القرص / الحبّة", "example_de": "Nehmen Sie eine Tablette nach dem Essen."},
+        {"de": "weh tun", "pos": "verb", "ar": "يؤلم", "example_de": "Mir tut der Kopf weh."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-02-symptoms",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "الطبيبة تسأل: ممّ تشكو؟ صِف عرضًا واحدًا على الأقل.",
+          "prompt_de": "Was fehlt Ihnen?",
+          "reference_answers": ["Ich habe Kopfschmerzen.", "Mir tut der Kopf weh.", "Ich habe Fieber und Halsschmerzen."],
+          "key_points": ["Mindestens ein Symptom", "„Ich habe …schmerzen“ oder „Mir tut … weh“"],
+          "hint_de": "Ich habe …schmerzen.",
+          "hint_ar": "Kopf (رأس) + Schmerzen = Kopfschmerzen.",
+          "explanation_ar": "Was fehlt Ihnen? تعني «ممّ تشكو؟» وليست سؤالًا عن شيء مفقود.",
+          "transfer_tasks": [
+            {"prompt_de": "Was fehlt Ihrem Kind?", "instruction_ar": "صِف أعراض طفلك (أو أي طفل).", "reference_answers": ["Mein Kind hat Fieber.", "Mein Sohn hat Bauchschmerzen.", "Meiner Tochter tut das Ohr weh."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a2-02-since-when",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "أجب: منذ متى عندك الألم؟",
+          "prompt_de": "Seit wann haben Sie die Schmerzen?",
+          "reference_answers": ["Seit drei Tagen.", "Ich habe die Schmerzen seit gestern.", "Seit einer Woche."],
+          "key_points": ["seit + Dativ: seit einer Woche, seit drei Tagen", "„seit gestern“ ist richtig"],
+          "hint_de": "Seit … Tagen.",
+          "hint_ar": "seit + Dativ: eine Woche ← seit einer Woche، drei Tage ← seit drei Tagen.",
+          "explanation_ar": "في Dativ الجمع نضيف ‎-n‎: Tage ← Tagen.",
+          "transfer_tasks": [
+            {"prompt_de": "Seit wann husten Sie?", "instruction_ar": "أجب: منذ متى تسعل؟", "reference_answers": ["Ich huste seit zwei Wochen.", "Seit einer Woche.", "Seit vorgestern."]}
+          ],
+          "difficulty": 2,
+          "min_words": 2
+        },
+        {
+          "slug": "a2-02-pharmacy",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أنت في الصيدلية وتحتاج شيئًا لألم الحلق. ماذا تقول؟",
+          "prompt_de": "Sie sind in der Apotheke und brauchen etwas gegen Halsschmerzen. Was sagen Sie?",
+          "reference_answers": ["Ich brauche etwas gegen Halsschmerzen.", "Haben Sie etwas gegen Halsschmerzen?", "Guten Tag, ich hätte gern etwas gegen Halsschmerzen."],
+          "key_points": ["„etwas gegen …“"],
+          "hint_de": "etwas gegen …",
+          "hint_ar": "«دواء لـ…» = etwas gegen …",
+          "explanation_ar": "نستخدم gegen (ضد) مع الأعراض: etwas gegen Husten، gegen Fieber.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie möchten wissen, wie oft Sie die Tabletten nehmen müssen. Was fragen Sie?", "instruction_ar": "اسأل كم مرة يجب أن تأخذ الأقراص.", "reference_answers": ["Wie oft muss ich die Tabletten nehmen?", "Wie oft am Tag soll ich die Tabletten nehmen?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a2-02-listen-dosage",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الصيدلانية ثم أجب: متى وكم مرة تؤخذ الأقراص؟",
+          "prompt_de": "Wann und wie oft soll man die Tabletten nehmen?",
+          "context_de": "Nehmen Sie die Tabletten dreimal täglich nach dem Essen. Und trinken Sie viel Wasser.",
+          "context_mode": "listen",
+          "reference_answers": ["Dreimal täglich nach dem Essen.", "Man soll die Tabletten dreimal am Tag nach dem Essen nehmen."],
+          "key_points": ["dreimal täglich", "nach dem Essen"],
+          "hint_de": "…mal täglich, nach dem …",
+          "hint_ar": "هناك معلومتان: عدد المرات، والوقت (قبل/بعد الأكل).",
+          "explanation_ar": "dreimal täglich = ثلاث مرات يوميًا، nach dem Essen = بعد الأكل.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Ärztin sagt: „Bleiben Sie zwei Tage im Bett.“ Was sollen Sie machen?", "instruction_ar": "ماذا يجب أن تفعل؟", "reference_answers": ["Ich soll zwei Tage im Bett bleiben.", "Zwei Tage im Bett bleiben."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a2-02-translate-sick-note",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "ترجم إلى الألمانية: «أحتاج إلى شهادة مرضية للعمل.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich brauche eine Krankmeldung für die Arbeit.", "Ich brauche eine Krankschreibung für die Arbeit.", "Ich brauche eine Arbeitsunfähigkeitsbescheinigung für meinen Arbeitgeber."],
+          "hint_de": "Ich brauche eine Krank…",
+          "hint_ar": "الشهادة المرضية = die Krankmeldung أو die Krankschreibung.",
+          "explanation_ar": "brauchen + Akkusativ: eine Krankmeldung.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «هل يمكنني الحصول على موعد اليوم؟»", "reference_answers": ["Kann ich heute einen Termin bekommen?", "Kann ich heute noch einen Termin haben?", "Ist heute noch ein Termin frei?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-03-perfekt",
+      "level": "A2",
+      "category": "past_experiences",
+      "title_de": "Über Vergangenes sprechen (Perfekt)",
+      "title_ar": "الحديث عن الماضي (Perfekt)",
+      "objective_ar": "أن تحكي ما فعلته بالأمس أو في الماضي بزمن Perfekt مع haben أو sein.",
+      "description_ar": "haben/sein في المكان الثاني + Partizip II في نهاية الجملة. أفعال الحركة وتغيّر الحالة تأخذ sein.",
+      "skills": ["speaking", "writing", "grammar"],
+      "prerequisites": ["a2-02-doctor-pharmacy"],
+      "estimated_minutes": 60,
+      "review_targets": ["verb_tense", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "تكوين Perfekt",
+          "body_ar": "haben أو sein (مصرَّف) + Partizip II في النهاية. أغلب الأفعال تأخذ haben؛ أفعال الحركة (gehen، fahren، kommen) وتغيّر الحالة تأخذ sein.",
+          "examples_de": ["Ich habe Deutsch gelernt.", "Ich bin nach Berlin gefahren.", "Wir sind spät aufgestanden."]
+        },
+        {
+          "title_ar": "Partizip II",
+          "body_ar": "الأفعال المنتظمة: ge- + الجذر + -t (gelernt). غير المنتظمة غالبًا: ge- + … + -en (gegangen). الأفعال المنفصلة: auf-ge-standen.",
+          "examples_de": ["kaufen → gekauft", "gehen → gegangen", "einkaufen → eingekauft"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Kollege", "de": "Was hast du am Wochenende gemacht?", "ar": "ماذا فعلت في عطلة نهاية الأسبوع؟"},
+        {"speaker": "Yusuf", "de": "Am Samstag habe ich gearbeitet. Am Sonntag bin ich mit meiner Familie in den Park gegangen.", "ar": "يوم السبت عملت. ويوم الأحد ذهبت مع عائلتي إلى الحديقة."},
+        {"speaker": "Kollege", "de": "Schön! Habt ihr gegrillt?", "ar": "جميل! هل شويتم؟"},
+        {"speaker": "Yusuf", "de": "Nein, aber wir haben ein Picknick gemacht.", "ar": "لا، لكننا قمنا بنزهة."}
+      ],
+      "vocabulary": [
+        {"de": "gestern", "pos": "adverb", "ar": "أمس", "example_de": "Gestern habe ich lange gearbeitet."},
+        {"de": "letzte Woche", "pos": "phrase", "ar": "الأسبوع الماضي", "example_de": "Letzte Woche war ich krank."},
+        {"de": "erleben", "pos": "verb", "ar": "يعيش / يمرّ بتجربة", "example_de": "Ich habe viel erlebt."},
+        {"de": "umziehen", "pos": "verb", "ar": "ينتقل (إلى سكن آخر)", "example_de": "Wir sind im Mai umgezogen."},
+        {"de": "Reise", "article": "die", "plural": "Reisen", "ar": "الرحلة", "example_de": "Die Reise war lang."},
+        {"de": "ankommen", "pos": "verb", "ar": "يصل", "example_de": "Ich bin 2022 in Deutschland angekommen."},
+        {"de": "zuerst", "pos": "adverb", "ar": "أولًا", "example_de": "Zuerst habe ich in einem Heim gewohnt."},
+        {"de": "danach", "pos": "adverb", "ar": "بعد ذلك", "example_de": "Danach habe ich einen Kurs gemacht."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-03-yesterday",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "أجب بجملة كاملة بزمن Perfekt: ماذا فعلت أمس؟",
+          "prompt_de": "Was haben Sie gestern gemacht?",
+          "reference_answers": ["Gestern habe ich gearbeitet.", "Ich habe gestern Deutsch gelernt.", "Ich bin gestern zum Supermarkt gegangen."],
+          "key_points": ["Perfekt: haben/sein + Partizip II am Ende", "Jede sinnvolle Aktivität ist richtig"],
+          "hint_de": "Gestern habe ich … ge…t.",
+          "hint_ar": "ابدأ بـ Gestern habe ich … وضع Partizip II في النهاية.",
+          "explanation_ar": "لا تستخدم المضارع للماضي: «Ich gehe gestern» خطأ، والصحيح «Ich bin gestern gegangen».",
+          "transfer_tasks": [
+            {"prompt_de": "Was haben Sie am Wochenende gemacht?", "instruction_ar": "ماذا فعلت في عطلة نهاية الأسبوع؟ (Perfekt)", "reference_answers": ["Am Wochenende habe ich meine Familie besucht.", "Ich bin am Wochenende in den Park gegangen."], "key_points": ["Perfekt"]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a2-03-transform-gehen",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "حوّل الجملة إلى زمن Perfekt.",
+          "prompt_de": "Setzen Sie den Satz ins Perfekt: Ich gehe zum Supermarkt.",
+          "reference_answers": ["Ich bin zum Supermarkt gegangen."],
+          "hint_de": "gehen → sein + gegangen",
+          "hint_ar": "gehen فعل حركة، لذلك نستخدم sein.",
+          "explanation_ar": "Ich bin … gegangen: sein لأن gehen فعل حركة.",
+          "transfer_tasks": [
+            {"prompt_de": "Setzen Sie den Satz ins Perfekt: Wir kaufen Brot.", "instruction_ar": "حوّل إلى Perfekt.", "reference_answers": ["Wir haben Brot gekauft."]},
+            {"prompt_de": "Setzen Sie den Satz ins Perfekt: Sie fährt nach Leipzig.", "instruction_ar": "حوّل إلى Perfekt.", "reference_answers": ["Sie ist nach Leipzig gefahren."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a2-03-gap-haben-sein",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "اختر haben أو sein بالشكل الصحيح.",
+          "prompt_de": "haben oder sein? Ich ___ nach Hamburg gefahren.",
+          "reference_answers": ["Ich bin nach Hamburg gefahren.", "bin"],
+          "hint_de": "fahren = Bewegung",
+          "hint_ar": "fahren فعل حركة.",
+          "explanation_ar": "fahren ← sein: Ich bin gefahren.",
+          "transfer_tasks": [
+            {"prompt_de": "haben oder sein? Er ___ lange geschlafen.", "instruction_ar": "اختر haben أو sein.", "reference_answers": ["Er hat lange geschlafen.", "hat"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a2-03-arrival-story",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "احكِ في جملتين أو ثلاث: كيف وصلت إلى ألمانيا؟ (يمكنك الاختصار أو التخيّل)",
+          "prompt_de": "Erzählen Sie in zwei oder drei Sätzen: Wie sind Sie nach Deutschland gekommen?",
+          "reference_answers": ["Ich bin 2022 nach Deutschland gekommen. Zuerst habe ich in einem Heim gewohnt. Dann habe ich einen Deutschkurs gemacht."],
+          "key_points": ["Mindestens zwei Sätze im Perfekt", "haben/sein richtig", "Zeitwörter wie zuerst, dann, danach"],
+          "hint_de": "Ich bin … gekommen. Zuerst habe ich …",
+          "hint_ar": "استخدم zuerst (أولًا) وdann (ثم) لترتيب الأحداث.",
+          "explanation_ar": "kommen ← Ich bin gekommen؛ wohnen ← Ich habe gewohnt.",
+          "transfer_tasks": [
+            {"prompt_de": "Erzählen Sie in zwei Sätzen: Was haben Sie letzten Sommer gemacht?", "instruction_ar": "احكِ ماذا فعلت الصيف الماضي.", "reference_answers": ["Letzten Sommer habe ich viel gearbeitet. Am Wochenende bin ich oft schwimmen gegangen."], "key_points": ["Perfekt in beiden Sätzen"]}
+          ],
+          "difficulty": 3,
+          "min_words": 10
+        },
+        {
+          "slug": "a2-03-translate-doctor",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "ترجم إلى الألمانية: «ذهبتُ أمس إلى الطبيب.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich bin gestern zum Arzt gegangen.", "Gestern bin ich zum Arzt gegangen.", "Gestern war ich beim Arzt.", "Ich war gestern beim Arzt."],
+          "hint_de": "Ich bin gestern … gegangen.",
+          "hint_ar": "zum Arzt gehen = الذهاب إلى الطبيب.",
+          "explanation_ar": "يمكن أيضًا: Ich war gestern beim Arzt (Präteritum من sein، شائع جدًا).",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «أختي تعلّمت الألمانية في سوريا.»", "reference_answers": ["Meine Schwester hat in Syrien Deutsch gelernt.", "Meine Schwester hat Deutsch in Syrien gelernt."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a2-04-telephone",
+      "level": "A2",
+      "category": "telephone_requests",
+      "title_de": "Telefonieren und Missverständnisse klären",
+      "title_ar": "المكالمات الهاتفية وتوضيح سوء الفهم",
+      "objective_ar": "أن تبدأ مكالمة رسمية، وتطلب الإعادة أو التوضيح، وتترك رسالة.",
+      "description_ar": "السؤال غير المباشر: Können Sie mir sagen, wann …? — الفعل في نهاية الجملة الفرعية.",
+      "skills": ["speaking", "listening", "grammar"],
+      "prerequisites": ["a2-03-perfekt"],
+      "estimated_minutes": 45,
+      "review_targets": ["word_order", "register"],
+      "grammar_notes": [
+        {
+          "title_ar": "السؤال غير المباشر",
+          "body_ar": "بعد Können Sie mir sagen, … أو Wissen Sie, … ينتقل الفعل إلى نهاية الجملة.",
+          "examples_de": ["Wann öffnet das Büro? → Können Sie mir sagen, wann das Büro öffnet?", "Wissen Sie, wo Zimmer 12 ist?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Firma", "de": "Firma Lehmann, Sie sprechen mit Herrn Koch.", "ar": "شركة ليمان، معك السيد كوخ."},
+        {"speaker": "Nour", "de": "Guten Tag, mein Name ist Nour Ahmad. Ich möchte bitte mit Frau Schmidt sprechen.", "ar": "نهارك سعيد، اسمي نور أحمد. أريد التحدّث مع السيدة شميت من فضلك."},
+        {"speaker": "Firma", "de": "Frau Schmidt ist gerade in einer Besprechung.", "ar": "السيدة شميت في اجتماع الآن."},
+        {"speaker": "Nour", "de": "Entschuldigung, können Sie das bitte langsamer sagen?", "ar": "عفوًا، هل يمكنك أن تقول ذلك ببطء أكثر؟"},
+        {"speaker": "Firma", "de": "Natürlich. Sie ist in einer Besprechung. Möchten Sie eine Nachricht hinterlassen?", "ar": "طبعًا. هي في اجتماع. هل تريدين ترك رسالة؟"}
+      ],
+      "vocabulary": [
+        {"de": "Nachricht", "article": "die", "plural": "Nachrichten", "ar": "الرسالة", "example_de": "Kann ich eine Nachricht hinterlassen?"},
+        {"de": "zurückrufen", "pos": "verb", "ar": "يعاود الاتصال", "example_de": "Bitte rufen Sie mich zurück."},
+        {"de": "wiederholen", "pos": "verb", "ar": "يكرّر", "example_de": "Können Sie das bitte wiederholen?"},
+        {"de": "erreichen", "pos": "verb", "ar": "يتواصل مع / يصل إلى", "example_de": "Ich kann Frau Schmidt nicht erreichen."},
+        {"de": "Anrufbeantworter", "article": "der", "ar": "المجيب الآلي", "example_de": "Ich spreche auf den Anrufbeantworter."},
+        {"de": "Besprechung", "article": "die", "plural": "Besprechungen", "ar": "الاجتماع", "example_de": "Die Besprechung dauert eine Stunde."},
+        {"de": "verstehen", "pos": "verb", "ar": "يفهم", "example_de": "Ich habe das nicht verstanden."},
+        {"de": "ausfallen", "pos": "verb", "ar": "يُلغى", "example_de": "Der Kurs fällt heute aus."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-04-repeat-please",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "لم تفهم شيئًا في المكالمة. اطلب الإعادة بأدب.",
+          "prompt_de": "Sie haben am Telefon etwas nicht verstanden. Bitten Sie höflich um Wiederholung.",
+          "reference_answers": ["Entschuldigung, können Sie das bitte wiederholen?", "Wie bitte? Können Sie bitte langsamer sprechen?", "Entschuldigung, das habe ich nicht verstanden. Könnten Sie das noch einmal sagen?"],
+          "key_points": ["Höfliche Bitte um Wiederholung oder langsameres Sprechen"],
+          "hint_de": "Können Sie das bitte …?",
+          "hint_ar": "wiederholen = يكرّر، langsamer = ببطء أكثر.",
+          "explanation_ar": "Wie bitte? مقبولة، لكن الجملة الكاملة مع bitte أكثر تهذيبًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie verstehen ein Wort nicht. Fragen Sie nach der Bedeutung.", "instruction_ar": "اسأل عن معنى كلمة لم تفهمها.", "reference_answers": ["Was bedeutet das Wort?", "Entschuldigung, was bedeutet „Frist“?", "Können Sie mir das Wort erklären?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a2-04-call-company",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "تتصل بشركة وتريد التحدّث مع السيدة شميت. عرّف بنفسك واطلب ذلك.",
+          "prompt_de": "Sie rufen bei einer Firma an und möchten mit Frau Schmidt sprechen. Was sagen Sie?",
+          "reference_answers": ["Guten Tag, mein Name ist Ali Hassan. Ich möchte bitte mit Frau Schmidt sprechen.", "Guten Tag, hier spricht Ali Hassan. Kann ich bitte Frau Schmidt sprechen?"],
+          "key_points": ["Begrüßung", "Eigener Name", "Wunsch: mit Frau Schmidt sprechen"],
+          "hint_de": "Guten Tag, mein Name ist … Ich möchte …",
+          "hint_ar": "في المكالمة الرسمية: التحية + الاسم + الطلب.",
+          "explanation_ar": "Hier spricht … = معك …؛ Ich möchte mit … sprechen = أريد التحدّث مع …",
+          "transfer_tasks": [
+            {"prompt_de": "Frau Schmidt ist nicht da. Sie möchten eine Nachricht hinterlassen. Was sagen Sie?", "instruction_ar": "السيدة شميت غير موجودة. اطلب ترك رسالة.", "reference_answers": ["Kann ich eine Nachricht hinterlassen?", "Können Sie ihr bitte sagen, dass ich angerufen habe?", "Könnte sie mich bitte zurückrufen?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-04-indirect-question",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "word_order",
+          "instruction_ar": "حوّل السؤال إلى سؤال غير مباشر يبدأ بـ «Können Sie mir sagen, …».",
+          "prompt_de": "Formulieren Sie mit „Können Sie mir sagen, …“: Wann öffnet das Büro?",
+          "reference_answers": ["Können Sie mir sagen, wann das Büro öffnet?"],
+          "hint_de": "…, wann das Büro … ?",
+          "hint_ar": "الفعل öffnet يذهب إلى آخر الجملة.",
+          "explanation_ar": "في الجملة الفرعية بعد wann يكون الفعل في النهاية: …, wann das Büro öffnet?",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie mit „Wissen Sie, …“: Wo ist das Zimmer 12?", "instruction_ar": "حوّل إلى سؤال غير مباشر يبدأ بـ Wissen Sie.", "reference_answers": ["Wissen Sie, wo das Zimmer 12 ist?"]}
+          ],
+          "difficulty": 3,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-04-listen-voicemail",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الرسالة الصوتية: ما المشكلة وماذا يجب أن تفعل؟",
+          "prompt_de": "Was ist das Problem und was sollen Sie tun?",
+          "context_de": "Hallo, hier ist die Praxis Dr. Weber. Ihr Termin am Donnerstag muss leider ausfallen. Bitte rufen Sie uns zurück.",
+          "context_mode": "listen",
+          "reference_answers": ["Der Termin am Donnerstag fällt aus. Ich soll zurückrufen.", "Der Termin am Donnerstag findet nicht statt, und ich soll die Praxis zurückrufen."],
+          "key_points": ["Termin am Donnerstag fällt aus", "zurückrufen"],
+          "hint_de": "Termin … ausfallen … zurückrufen",
+          "hint_ar": "ausfallen = يُلغى؛ zurückrufen = يعاود الاتصال.",
+          "explanation_ar": "المعلومتان المهمتان: الموعد يوم الخميس أُلغي، وعليك الاتصال بالعيادة.",
+          "transfer_tasks": [
+            {"prompt_de": "Auf dem Anrufbeantworter: „Ihr Paket ist angekommen. Sie können es ab morgen in der Post abholen.“ Was können Sie machen?", "instruction_ar": "ماذا يمكنك أن تفعل؟", "reference_answers": ["Ich kann das Paket ab morgen in der Post abholen.", "Ab morgen kann ich das Paket abholen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a2-05-authorities",
+      "level": "A2",
+      "category": "authorities",
+      "title_de": "Behörden und Termine",
+      "title_ar": "الدوائر الحكومية والمواعيد",
+      "objective_ar": "أن تتعامل مع البلدية ودائرة الأجانب ومركز العمل: التسجيل، تمديد الإقامة، المستندات، وفهم الرسائل الرسمية.",
+      "description_ar": "مفردات المستندات وAkkusativ، وفهم المواعيد النهائية في الرسائل.",
+      "skills": ["speaking", "reading", "vocabulary"],
+      "prerequisites": ["a2-04-telephone"],
+      "estimated_minutes": 50,
+      "review_targets": ["case_accusative", "separable_verb", "vocabulary"],
+      "grammar_notes": [
+        {
+          "title_ar": "mitbringen + Akkusativ",
+          "body_ar": "mitbringen فعل منفصل: Ich bringe meinen Pass mit. مع müssen: Ich muss meinen Pass mitbringen.",
+          "examples_de": ["Bringen Sie bitte Ihren Reisepass mit.", "Ich muss den Mietvertrag mitbringen."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Sachbearbeiterin", "de": "Guten Tag. Was ist Ihr Anliegen?", "ar": "نهارك سعيد. ما طلبك؟"},
+        {"speaker": "Karim", "de": "Ich möchte meine neue Wohnung anmelden.", "ar": "أريد تسجيل شقتي الجديدة."},
+        {"speaker": "Sachbearbeiterin", "de": "Haben Sie die Wohnungsgeberbestätigung und Ihren Pass dabei?", "ar": "هل معك تأكيد المؤجّر وجواز سفرك؟"},
+        {"speaker": "Karim", "de": "Ja, hier sind die Unterlagen.", "ar": "نعم، تفضّلي المستندات."}
+      ],
+      "vocabulary": [
+        {"de": "Anmeldung", "article": "die", "plural": "Anmeldungen", "ar": "التسجيل (تسجيل السكن)", "example_de": "Die Anmeldung ist im Bürgeramt."},
+        {"de": "Ausländerbehörde", "article": "die", "ar": "دائرة الأجانب", "example_de": "Ich habe einen Termin bei der Ausländerbehörde."},
+        {"de": "Aufenthaltstitel", "article": "der", "plural": "Aufenthaltstitel", "ar": "تصريح الإقامة", "example_de": "Mein Aufenthaltstitel läuft im Mai ab."},
+        {"de": "verlängern", "pos": "verb", "ar": "يمدّد", "example_de": "Ich möchte meinen Aufenthaltstitel verlängern."},
+        {"de": "Unterlagen", "article": "die", "ar": "المستندات", "example_de": "Bitte bringen Sie alle Unterlagen mit."},
+        {"de": "Frist", "article": "die", "plural": "Fristen", "ar": "المهلة / الموعد النهائي", "example_de": "Die Frist endet am 30. April."},
+        {"de": "Antrag", "article": "der", "plural": "Anträge", "ar": "الطلب (الرسمي)", "example_de": "Ich stelle einen Antrag."},
+        {"de": "Dolmetscher", "article": "der", "plural": "Dolmetscher", "ar": "المترجم الفوري", "example_de": "Ich brauche einen Dolmetscher."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-05-register-address",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "أنت في البلدية (Bürgeramt). قل أنك تريد تسجيل سكنك.",
+          "prompt_de": "Sie sind beim Bürgeramt. Sagen Sie, dass Sie sich anmelden möchten.",
+          "reference_answers": ["Ich möchte mich anmelden.", "Guten Tag, ich möchte meine Wohnung anmelden.", "Ich möchte meinen Wohnsitz anmelden."],
+          "key_points": ["„anmelden“", "höflich mit „Ich möchte …“"],
+          "hint_de": "Ich möchte … anmelden.",
+          "hint_ar": "anmelden = يسجّل (السكن).",
+          "explanation_ar": "Ich möchte meine Wohnung anmelden — anmelden في آخر الجملة بعد möchte.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie sind bei der Ausländerbehörde. Ihr Aufenthaltstitel läuft bald ab. Was sagen Sie?", "instruction_ar": "تصريح إقامتك سينتهي قريبًا. ماذا تقول في دائرة الأجانب؟", "reference_answers": ["Mein Aufenthaltstitel läuft bald ab. Ich möchte ihn verlängern.", "Ich möchte meinen Aufenthaltstitel verlängern."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a2-05-documents",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "قل ما المستندات التي يجب أن تُحضرها: جواز السفر، عقد الإيجار، صورة.",
+          "prompt_de": "Welche Unterlagen müssen Sie mitbringen? (Pass, Mietvertrag, Foto)",
+          "reference_answers": ["Ich muss meinen Pass, den Mietvertrag und ein Foto mitbringen.", "Ich muss den Pass, den Mietvertrag und ein Foto mitbringen."],
+          "key_points": ["müssen + mitbringen am Ende", "Akkusativ: den/meinen Pass, den Mietvertrag, ein Foto"],
+          "hint_de": "Ich muss … mitbringen.",
+          "hint_ar": "mitbringen يأتي في النهاية بعد muss.",
+          "explanation_ar": "der Pass ← meinen Pass (Akkusativ)، der Mietvertrag ← den Mietvertrag.",
+          "transfer_tasks": [
+            {"prompt_de": "Was müssen Sie zum Jobcenter mitbringen? (Kontoauszüge, Personalausweis)", "instruction_ar": "ماذا يجب أن تُحضر إلى مركز العمل؟", "reference_answers": ["Ich muss die Kontoauszüge und meinen Personalausweis mitbringen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-05-read-letter",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الرسالة الرسمية ثم أجب: متى وأين الموعد، وماذا يجب أن يُحضر السيد حسن؟",
+          "prompt_de": "Wann und wo ist der Termin, und was muss Herr Hassan mitbringen?",
+          "context_de": "Sehr geehrter Herr Hassan, bitte kommen Sie am 12. März um 9:30 Uhr in Zimmer 214. Bringen Sie Ihren Reisepass und die Meldebescheinigung mit. Wenn Sie den Termin nicht wahrnehmen können, sagen Sie bitte rechtzeitig ab.",
+          "context_mode": "read",
+          "reference_answers": ["Der Termin ist am 12. März um 9:30 Uhr in Zimmer 214. Er muss seinen Reisepass und die Meldebescheinigung mitbringen."],
+          "key_points": ["12. März, 9:30 Uhr", "Zimmer 214", "Reisepass und Meldebescheinigung"],
+          "hint_de": "Datum, Uhrzeit, Zimmer, Dokumente",
+          "hint_ar": "ابحث عن أربع معلومات: التاريخ، الساعة، الغرفة، المستندات.",
+          "explanation_ar": "Meldebescheinigung = شهادة تسجيل السكن. rechtzeitig absagen = الإلغاء في الوقت المناسب.",
+          "transfer_tasks": [
+            {"prompt_de": "Im Brief steht: „Bitte senden Sie die Unterlagen bis zum 30. April zurück.“ Was ist die Frist?", "instruction_ar": "ما هو الموعد النهائي؟", "reference_answers": ["Die Frist ist der 30. April.", "Bis zum 30. April."]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a2-05-translate-help",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "ترجم إلى الألمانية: «لم أفهم الرسالة. هل يمكنك مساعدتي؟»",
+          "prompt_de": "Übersetzen Sie die Sätze ins Deutsche.",
+          "reference_answers": ["Ich habe den Brief nicht verstanden. Können Sie mir helfen?", "Ich verstehe den Brief nicht. Können Sie mir bitte helfen?", "Ich habe den Brief nicht verstanden. Könnten Sie mir bitte helfen?"],
+          "key_points": ["helfen + Dativ: mir helfen"],
+          "hint_de": "Ich habe den Brief nicht … Können Sie mir …?",
+          "hint_ar": "helfen يأخذ Dativ: mir (وليس mich).",
+          "explanation_ar": "Können Sie mir helfen? — mir لأن helfen فعل يأخذ Dativ.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «أحتاج إلى مترجم.»", "reference_answers": ["Ich brauche einen Dolmetscher.", "Ich brauche eine Dolmetscherin."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        }
+      ]
+    },
+    {
+      "slug": "a2-06-work-training",
+      "level": "A2",
+      "category": "work_training",
+      "title_de": "Arbeit, Ausbildung und Kollegen",
+      "title_ar": "العمل والتدريب المهني والزملاء",
+      "objective_ar": "أن تتحدّث عن عملك أو تدريبك، وتعلّل بـ weil، وتنقل كلامًا بـ dass، وتتواصل مع المدير.",
+      "description_ar": "الجمل الفرعية مع weil وdass: الفعل المصرَّف في نهاية الجملة الفرعية.",
+      "skills": ["speaking", "grammar", "writing"],
+      "prerequisites": ["a2-05-authorities"],
+      "estimated_minutes": 60,
+      "review_targets": ["conjunction", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "weil و dass",
+          "body_ar": "بعد weil وdass يذهب الفعل المصرَّف إلى نهاية الجملة الفرعية، وقبلها فاصلة.",
+          "examples_de": ["Ich komme später, weil mein Bus Verspätung hat.", "Ich glaube, dass die Besprechung um zehn beginnt."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Chefin", "de": "Guten Morgen, Herr Ali. Sie sind heute spät.", "ar": "صباح الخير يا سيد علي. تأخّرت اليوم."},
+        {"speaker": "Ali", "de": "Entschuldigung, ich bin zu spät, weil die S-Bahn ausgefallen ist.", "ar": "آسف، تأخّرت لأن القطار أُلغي."},
+        {"speaker": "Chefin", "de": "Kein Problem. Wissen Sie, dass wir um elf eine Besprechung haben?", "ar": "لا مشكلة. هل تعلم أن عندنا اجتماعًا الساعة الحادية عشرة؟"},
+        {"speaker": "Ali", "de": "Ja, mein Kollege hat gesagt, dass sie im Raum drei ist.", "ar": "نعم، قال زميلي إنه في الغرفة ثلاثة."}
+      ],
+      "vocabulary": [
+        {"de": "Ausbildung", "article": "die", "plural": "Ausbildungen", "ar": "التدريب المهني", "example_de": "Ich mache eine Ausbildung als Pflegefachmann."},
+        {"de": "Kollege", "article": "der", "plural": "Kollegen", "ar": "الزميل", "example_de": "Mein Kollege hilft mir."},
+        {"de": "Schicht", "article": "die", "plural": "Schichten", "ar": "المناوبة / الوردية", "example_de": "Ich arbeite heute in der Spätschicht."},
+        {"de": "Urlaub", "article": "der", "ar": "الإجازة", "example_de": "Ich möchte im August Urlaub nehmen."},
+        {"de": "Verspätung", "article": "die", "plural": "Verspätungen", "ar": "التأخير", "example_de": "Der Zug hat zehn Minuten Verspätung."},
+        {"de": "Berufsschule", "article": "die", "plural": "Berufsschulen", "ar": "المدرسة المهنية", "example_de": "Zweimal pro Woche gehe ich in die Berufsschule."},
+        {"de": "Bewerbung", "article": "die", "plural": "Bewerbungen", "ar": "طلب التوظيف", "example_de": "Ich schreibe eine Bewerbung."},
+        {"de": "Gehalt", "article": "das", "plural": "Gehälter", "ar": "الراتب", "example_de": "Das Gehalt kommt am Monatsende."}
+      ],
+      "exercises": [
+        {
+          "slug": "a2-06-why-training",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "لماذا تريد تدريبًا مهنيًا (أو عملًا)؟ أجب بجملة فيها weil.",
+          "prompt_de": "Warum möchten Sie eine Ausbildung machen? Antworten Sie mit „weil“.",
+          "reference_answers": ["Ich möchte eine Ausbildung machen, weil ich einen guten Beruf lernen will.", "Weil ich später gut verdienen möchte.", "Ich möchte eine Ausbildung machen, weil ich gern mit Menschen arbeite."],
+          "key_points": ["„weil“-Satz mit Verb am Ende", "Jeder sinnvolle Grund ist richtig"],
+          "hint_de": "…, weil ich … möchte.",
+          "hint_ar": "بعد weil يذهب الفعل المصرَّف إلى آخر الجملة.",
+          "explanation_ar": "«weil ich möchte einen Beruf lernen» خطأ؛ الصحيح «weil ich einen Beruf lernen möchte».",
+          "transfer_tasks": [
+            {"prompt_de": "Warum lernen Sie Deutsch? Antworten Sie mit „weil“.", "instruction_ar": "لماذا تتعلّم الألمانية؟ استخدم weil.", "reference_answers": ["Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.", "Weil ich mit meinen Nachbarn sprechen will."], "key_points": ["Verb am Ende des weil-Satzes"]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        },
+        {
+          "slug": "a2-06-combine-weil",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "اربط الجملتين بـ weil.",
+          "prompt_de": "Verbinden Sie mit „weil“: Ich komme heute später. Mein Bus hat Verspätung.",
+          "reference_answers": ["Ich komme heute später, weil mein Bus Verspätung hat."],
+          "hint_de": "…, weil mein Bus Verspätung …",
+          "hint_ar": "hat ينتقل إلى نهاية الجملة الثانية.",
+          "explanation_ar": "Ich komme heute später, weil mein Bus Verspätung hat.",
+          "transfer_tasks": [
+            {"prompt_de": "Verbinden Sie mit „weil“: Ich kann nicht kommen. Ich bin krank.", "instruction_ar": "اربط بـ weil.", "reference_answers": ["Ich kann nicht kommen, weil ich krank bin."]},
+            {"prompt_de": "Verbinden Sie mit „weil“: Sie lernt am Abend. Sie hat morgen eine Prüfung.", "instruction_ar": "اربط بـ weil.", "reference_answers": ["Sie lernt am Abend, weil sie morgen eine Prüfung hat."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-06-call-in-sick",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "أنت مريض وتتصل بمديرك. ماذا تقول؟",
+          "prompt_de": "Sie sind krank und rufen Ihren Chef an. Was sagen Sie?",
+          "reference_answers": ["Guten Morgen, hier ist Ali. Ich bin leider krank und kann heute nicht zur Arbeit kommen.", "Ich bin krank. Ich gehe heute zum Arzt und schicke Ihnen die Krankmeldung."],
+          "key_points": ["Sich melden (Name)", "Krank sein / nicht kommen können", "Optional: Arzt, Krankmeldung"],
+          "hint_de": "Ich bin leider krank und kann heute nicht …",
+          "hint_ar": "leider = للأسف. kann … nicht kommen = لا أستطيع الحضور.",
+          "explanation_ar": "في ألمانيا تُبلغ المدير صباحًا وترسل الشهادة المرضية لاحقًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie möchten nächste Woche einen Tag Urlaub nehmen. Fragen Sie Ihre Chefin.", "instruction_ar": "اطلب يوم إجازة الأسبوع القادم.", "reference_answers": ["Kann ich nächste Woche einen Tag Urlaub nehmen?", "Darf ich am Freitag frei nehmen?", "Wäre es möglich, dass ich nächste Woche einen Tag frei habe?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-06-transform-dass",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "ابدأ بـ «Ich glaube, dass …».",
+          "prompt_de": "Beginnen Sie mit „Ich glaube, dass …“: Die Besprechung beginnt um zehn.",
+          "reference_answers": ["Ich glaube, dass die Besprechung um zehn beginnt.", "Ich glaube, dass die Besprechung um zehn Uhr beginnt."],
+          "hint_de": "…, dass die Besprechung um zehn …",
+          "hint_ar": "beginnt إلى نهاية الجملة.",
+          "explanation_ar": "dass جملة فرعية: الفعل في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Beginnen Sie mit „Mein Kollege sagt, dass …“: Der Drucker ist kaputt.", "instruction_ar": "ابدأ بـ Mein Kollege sagt, dass …", "reference_answers": ["Mein Kollege sagt, dass der Drucker kaputt ist."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a2-06-work-tasks",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "ماذا تفعل في عملك أو تدريبك أو دورتك؟ (جملة أو جملتان)",
+          "prompt_de": "Was machen Sie bei Ihrer Arbeit, in Ihrer Ausbildung oder in Ihrem Kurs?",
+          "reference_answers": ["In meiner Ausbildung lerne ich, wie man Autos repariert.", "Bei meiner Arbeit helfe ich alten Menschen.", "Im Kurs lernen wir Grammatik und sprechen viel."],
+          "key_points": ["Mindestens eine konkrete Tätigkeit", "Verb an Position 2"],
+          "hint_de": "Bei meiner Arbeit … ich …",
+          "hint_ar": "بعد Bei meiner Arbeit يأتي الفعل ثم ich.",
+          "explanation_ar": "bei der Arbeit / in der Ausbildung / im Kurs — كلها Dativ.",
+          "transfer_tasks": [
+            {"prompt_de": "Was machen Ihre Kollegen oder Mitschüler?", "instruction_ar": "ماذا يفعل زملاؤك؟", "reference_answers": ["Meine Kollegen arbeiten im Lager und packen Pakete.", "Meine Mitschüler lernen auch Deutsch."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        }
+      ]
+    }
+  ]
+}

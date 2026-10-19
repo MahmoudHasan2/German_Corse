@@ -1,0 +1,647 @@
+{
+  "version": 1,
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-01-introductions",
+      "level": "A1",
+      "sort_order": 10,
+      "category": "introductions",
+      "title_de": "Sich vorstellen",
+      "title_ar": "التعريف بالنفس",
+      "objective_ar": "أن تقدّم نفسك: الاسم، البلد، مكان السكن والمهنة، بجمل كاملة وصحيحة.",
+      "description_ar": "تتعلّم تصريف الأفعال heißen وkommen وwohnen وsein، وأن الفعل يأتي في المكان الثاني في الجملة الخبرية.",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": [],
+      "estimated_minutes": 45,
+      "review_targets": ["verb_conjugation", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "تصريف الفعل في المضارع",
+          "body_ar": "مع ich ينتهي الفعل غالبًا بـ ‎-e‎، ومع Sie (للاحترام) وwir بـ ‎-en‎، ومع er/sie بـ ‎-t‎.",
+          "examples_de": ["Ich wohne in Berlin.", "Wir wohnen in Hamburg.", "Er wohnt in Köln."]
+        },
+        {
+          "title_ar": "الفعل في المكان الثاني",
+          "body_ar": "في الجملة الخبرية يكون الفعل المصرَّف دائمًا العنصر الثاني، حتى لو بدأت الجملة بظرف.",
+          "examples_de": ["Ich komme aus Syrien.", "Seit zwei Jahren wohne ich in München."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Frau Klein", "de": "Guten Tag! Wie heißen Sie?", "ar": "نهارك سعيد! ما اسمك؟"},
+        {"speaker": "Ali", "de": "Guten Tag. Ich heiße Ali Hassan.", "ar": "نهارك سعيد. اسمي علي حسن."},
+        {"speaker": "Frau Klein", "de": "Woher kommen Sie, Herr Hassan?", "ar": "من أين أنت يا سيد حسن؟"},
+        {"speaker": "Ali", "de": "Ich komme aus Syrien. Ich wohne jetzt in Leipzig.", "ar": "أنا من سوريا. أسكن الآن في لايبزيغ."},
+        {"speaker": "Frau Klein", "de": "Und was sind Sie von Beruf?", "ar": "وما مهنتك؟"},
+        {"speaker": "Ali", "de": "Ich bin Elektriker.", "ar": "أنا كهربائي."}
+      ],
+      "vocabulary": [
+        {"de": "Name", "article": "der", "plural": "Namen", "ar": "الاسم", "example_de": "Mein Name ist Ali."},
+        {"de": "Land", "article": "das", "plural": "Länder", "ar": "البلد", "example_de": "Aus welchem Land kommen Sie?"},
+        {"de": "Beruf", "article": "der", "plural": "Berufe", "ar": "المهنة", "example_de": "Was sind Sie von Beruf?"},
+        {"de": "heißen", "pos": "verb", "ar": "يُسمّى / اسمه", "example_de": "Ich heiße Fatima."},
+        {"de": "wohnen", "pos": "verb", "ar": "يسكن", "example_de": "Wir wohnen in Dresden."},
+        {"de": "kommen aus", "pos": "verb", "ar": "يأتي من / أصله من", "example_de": "Er kommt aus dem Irak."},
+        {"de": "Familie", "article": "die", "plural": "Familien", "ar": "العائلة", "example_de": "Meine Familie wohnt in Bonn."},
+        {"de": "verheiratet", "pos": "adjective", "ar": "متزوّج", "example_de": "Ich bin verheiratet."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-01-name",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أجب عن السؤال بجملة كاملة. يمكنك استخدام اسمك الحقيقي أو أي اسم.",
+          "prompt_de": "Wie heißen Sie?",
+          "reference_answers": ["Ich heiße Ali.", "Mein Name ist Ali.", "Ich heiße Ali Hassan."],
+          "key_points": ["Ganzer Satz mit „Ich heiße …“ oder „Mein Name ist …“", "Jeder Name ist richtig"],
+          "hint_de": "Ich heiße …",
+          "hint_ar": "ابدأ بـ Ich heiße ثم اسمك.",
+          "explanation_ar": "الفعل heißen مع ich يصبح heiße. البديل: Mein Name ist …",
+          "transfer_tasks": [
+            {"prompt_de": "Wie heißt Ihre Mutter?", "instruction_ar": "أجب بجملة كاملة عن اسم والدتك (أو أي اسم).", "reference_answers": ["Meine Mutter heißt Fatima.", "Sie heißt Fatima."], "key_points": ["„heißt“ mit er/sie", "„Meine Mutter heißt …“ oder „Sie heißt …“"]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-01-origin",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "قل من أين أنت بجملة كاملة.",
+          "prompt_de": "Woher kommen Sie?",
+          "reference_answers": ["Ich komme aus Syrien.", "Ich komme aus dem Irak.", "Ich komme aus Ägypten.", "Ich komme aus der Türkei."],
+          "key_points": ["„Ich komme aus + Land“", "Einige Länder mit Artikel: aus dem Irak, aus dem Libanon, aus der Türkei, aus dem Jemen", "Jedes Land ist richtig"],
+          "hint_de": "Ich komme aus …",
+          "hint_ar": "استخدم Ich komme aus ثم اسم البلد.",
+          "explanation_ar": "بعض أسماء البلدان تأتي مع أداة: aus dem Irak، aus der Türkei. أغلبها بدون أداة: aus Syrien.",
+          "transfer_tasks": [
+            {"prompt_de": "Woher kommt Ihr Freund oder Ihre Freundin?", "instruction_ar": "أجب عن صديقك أو صديقتك.", "reference_answers": ["Mein Freund kommt aus Marokko.", "Meine Freundin kommt aus dem Libanon."], "key_points": ["„kommt“ mit er/sie", "aus + Land"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-01-gap-wohnen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل wohnen. اكتب الكلمة الناقصة أو الجملة كاملة.",
+          "prompt_de": "Ergänzen Sie „wohnen“: Ich ___ in Berlin.",
+          "reference_answers": ["Ich wohne in Berlin.", "wohne"],
+          "hint_de": "ich → -e",
+          "hint_ar": "مع ich نحذف ‎-en‎ ونضيف ‎-e‎.",
+          "explanation_ar": "wohnen ← ich wohne، du wohnst، er wohnt، wir wohnen.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „wohnen“: Wir ___ in Hamburg.", "instruction_ar": "أكمل بالشكل الصحيح مع wir.", "reference_answers": ["Wir wohnen in Hamburg.", "wohnen"]},
+            {"prompt_de": "Ergänzen Sie „kommen“: Er ___ aus Algerien.", "instruction_ar": "أكمل بالشكل الصحيح مع er.", "reference_answers": ["Er kommt aus Algerien.", "kommt"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-01-translate-munich",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "ترجم إلى الألمانية: «أسكن في ميونخ منذ سنتين.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich wohne seit zwei Jahren in München.", "Ich lebe seit zwei Jahren in München.", "Seit zwei Jahren wohne ich in München.", "Seit zwei Jahren lebe ich in München."],
+          "key_points": ["seit + Zeitraum", "Verb an Position 2, auch nach „Seit zwei Jahren“"],
+          "hint_de": "Ich wohne seit …",
+          "hint_ar": "«منذ» = seit. الفعل يبقى في المكان الثاني.",
+          "explanation_ar": "إذا بدأت بـ Seit zwei Jahren يأتي الفعل مباشرة بعدها: Seit zwei Jahren wohne ich …",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «زوجتي تعمل في برلين.»", "reference_answers": ["Meine Frau arbeitet in Berlin."], "key_points": ["arbeitet mit sie/er"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-01-job",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "article",
+          "instruction_ar": "أجب عن مهنتك أو ما تتعلّمه (أي مهنة صحيحة).",
+          "prompt_de": "Was sind Sie von Beruf?",
+          "reference_answers": ["Ich bin Krankenpfleger.", "Ich bin Mechaniker von Beruf.", "Ich mache eine Ausbildung als Elektriker.", "Ich bin Hausfrau."],
+          "key_points": ["Beruf normalerweise ohne Artikel: „Ich bin Lehrer.“", "Auch Ausbildung, Studium oder Arbeitssuche sind gültige Antworten"],
+          "hint_de": "Ich bin … von Beruf.",
+          "hint_ar": "قل Ich bin ثم المهنة بدون أداة.",
+          "explanation_ar": "في الألمانية نقول عادةً Ich bin Lehrer بدون ein.",
+          "transfer_tasks": [
+            {"prompt_de": "Was ist Ihr Vater von Beruf?", "instruction_ar": "أجب عن مهنة والدك (أو أي شخص).", "reference_answers": ["Mein Vater ist Lehrer.", "Er ist Taxifahrer."], "key_points": ["„ist“ mit er", "Beruf ohne Artikel"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-02-numbers-time",
+      "level": "A1",
+      "sort_order": 40,
+      "category": "numbers_time",
+      "title_de": "Zahlen, Uhrzeit und Termine",
+      "title_ar": "الأرقام والوقت والمواعيد",
+      "objective_ar": "أن تقول الوقت والعمر والأيام، وأن تطلب موعدًا أو تغيّره بأدب.",
+      "description_ar": "am + يوم، um + ساعة، والفعل في المكان الثاني عندما تبدأ الجملة بظرف زمان.",
+      "skills": ["speaking", "listening", "grammar"],
+      "prerequisites": ["a1-07-family"],
+      "estimated_minutes": 45,
+      "review_targets": ["verb_position", "preposition"],
+      "grammar_notes": [
+        {
+          "title_ar": "am و um",
+          "body_ar": "am مع الأيام وأجزاء اليوم (am Montag، am Abend)، وum مع الساعة (um 10 Uhr).",
+          "examples_de": ["Der Termin ist am Montag um zehn Uhr.", "Am Abend lerne ich Deutsch."]
+        },
+        {
+          "title_ar": "الوقت غير الرسمي",
+          "body_ar": "halb zehn = ‎9:30‎ (نصف ساعة قبل العاشرة)، Viertel nach acht = ‎8:15‎، Viertel vor neun = ‎8:45‎.",
+          "examples_de": ["Es ist halb zehn.", "Es ist Viertel nach acht."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Praxis", "de": "Praxis Dr. Weber, guten Morgen.", "ar": "عيادة الدكتور فيبر، صباح الخير."},
+        {"speaker": "Ali", "de": "Guten Morgen. Ich hätte gern einen Termin.", "ar": "صباح الخير. أريد موعدًا من فضلك."},
+        {"speaker": "Praxis", "de": "Geht es am Dienstag um halb neun?", "ar": "هل يناسبك يوم الثلاثاء الساعة الثامنة والنصف؟"},
+        {"speaker": "Ali", "de": "Ja, das passt gut. Vielen Dank!", "ar": "نعم، هذا يناسبني. شكرًا جزيلًا!"}
+      ],
+      "vocabulary": [
+        {"de": "Termin", "article": "der", "plural": "Termine", "ar": "الموعد", "example_de": "Ich habe morgen einen Termin."},
+        {"de": "Uhr", "article": "die", "plural": "Uhren", "ar": "الساعة", "example_de": "Es ist acht Uhr."},
+        {"de": "Woche", "article": "die", "plural": "Wochen", "ar": "الأسبوع", "example_de": "Nächste Woche habe ich Urlaub."},
+        {"de": "Montag", "article": "der", "plural": "Montage", "ar": "الاثنين", "example_de": "Am Montag arbeite ich."},
+        {"de": "verschieben", "pos": "verb", "ar": "يؤجّل", "example_de": "Kann ich den Termin verschieben?"},
+        {"de": "passen", "pos": "verb", "ar": "يناسب", "example_de": "Passt Ihnen Freitag?"},
+        {"de": "halb", "pos": "adverb", "ar": "نصف (في الوقت)", "example_de": "Es ist halb drei."},
+        {"de": "Jahr", "article": "das", "plural": "Jahre", "ar": "السنة", "example_de": "Ich bin 30 Jahre alt."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-02-time-815",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "قل الساعة بالألمانية: ‎8:15‎.",
+          "prompt_de": "Wie viel Uhr ist es? (8:15)",
+          "reference_answers": ["Es ist Viertel nach acht.", "Es ist acht Uhr fünfzehn.", "Viertel nach acht.", "Acht Uhr fünfzehn."],
+          "hint_de": "Es ist Viertel …",
+          "hint_ar": "‎15‎ دقيقة بعد الثامنة = Viertel nach acht.",
+          "explanation_ar": "يمكنك قول الوقت بطريقتين: الرسمية (acht Uhr fünfzehn) أو اليومية (Viertel nach acht).",
+          "transfer_tasks": [
+            {"prompt_de": "Wie viel Uhr ist es? (9:30)", "instruction_ar": "قل الساعة: ‎9:30‎.", "reference_answers": ["Es ist halb zehn.", "Es ist neun Uhr dreißig.", "Halb zehn."], "key_points": ["„halb zehn“ bedeutet 9:30"]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-02-appointment-when",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أجب: موعدك يوم الاثنين الساعة العاشرة.",
+          "prompt_de": "Wann haben Sie den Termin? (Montag, 10 Uhr)",
+          "reference_answers": ["Ich habe den Termin am Montag um zehn Uhr.", "Am Montag um zehn Uhr.", "Der Termin ist am Montag um 10 Uhr."],
+          "key_points": ["am + Wochentag", "um + Uhrzeit"],
+          "hint_de": "am Montag um …",
+          "hint_ar": "am قبل اليوم، وum قبل الساعة.",
+          "explanation_ar": "Am Montag (اليوم) + um zehn Uhr (الساعة).",
+          "transfer_tasks": [
+            {"prompt_de": "Wann beginnt der Deutschkurs? (Mittwoch, 18 Uhr)", "instruction_ar": "أجب عن موعد بداية دورة الألمانية.", "reference_answers": ["Der Deutschkurs beginnt am Mittwoch um 18 Uhr.", "Er beginnt am Mittwoch um achtzehn Uhr.", "Am Mittwoch um 18 Uhr."], "key_points": ["am Mittwoch", "um 18 Uhr"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-02-word-order-friday",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "أعد كتابة الجملة بحيث تبدأ بـ «Am Freitag».",
+          "prompt_de": "Beginnen Sie mit „Am Freitag“: Ich gehe am Freitag zum Arzt.",
+          "reference_answers": ["Am Freitag gehe ich zum Arzt."],
+          "hint_de": "Am Freitag + Verb + ich …",
+          "hint_ar": "بعد Am Freitag يأتي الفعل مباشرة ثم الفاعل.",
+          "explanation_ar": "الفعل يبقى في المكان الثاني، لذلك ينتقل ich إلى ما بعد الفعل: Am Freitag gehe ich …",
+          "transfer_tasks": [
+            {"prompt_de": "Beginnen Sie mit „Morgen“: Wir haben morgen einen Termin.", "instruction_ar": "أعد كتابة الجملة بحيث تبدأ بـ Morgen.", "reference_answers": ["Morgen haben wir einen Termin."]},
+            {"prompt_de": "Beginnen Sie mit „Heute“: Meine Tochter geht heute nicht zur Schule.", "instruction_ar": "ابدأ الجملة بـ Heute.", "reference_answers": ["Heute geht meine Tochter nicht zur Schule."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-02-age",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "قل عمرك (أي عمر صحيح).",
+          "prompt_de": "Wie alt sind Sie?",
+          "reference_answers": ["Ich bin 28 Jahre alt.", "Ich bin achtundzwanzig.", "Ich bin 35."],
+          "key_points": ["„Ich bin … Jahre alt.“", "Jede Zahl ist richtig"],
+          "hint_de": "Ich bin … Jahre alt.",
+          "hint_ar": "في الألمانية نستخدم الفعل sein للعمر: Ich bin …",
+          "explanation_ar": "لا نقول Ich habe 28 Jahre، بل Ich bin 28 Jahre alt.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie alt ist Ihr Kind oder Ihr Bruder?", "instruction_ar": "قل عمر طفلك أو أخيك.", "reference_answers": ["Mein Sohn ist fünf Jahre alt.", "Meine Tochter ist acht.", "Mein Bruder ist zwanzig Jahre alt."], "key_points": ["„ist“ mit er/sie", "… Jahre alt"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-02-ask-appointment",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "أنت تتصل بعيادة طبيب. اطلب موعدًا بأدب.",
+          "prompt_de": "Sie rufen in der Arztpraxis an. Bitten Sie um einen Termin.",
+          "reference_answers": ["Guten Tag, ich möchte gern einen Termin machen.", "Ich hätte gern einen Termin, bitte.", "Guten Tag, kann ich bitte einen Termin bekommen?"],
+          "key_points": ["Höfliche Bitte: „Ich möchte …“, „Ich hätte gern …“ oder „Kann ich …?“", "Begrüßung ist gut, aber nicht Pflicht"],
+          "hint_de": "Ich hätte gern …",
+          "hint_ar": "Ich hätte gern = أودّ / أريد من فضلك (أسلوب مهذّب).",
+          "explanation_ar": "في المواقف الرسمية استخدم Ich möchte أو Ich hätte gern بدلًا من Ich will.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie möchten Ihren Termin verschieben. Was sagen Sie?", "instruction_ar": "اطلب تأجيل الموعد بأدب.", "reference_answers": ["Kann ich meinen Termin verschieben?", "Ich möchte meinen Termin bitte verschieben.", "Könnte ich den Termin bitte verschieben?"], "key_points": ["„verschieben“", "höfliche Form"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-03-shopping-food",
+      "level": "A1",
+      "sort_order": 60,
+      "category": "shopping_food",
+      "title_de": "Einkaufen und Essen",
+      "title_ar": "التسوّق والطعام",
+      "objective_ar": "أن تطلب طعامًا وشرابًا، وتسأل عن السعر، وتدفع، وتستخدم Akkusativ مع ein/kein.",
+      "description_ar": "der → einen في حالة النصب، والنفي بـ kein/keinen.",
+      "skills": ["speaking", "listening", "grammar", "vocabulary"],
+      "prerequisites": ["a1-08-hobbies"],
+      "estimated_minutes": 45,
+      "review_targets": ["case_accusative", "negation"],
+      "grammar_notes": [
+        {
+          "title_ar": "Akkusativ مع ein",
+          "body_ar": "يتغيّر المذكّر فقط: der/ein → den/einen. المؤنث والمحايد لا يتغيّران: eine, ein.",
+          "examples_de": ["Ich möchte einen Kaffee.", "Ich nehme eine Suppe.", "Ich kaufe ein Brot."]
+        },
+        {
+          "title_ar": "النفي بـ kein",
+          "body_ar": "ننفي الاسم النكرة بـ kein (وتتغيّر نهايته مثل ein).",
+          "examples_de": ["Ich esse kein Schweinefleisch.", "Wir trinken keinen Alkohol."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Kellner", "de": "Guten Abend! Was möchten Sie trinken?", "ar": "مساء الخير! ماذا تريد أن تشرب؟"},
+        {"speaker": "Amal", "de": "Einen Tee, bitte. Und ich nehme eine Linsensuppe.", "ar": "شاي من فضلك. وسآخذ شوربة عدس."},
+        {"speaker": "Kellner", "de": "Gern. Sonst noch etwas?", "ar": "بكل سرور. هل تريد شيئًا آخر؟"},
+        {"speaker": "Amal", "de": "Nein, danke. Kann ich mit Karte bezahlen?", "ar": "لا، شكرًا. هل يمكنني الدفع بالبطاقة؟"},
+        {"speaker": "Kellner", "de": "Ja, natürlich. Das macht zusammen neun Euro achtzig.", "ar": "نعم، طبعًا. المجموع تسعة يورو وثمانون سنتًا."}
+      ],
+      "vocabulary": [
+        {"de": "Kasse", "article": "die", "plural": "Kassen", "ar": "الصندوق / مكان الدفع", "example_de": "Bitte bezahlen Sie an der Kasse."},
+        {"de": "Tüte", "article": "die", "plural": "Tüten", "ar": "الكيس", "example_de": "Brauchen Sie eine Tüte?"},
+        {"de": "Apfel", "article": "der", "plural": "Äpfel", "ar": "التفاحة", "example_de": "Ich kaufe einen Apfel."},
+        {"de": "Brot", "article": "das", "plural": "Brote", "ar": "الخبز", "example_de": "Ein Brot, bitte."},
+        {"de": "Flasche", "article": "die", "plural": "Flaschen", "ar": "الزجاجة", "example_de": "Eine Flasche Wasser kostet einen Euro."},
+        {"de": "Schweinefleisch", "article": "das", "ar": "لحم الخنزير", "example_de": "Ist da Schweinefleisch drin?"},
+        {"de": "bezahlen", "pos": "verb", "ar": "يدفع", "example_de": "Ich bezahle bar."},
+        {"de": "Angebot", "article": "das", "plural": "Angebote", "ar": "العرض / التخفيض", "example_de": "Die Tomaten sind im Angebot."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-03-drink",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "أنت في مقهى. قل ماذا تريد أن تشرب.",
+          "prompt_de": "Was möchten Sie trinken?",
+          "reference_answers": ["Ich möchte einen Kaffee, bitte.", "Ich nehme einen Tee.", "Einen Orangensaft, bitte.", "Ich möchte ein Wasser."],
+          "key_points": ["Akkusativ: der Kaffee → einen Kaffee", "Jedes Getränk ist richtig"],
+          "hint_de": "Ich möchte einen …",
+          "hint_ar": "der Tee/der Kaffee يصبح einen Tee/einen Kaffee بعد möchten.",
+          "explanation_ar": "بعد möchten وnehmen يأتي المفعول به في حالة Akkusativ: einen للمذكر.",
+          "transfer_tasks": [
+            {"prompt_de": "Was möchten Sie essen?", "instruction_ar": "قل ماذا تريد أن تأكل.", "reference_answers": ["Ich möchte einen Salat, bitte.", "Ich nehme eine Suppe.", "Ich möchte ein Sandwich."], "key_points": ["einen/eine/ein richtig"]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-03-gap-apfel",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "أكمل بأداة النكرة الصحيحة في حالة Akkusativ.",
+          "prompt_de": "Ergänzen Sie: Ich kaufe ___ Apfel. (der Apfel)",
+          "reference_answers": ["Ich kaufe einen Apfel.", "einen"],
+          "hint_de": "der → einen",
+          "hint_ar": "Apfel مذكّر.",
+          "explanation_ar": "der Apfel مذكّر، وفي Akkusativ تصبح ein ← einen.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Ich brauche ___ Flasche Wasser. (die Flasche)", "instruction_ar": "أكمل بالأداة الصحيحة.", "reference_answers": ["Ich brauche eine Flasche Wasser.", "eine"]},
+            {"prompt_de": "Ergänzen Sie: Wir haben ___ Tisch für vier Personen reserviert. (der Tisch)", "instruction_ar": "أكمل بالأداة الصحيحة.", "reference_answers": ["Wir haben einen Tisch für vier Personen reserviert.", "einen"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-03-listen-price",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى البائعة ثم أجب: كم يكلّف الشراء؟",
+          "prompt_de": "Wie viel kostet der Einkauf?",
+          "context_de": "Das macht zusammen sieben Euro fünfzig.",
+          "context_mode": "listen",
+          "reference_answers": ["Der Einkauf kostet sieben Euro fünfzig.", "Sieben Euro fünfzig.", "7,50 Euro.", "Es kostet 7,50 Euro."],
+          "key_points": ["Betrag: 7,50 €"],
+          "hint_de": "Hören Sie auf die Zahl vor „Euro“.",
+          "hint_ar": "انتبه إلى الرقم قبل كلمة Euro وبعدها.",
+          "explanation_ar": "sieben Euro fünfzig = ‎7,50‎ يورو. الرقم بعد Euro هو السنتات.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Verkäuferin sagt: „Das macht drei Euro zwanzig.“ Wie viel müssen Sie bezahlen?", "instruction_ar": "كم يجب أن تدفع؟", "reference_answers": ["Ich muss drei Euro zwanzig bezahlen.", "Drei Euro zwanzig.", "3,20 Euro."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-03-pay-card",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "أنت عند الصندوق وتريد الدفع بالبطاقة. اسأل.",
+          "prompt_de": "Sie sind an der Kasse und möchten mit Karte bezahlen. Was fragen Sie?",
+          "reference_answers": ["Kann ich mit Karte bezahlen?", "Kann ich bitte mit Karte zahlen?", "Nehmen Sie Karte?"],
+          "key_points": ["Ja/Nein-Frage: Verb am Anfang", "„mit Karte bezahlen/zahlen“"],
+          "hint_de": "Kann ich …?",
+          "hint_ar": "في سؤال نعم/لا يأتي الفعل أولًا: Kann ich …?",
+          "explanation_ar": "Kann ich mit Karte bezahlen? — الفعل المساعد أولًا والفعل الأساسي في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie brauchen eine Tüte. Was fragen Sie?", "instruction_ar": "اطلب كيسًا بأدب.", "reference_answers": ["Kann ich bitte eine Tüte haben?", "Haben Sie eine Tüte für mich?", "Ich brauche bitte eine Tüte."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-03-translate-kein",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "negation",
+          "instruction_ar": "ترجم إلى الألمانية: «أنا لا آكل لحم الخنزير.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich esse kein Schweinefleisch."],
+          "key_points": ["Negation eines Nomens mit „kein“"],
+          "hint_de": "Ich esse kein …",
+          "hint_ar": "لنفي اسم بدون أداة نستخدم kein.",
+          "explanation_ar": "Ich esse nicht Schweinefleisch خطأ. الصحيح: Ich esse kein Schweinefleisch.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «نحن لا نشرب الكحول.»", "reference_answers": ["Wir trinken keinen Alkohol."], "key_points": ["der Alkohol → keinen Alkohol"]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-04-daily-routine",
+      "level": "A1",
+      "sort_order": 90,
+      "category": "daily_routine",
+      "title_de": "Mein Tagesablauf",
+      "title_ar": "روتيني اليومي",
+      "objective_ar": "أن تصف يومك بجمل بسيطة مستخدمًا الأفعال المنفصلة والوقت.",
+      "description_ar": "الأفعال المنفصلة مثل aufstehen وeinkaufen: الجزء الأول يذهب إلى نهاية الجملة.",
+      "skills": ["speaking", "writing", "grammar"],
+      "prerequisites": ["a1-10-quantities"],
+      "estimated_minutes": 45,
+      "review_targets": ["separable_verb", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "الأفعال المنفصلة",
+          "body_ar": "في الجملة البسيطة ينفصل الجزء الأول (auf-, ein-, an-, fern-) ويذهب إلى آخر الجملة.",
+          "examples_de": ["Ich stehe um sieben Uhr auf.", "Am Samstag kaufe ich ein.", "Der Film fängt um acht an."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Lena", "de": "Wann stehst du normalerweise auf?", "ar": "متى تستيقظ عادةً؟"},
+        {"speaker": "Omar", "de": "Ich stehe um sechs Uhr auf, weil mein Kurs früh anfängt.", "ar": "أستيقظ الساعة السادسة لأن دورتي تبدأ مبكرًا."},
+        {"speaker": "Lena", "de": "Und was machst du am Nachmittag?", "ar": "وماذا تفعل بعد الظهر؟"},
+        {"speaker": "Omar", "de": "Ich kaufe ein und dann koche ich für meine Familie.", "ar": "أتسوّق ثم أطبخ لعائلتي."}
+      ],
+      "vocabulary": [
+        {"de": "aufstehen", "pos": "verb", "ar": "يستيقظ / ينهض", "example_de": "Ich stehe früh auf."},
+        {"de": "einkaufen", "pos": "verb", "ar": "يتسوّق", "example_de": "Wir kaufen am Samstag ein."},
+        {"de": "anfangen", "pos": "verb", "ar": "يبدأ", "example_de": "Der Kurs fängt um neun an."},
+        {"de": "fernsehen", "pos": "verb", "ar": "يشاهد التلفاز", "example_de": "Am Abend sehe ich fern."},
+        {"de": "anrufen", "pos": "verb", "ar": "يتصل هاتفيًا", "example_de": "Ich rufe meine Mutter an."},
+        {"de": "Frühstück", "article": "das", "ar": "الفطور", "example_de": "Das Frühstück ist um sieben."},
+        {"de": "Feierabend", "article": "der", "ar": "نهاية الدوام", "example_de": "Um fünf habe ich Feierabend."},
+        {"de": "normalerweise", "pos": "adverb", "ar": "عادةً", "example_de": "Normalerweise fahre ich mit dem Bus."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-04-wake-up",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "أجب: متى تستيقظ في الصباح؟",
+          "prompt_de": "Wann stehen Sie am Morgen auf?",
+          "reference_answers": ["Ich stehe um sieben Uhr auf.", "Ich stehe meistens um halb sieben auf.", "Um sechs Uhr stehe ich auf."],
+          "key_points": ["„auf“ steht am Satzende", "Jede Uhrzeit ist richtig"],
+          "hint_de": "Ich stehe um … auf.",
+          "hint_ar": "aufstehen ← Ich stehe … auf.",
+          "explanation_ar": "الفعل aufstehen ينفصل: stehe في المكان الثاني وauf في النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Wann fängt Ihre Arbeit oder Ihr Kurs an?", "instruction_ar": "أجب عن موعد بداية عملك أو دورتك.", "reference_answers": ["Meine Arbeit fängt um acht Uhr an.", "Mein Kurs fängt um neun Uhr an."], "key_points": ["„an“ am Satzende"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-04-build-einkaufen",
+          "type": "build_sentence",
+          "skill_area": "grammar",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "كوّن جملة صحيحة من الكلمات.",
+          "prompt_de": "Bilden Sie einen Satz: ich / einkaufen / am Samstag",
+          "reference_answers": ["Ich kaufe am Samstag ein.", "Am Samstag kaufe ich ein."],
+          "hint_de": "Ich kaufe … ein.",
+          "hint_ar": "ein تذهب إلى نهاية الجملة.",
+          "explanation_ar": "einkaufen ← Ich kaufe am Samstag ein.",
+          "transfer_tasks": [
+            {"prompt_de": "Bilden Sie einen Satz: der Zug / ankommen / um 9 Uhr", "instruction_ar": "كوّن جملة صحيحة.", "reference_answers": ["Der Zug kommt um 9 Uhr an.", "Um 9 Uhr kommt der Zug an.", "Der Zug kommt um neun Uhr an."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-04-describe-morning",
+          "type": "describe",
+          "skill_area": "writing",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "صِف صباحك في جملتين أو ثلاث.",
+          "prompt_de": "Beschreiben Sie Ihren Morgen in zwei oder drei Sätzen.",
+          "reference_answers": ["Ich stehe um sieben Uhr auf. Dann frühstücke ich. Um acht Uhr fahre ich zur Arbeit."],
+          "key_points": ["Mindestens zwei Sätze", "Zeitangaben", "Verb an Position 2", "Trennbare Verben richtig"],
+          "hint_de": "Ich stehe um … auf. Dann …",
+          "hint_ar": "استخدم Dann (ثم) وانتبه أن الفعل يأتي بعدها مباشرة.",
+          "explanation_ar": "بعد Dann أو Um acht Uhr يأتي الفعل مباشرة: Dann frühstücke ich.",
+          "transfer_tasks": [
+            {"prompt_de": "Beschreiben Sie Ihren Abend in zwei oder drei Sätzen.", "instruction_ar": "صِف مساءك في جملتين أو ثلاث.", "reference_answers": ["Ich komme um sechs Uhr nach Hause. Dann koche ich. Um zehn Uhr gehe ich ins Bett."], "key_points": ["Mindestens zwei Sätze", "Verb an Position 2"]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-04-gap-fernsehen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "أكمل الجملة بالفعل fernsehen (اكتب الجملة كاملة).",
+          "prompt_de": "Ergänzen Sie „fernsehen“: Am Abend ___ ich ___.",
+          "reference_answers": ["Am Abend sehe ich fern."],
+          "hint_de": "sehe … fern",
+          "hint_ar": "fernsehen ← sehe (مكان 2) … fern (النهاية).",
+          "explanation_ar": "الجزء fern ينفصل ويذهب إلى نهاية الجملة.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „anrufen“: Ich ___ meine Mutter ___.", "instruction_ar": "أكمل بالفعل anrufen (الجملة كاملة).", "reference_answers": ["Ich rufe meine Mutter an."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-05-transport",
+      "level": "A1",
+      "sort_order": 140,
+      "category": "transport_directions",
+      "title_de": "Verkehrsmittel und Wege",
+      "title_ar": "المواصلات والاتجاهات",
+      "objective_ar": "أن تسأل عن الطريق وتفهم الاتجاهات وتتحدّث عن وسيلة مواصلاتك.",
+      "description_ar": "mit + Dativ: mit dem Bus، mit der U-Bahn. وصيغة الأمر المهذّبة: Gehen Sie geradeaus.",
+      "skills": ["speaking", "listening", "grammar"],
+      "prerequisites": ["a1-14-where-things"],
+      "estimated_minutes": 45,
+      "review_targets": ["case_dative", "preposition"],
+      "grammar_notes": [
+        {
+          "title_ar": "mit + Dativ",
+          "body_ar": "بعد mit يأتي دائمًا Dativ: der → dem، die → der، das → dem.",
+          "examples_de": ["Ich fahre mit dem Bus.", "Sie fährt mit der Straßenbahn.", "Wir fahren mit dem Fahrrad."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Ali", "de": "Entschuldigung, wie komme ich zum Bahnhof?", "ar": "عفوًا، كيف أصل إلى محطة القطار؟"},
+        {"speaker": "Passantin", "de": "Gehen Sie hier geradeaus und dann die zweite Straße links.", "ar": "امشِ من هنا مستقيمًا ثم الشارع الثاني على اليسار."},
+        {"speaker": "Ali", "de": "Ist das weit?", "ar": "هل هو بعيد؟"},
+        {"speaker": "Passantin", "de": "Nein, nur fünf Minuten zu Fuß.", "ar": "لا، خمس دقائق فقط مشيًا."}
+      ],
+      "vocabulary": [
+        {"de": "Bahnhof", "article": "der", "plural": "Bahnhöfe", "ar": "محطة القطار", "example_de": "Der Bahnhof ist in der Nähe."},
+        {"de": "Haltestelle", "article": "die", "plural": "Haltestellen", "ar": "موقف الحافلة", "example_de": "Wo ist die nächste Haltestelle?"},
+        {"de": "Fahrkarte", "article": "die", "plural": "Fahrkarten", "ar": "تذكرة السفر", "example_de": "Ich kaufe eine Fahrkarte am Automaten."},
+        {"de": "geradeaus", "pos": "adverb", "ar": "إلى الأمام مباشرة", "example_de": "Gehen Sie geradeaus."},
+        {"de": "links", "pos": "adverb", "ar": "يسارًا", "example_de": "Die Post ist links."},
+        {"de": "rechts", "pos": "adverb", "ar": "يمينًا", "example_de": "Biegen Sie rechts ab."},
+        {"de": "umsteigen", "pos": "verb", "ar": "يبدّل (وسيلة النقل)", "example_de": "Sie müssen am Hauptbahnhof umsteigen."},
+        {"de": "Gleis", "article": "das", "plural": "Gleise", "ar": "رصيف القطار", "example_de": "Der Zug fährt von Gleis 3."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-05-commute",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "أجب: كيف تذهب إلى العمل أو إلى الدورة؟",
+          "prompt_de": "Wie fahren Sie zur Arbeit oder zum Kurs?",
+          "reference_answers": ["Ich fahre mit dem Bus zur Arbeit.", "Mit der U-Bahn.", "Ich fahre mit dem Fahrrad zum Kurs.", "Ich gehe zu Fuß."],
+          "key_points": ["mit + Dativ: mit dem Bus, mit der Bahn", "„zu Fuß gehen“ ist auch richtig"],
+          "hint_de": "Ich fahre mit dem …",
+          "hint_ar": "بعد mit: der Bus ← dem Bus، die Bahn ← der Bahn.",
+          "explanation_ar": "mit يتطلّب Dativ دائمًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie fährt Ihre Familie zum Supermarkt?", "instruction_ar": "أجب عن عائلتك.", "reference_answers": ["Meine Familie fährt mit dem Auto zum Supermarkt.", "Wir fahren mit der Straßenbahn.", "Sie gehen zu Fuß zum Supermarkt."], "key_points": ["mit + Dativ"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-05-ask-way",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "تبحث عن محطة القطار. اسأل شخصًا عن الطريق بأدب.",
+          "prompt_de": "Sie suchen den Bahnhof. Fragen Sie eine Person höflich nach dem Weg.",
+          "reference_answers": ["Entschuldigung, wo ist der Bahnhof?", "Entschuldigung, wie komme ich zum Bahnhof?", "Entschuldigen Sie, können Sie mir sagen, wo der Bahnhof ist?"],
+          "key_points": ["„Entschuldigung“ am Anfang", "Frage nach dem Bahnhof"],
+          "hint_de": "Entschuldigung, wie komme ich …?",
+          "hint_ar": "ابدأ بـ Entschuldigung (عفوًا).",
+          "explanation_ar": "zum Bahnhof = zu dem Bahnhof (Dativ).",
+          "transfer_tasks": [
+            {"prompt_de": "Sie suchen eine Apotheke. Fragen Sie höflich.", "instruction_ar": "اسأل بأدب عن صيدلية.", "reference_answers": ["Entschuldigung, wo ist hier eine Apotheke?", "Entschuldigung, gibt es hier eine Apotheke?", "Wie komme ich zur Apotheke?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-05-listen-directions",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الوصف ثم أجب: أين المحطة؟",
+          "prompt_de": "Wo ist der Bahnhof?",
+          "context_de": "Gehen Sie hier geradeaus und dann die zweite Straße links. Der Bahnhof ist auf der rechten Seite.",
+          "context_mode": "listen",
+          "reference_answers": ["Geradeaus, dann die zweite Straße links. Der Bahnhof ist rechts.", "Man geht geradeaus, dann die zweite Straße links, und der Bahnhof ist auf der rechten Seite."],
+          "key_points": ["geradeaus", "zweite Straße links", "rechte Seite"],
+          "hint_de": "geradeaus … links … rechts",
+          "hint_ar": "هناك ثلاث معلومات: مستقيمًا، الشارع الثاني يسارًا، على اليمين.",
+          "explanation_ar": "die zweite Straße links = الشارع الثاني على اليسار؛ auf der rechten Seite = على الجهة اليمنى.",
+          "transfer_tasks": [
+            {"prompt_de": "Jemand sagt: „Nehmen Sie die erste Straße rechts, dann sehen Sie die Post.“ Wie kommen Sie zur Post?", "instruction_ar": "كيف تصل إلى مكتب البريد؟", "reference_answers": ["Ich nehme die erste Straße rechts.", "Die erste Straße rechts."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-05-gap-ubahn",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "أكمل بالأداة الصحيحة في حالة Dativ.",
+          "prompt_de": "Ergänzen Sie: Ich fahre mit ___ U-Bahn. (die U-Bahn)",
+          "reference_answers": ["Ich fahre mit der U-Bahn.", "der"],
+          "hint_de": "die → der",
+          "hint_ar": "المؤنث في Dativ: die ← der.",
+          "explanation_ar": "mit + Dativ: die U-Bahn ← mit der U-Bahn.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Wir fahren mit ___ Zug nach Köln. (der Zug)", "instruction_ar": "أكمل بالأداة الصحيحة.", "reference_answers": ["Wir fahren mit dem Zug nach Köln.", "dem"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-05-translate-ticket",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "word_order",
+          "instruction_ar": "ترجم إلى الألمانية: «أين أشتري التذكرة؟»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Wo kaufe ich die Fahrkarte?", "Wo kann ich eine Fahrkarte kaufen?", "Wo kaufe ich ein Ticket?", "Wo kann ich ein Ticket kaufen?"],
+          "hint_de": "Wo kaufe ich …?",
+          "hint_ar": "في السؤال بكلمة استفهام: W-Wort + الفعل + الفاعل.",
+          "explanation_ar": "Wo + الفعل (kaufe) + ich + المفعول.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «متى يغادر القطار؟»", "reference_answers": ["Wann fährt der Zug ab?", "Wann fährt der Zug?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        }
+      ]
+    }
+  ]
+}

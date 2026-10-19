@@ -1,0 +1,22 @@
+# Fallback layout ("layout B"): the whole project was uploaded INTO the web root
+# (e.g. public_html) because the document root cannot be changed.
+# Everything is routed into public/ and every private directory is denied.
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^(src|config|database|curriculum|storage|bin|tests|vendor|templates|bootstrap|docs)(/|$) - [F,L,NC]
+    RewriteRule (^|/)\. - [F,L]
+    RewriteRule \.(sql|log|env|ini|md|lock|xml|dist|bak|zip|json)$ - [F,L,NC]
+    RewriteRule ^composer\.(json|lock)$ - [F,L,NC]
+
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+# If mod_rewrite is unavailable, deny everything rather than expose private files.
+<IfModule !mod_rewrite.c>
+    Require all denied
+</IfModule>

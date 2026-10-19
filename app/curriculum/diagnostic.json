@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "slug": "assessment-diagnostic",
+      "kind": "assessment",
+      "level": "A1",
+      "category": "assessment",
+      "sort_order": 1000,
+      "title_de": "Einstufungstest",
+      "title_ar": "اختبار تحديد المستوى",
+      "objective_ar": "تقدير داخلي لمستواك الحالي حتى نقترح نقطة البداية المناسبة. ليس شهادة رسمية.",
+      "description_ar": "تسع مهام قصيرة من A1 إلى B1، محاولة واحدة لكل مهمة، بدون تلميحات.",
+      "skills": ["speaking", "grammar", "writing"],
+      "estimated_minutes": 15,
+      "exercises": [
+        {
+          "slug": "diag-a1-intro",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "قل اسمك ومن أين أنت في جملة واحدة.",
+          "prompt_de": "Wie heißen Sie und woher kommen Sie?",
+          "reference_answers": ["Ich heiße Ali und komme aus Syrien.", "Mein Name ist Ali. Ich komme aus dem Irak."],
+          "key_points": ["Name und Herkunftsland", "Verb richtig konjugiert"],
+          "requires_transfer": false,
+          "diagnostic_level": "A1",
+          "min_words": 4
+        },
+        {
+          "slug": "diag-a1-gap",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل wohnen.",
+          "prompt_de": "Ergänzen Sie „wohnen“: Ich ___ in Köln.",
+          "reference_answers": ["Ich wohne in Köln.", "wohne"],
+          "requires_transfer": false,
+          "diagnostic_level": "A1"
+        },
+        {
+          "slug": "diag-a1-order",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "أنت في مقهى. اطلب مشروبًا.",
+          "prompt_de": "Was möchten Sie trinken?",
+          "reference_answers": ["Ich möchte einen Kaffee, bitte.", "Einen Tee, bitte."],
+          "key_points": ["Akkusativ korrekt (einen Kaffee)"],
+          "requires_transfer": false,
+          "diagnostic_level": "A1",
+          "min_words": 2
+        },
+        {
+          "slug": "diag-a2-perfekt",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "ماذا فعلت أمس؟ أجب بزمن الماضي.",
+          "prompt_de": "Was haben Sie gestern gemacht?",
+          "reference_answers": ["Gestern habe ich gearbeitet.", "Ich bin gestern einkaufen gegangen."],
+          "key_points": ["Perfekt korrekt"],
+          "requires_transfer": false,
+          "diagnostic_level": "A2",
+          "min_words": 3
+        },
+        {
+          "slug": "diag-a2-weil",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "اربط الجملتين بـ weil.",
+          "prompt_de": "Verbinden Sie mit „weil“: Ich lerne Deutsch. Ich möchte in Deutschland arbeiten.",
+          "reference_answers": ["Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte."],
+          "requires_transfer": false,
+          "diagnostic_level": "A2",
+          "min_words": 6
+        },
+        {
+          "slug": "diag-a2-polite",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "register",
+          "instruction_ar": "حوّل الأمر إلى طلب مهذّب.",
+          "prompt_de": "Formulieren Sie höflich: Helfen Sie mir!",
+          "reference_answers": ["Könnten Sie mir bitte helfen?", "Können Sie mir bitte helfen?", "Würden Sie mir bitte helfen?"],
+          "requires_transfer": false,
+          "diagnostic_level": "A2",
+          "min_words": 4
+        },
+        {
+          "slug": "diag-b1-obwohl",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "اربط الجملتين بـ obwohl.",
+          "prompt_de": "Verbinden Sie mit „obwohl“: Ich bin müde. Ich gehe zum Kurs.",
+          "reference_answers": ["Obwohl ich müde bin, gehe ich zum Kurs.", "Ich gehe zum Kurs, obwohl ich müde bin."],
+          "requires_transfer": false,
+          "diagnostic_level": "B1",
+          "min_words": 6
+        },
+        {
+          "slug": "diag-b1-adjective",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "adjective_ending",
+          "instruction_ar": "أكمل نهاية الصفة.",
+          "prompt_de": "Ergänzen Sie die Endung: Ich wohne in einer groß__ Stadt.",
+          "reference_answers": ["Ich wohne in einer großen Stadt.", "großen"],
+          "requires_transfer": false,
+          "diagnostic_level": "B1"
+        },
+        {
+          "slug": "diag-b1-opinion",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "عبّر عن رأيك مع تعليل (جملتان).",
+          "prompt_de": "Sollte man im Supermarkt nur noch mit Karte bezahlen können? Begründen Sie Ihre Meinung.",
+          "reference_answers": ["Ich finde, dass man auch bar bezahlen können sollte, weil nicht alle Menschen eine Karte haben.", "Meiner Meinung nach ist Kartenzahlung praktischer, weil sie schneller geht."],
+          "key_points": ["Meinung", "Begründung mit Nebensatz", "Wortstellung korrekt"],
+          "requires_transfer": false,
+          "diagnostic_level": "B1",
+          "min_words": 10
+        }
+      ]
+    }
+  ]
+}

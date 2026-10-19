@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-06-contact-details",
+      "level": "A1",
+      "category": "personal_information",
+      "sort_order": 20,
+      "title_de": "Buchstabieren und Kontaktdaten",
+      "title_ar": "التهجئة وبيانات الاتصال",
+      "objective_ar": "أن تتهجّى اسمك، وتقول رقم هاتفك وعنوانك وبريدك الإلكتروني، وتسأل الآخرين عنها.",
+      "description_ar": "أسئلة W (Wie؟ Wo؟ Was؟) والأرقام حتى 100 في المواقف اليومية.",
+      "skills": ["speaking", "listening", "grammar"],
+      "prerequisites": ["a1-01-introductions"],
+      "estimated_minutes": 45,
+      "review_targets": ["word_order", "vocabulary"],
+      "grammar_notes": [
+        {
+          "title_ar": "أسئلة W",
+          "body_ar": "كلمة السؤال أولًا، ثم الفعل، ثم الفاعل: Wie ist Ihre Telefonnummer? / Wo wohnen Sie?",
+          "examples_de": ["Wie ist Ihre Adresse?", "Wie schreibt man das?", "Was ist Ihre E-Mail-Adresse?"]
+        },
+        {
+          "title_ar": "الأرقام 21–99",
+          "body_ar": "الآحاد أولًا ثم العشرات: 24 = vierundzwanzig (أربعة وعشرون).",
+          "examples_de": ["21 – einundzwanzig", "35 – fünfunddreißig", "98 – achtundneunzig"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Frau Berger", "de": "Wie ist Ihr Familienname, bitte?", "ar": "ما اسم عائلتك من فضلك؟"},
+        {"speaker": "Samir", "de": "Al-Khatib. Ich buchstabiere: A, L, Bindestrich, K, H, A, T, I, B.", "ar": "الخطيب. أتهجّى: A، L، شَرطة، K، H، A، T، I، B."},
+        {"speaker": "Frau Berger", "de": "Danke. Und wie ist Ihre Telefonnummer?", "ar": "شكرًا. وما رقم هاتفك؟"},
+        {"speaker": "Samir", "de": "Null eins sieben sechs, zwei drei vier, fünf sechs sieben acht.", "ar": "صفر واحد سبعة ستة، اثنان ثلاثة أربعة، خمسة ستة سبعة ثمانية."}
+      ],
+      "vocabulary": [
+        {"de": "Familienname", "article": "der", "plural": "Familiennamen", "ar": "اسم العائلة", "example_de": "Mein Familienname ist Hassan."},
+        {"de": "Vorname", "article": "der", "plural": "Vornamen", "ar": "الاسم الأول", "example_de": "Mein Vorname ist Ali."},
+        {"de": "Telefonnummer", "article": "die", "plural": "Telefonnummern", "ar": "رقم الهاتف", "example_de": "Wie ist Ihre Telefonnummer?"},
+        {"de": "Adresse", "article": "die", "plural": "Adressen", "ar": "العنوان", "example_de": "Meine Adresse ist Bahnhofstraße 12."},
+        {"de": "Straße", "article": "die", "plural": "Straßen", "ar": "الشارع", "example_de": "Ich wohne in der Goethestraße."},
+        {"de": "Hausnummer", "article": "die", "plural": "Hausnummern", "ar": "رقم البيت", "example_de": "Die Hausnummer ist 7."},
+        {"de": "Postleitzahl", "article": "die", "plural": "Postleitzahlen", "ar": "الرمز البريدي", "example_de": "Die Postleitzahl ist 04109."},
+        {"de": "buchstabieren", "pos": "verb", "ar": "يتهجّى", "example_de": "Können Sie das bitte buchstabieren?"}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-06-phone-number",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "قل رقم هاتفك (يمكنك اختراع رقم). اذكر الأرقام بالألمانية.",
+          "prompt_de": "Wie ist Ihre Telefonnummer?",
+          "reference_answers": ["Meine Telefonnummer ist 0176 2345678.", "Meine Nummer ist 0151 98765432.", "Die Nummer ist 030 1234567."],
+          "key_points": ["Satz mit „Meine Telefonnummer ist …“ oder „Meine Nummer ist …“", "Jede Nummer ist richtig, auch als Ziffern"],
+          "hint_de": "Meine Telefonnummer ist …",
+          "hint_ar": "ابدأ بـ Meine Telefonnummer ist ثم الأرقام.",
+          "explanation_ar": "Telefonnummer مؤنث، لذلك نقول meine Telefonnummer.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie ist Ihre Hausnummer?", "instruction_ar": "قل رقم بيتك.", "reference_answers": ["Meine Hausnummer ist 12.", "Die Hausnummer ist 7."], "key_points": ["„Meine Hausnummer ist …“"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-06-address",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "قل عنوانك: الشارع ورقم البيت والمدينة (يمكنك اختراع عنوان).",
+          "prompt_de": "Wie ist Ihre Adresse?",
+          "reference_answers": ["Meine Adresse ist Bahnhofstraße 12, 04109 Leipzig.", "Ich wohne in der Goethestraße 5 in Berlin.", "Meine Adresse ist Hauptstraße 3 in Köln."],
+          "key_points": ["Straße + Hausnummer", "Stadt", "„Ich wohne in der …straße“ ist auch richtig"],
+          "hint_de": "Meine Adresse ist …straße …",
+          "hint_ar": "في الألمانية يأتي اسم الشارع أولًا ثم رقم البيت.",
+          "explanation_ar": "نقول: Ich wohne in der Goethestraße 5 — مع in der لأن Straße مؤنث.",
+          "transfer_tasks": [
+            {"prompt_de": "Wo wohnt Ihre Familie? Nennen Sie die Stadt und die Straße.", "instruction_ar": "قل أين تسكن عائلتك.", "reference_answers": ["Meine Familie wohnt in der Schillerstraße in Hamburg.", "Sie wohnt in Damaskus, in der Bagdad-Straße."], "key_points": ["wohnt mit er/sie", "in der …straße"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-06-ask-spelling",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "لم تعرف كيف يُكتب اسم موظفة. اطلب منها التهجئة بأدب.",
+          "prompt_de": "Sie wissen nicht, wie man den Namen schreibt. Was fragen Sie?",
+          "reference_answers": ["Wie schreibt man das?", "Können Sie das bitte buchstabieren?", "Wie schreibt man Ihren Namen, bitte?"],
+          "key_points": ["Frage nach der Schreibweise", "höflich mit „bitte“ ist gut"],
+          "hint_de": "Wie schreibt man …?",
+          "hint_ar": "Wie schreibt man das? = كيف يُكتب هذا؟",
+          "explanation_ar": "man = ضمير عام بمعنى «المرء/الناس»، والفعل معه مثل er: man schreibt.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie haben eine Zahl nicht verstanden. Was sagen Sie?", "instruction_ar": "لم تفهم رقمًا. اطلب الإعادة.", "reference_answers": ["Können Sie die Zahl bitte wiederholen?", "Entschuldigung, wie bitte?", "Noch einmal, bitte."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-06-gap-question-word",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "word_order",
+          "instruction_ar": "أكمل بكلمة السؤال المناسبة: Wie أو Wo أو Woher.",
+          "prompt_de": "Ergänzen Sie: ___ wohnen Sie? – In Dresden.",
+          "reference_answers": ["Wo wohnen Sie?", "Wo"],
+          "hint_de": "Ort → Wo?",
+          "hint_ar": "السؤال عن المكان يكون بـ Wo.",
+          "explanation_ar": "Wo = أين (المكان)، Woher = من أين (الأصل)، Wie = كيف/ما.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: ___ kommen Sie? – Aus Ägypten.", "instruction_ar": "أكمل بكلمة السؤال المناسبة.", "reference_answers": ["Woher kommen Sie?", "Woher"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-06-listen-number",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع ثم اكتب رقم الهاتف بالأرقام.",
+          "prompt_de": "Wie ist die Telefonnummer?",
+          "context_de": "Meine Nummer ist null eins fünf zwei, drei drei vier, sechs eins neun.",
+          "context_mode": "listen",
+          "reference_answers": ["0152 334 619", "0152334619", "Die Nummer ist 0152 334 619."],
+          "key_points": ["0152 334 619 (Leerzeichen egal)"],
+          "hint_de": "null – eins – fünf – zwei …",
+          "hint_ar": "اكتب الأرقام واحدًا واحدًا كما تسمعها.",
+          "explanation_ar": "null = 0، eins = 1، zwei = 2، drei = 3، vier = 4، fünf = 5، sechs = 6، neun = 9.",
+          "transfer_tasks": [
+            {"prompt_de": "Jemand sagt: „Die Postleitzahl ist null vier eins null neun.“ Schreiben Sie die Postleitzahl.", "instruction_ar": "اكتب الرمز البريدي بالأرقام.", "reference_answers": ["04109", "Die Postleitzahl ist 04109."]}
+          ],
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "slug": "a1-07-family",
+      "level": "A1",
+      "category": "family",
+      "sort_order": 30,
+      "title_de": "Meine Familie",
+      "title_ar": "عائلتي",
+      "objective_ar": "أن تتحدّث عن أفراد عائلتك وأعمارهم وأماكن سكنهم، وأن تسأل عن عائلة الآخرين.",
+      "description_ar": "أدوات الملكية mein/meine، dein، Ihr، والفعل haben.",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": ["a1-06-contact-details"],
+      "estimated_minutes": 45,
+      "review_targets": ["pronoun", "verb_conjugation"],
+      "grammar_notes": [
+        {
+          "title_ar": "mein أو meine؟",
+          "body_ar": "مع المذكر والمحايد: mein (mein Vater، mein Kind). مع المؤنث والجمع: meine (meine Mutter، meine Eltern). وكذلك dein/deine وIhr/Ihre.",
+          "examples_de": ["Mein Bruder heißt Omar.", "Meine Schwester wohnt in Bonn.", "Wie heißt Ihre Mutter?"]
+        },
+        {
+          "title_ar": "الفعل haben",
+          "body_ar": "ich habe، du hast، er/sie hat، wir haben، Sie haben.",
+          "examples_de": ["Ich habe zwei Kinder.", "Hast du Geschwister?", "Sie hat einen Bruder."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Lena", "de": "Hast du Geschwister?", "ar": "هل لديك إخوة؟"},
+        {"speaker": "Amal", "de": "Ja, ich habe zwei Brüder und eine Schwester.", "ar": "نعم، لديّ أخوان وأخت."},
+        {"speaker": "Lena", "de": "Wo wohnen sie?", "ar": "أين يسكنون؟"},
+        {"speaker": "Amal", "de": "Meine Schwester wohnt hier in München, meine Brüder wohnen noch in Syrien.", "ar": "أختي تسكن هنا في ميونخ، وأخواي ما زالا يسكنان في سوريا."}
+      ],
+      "vocabulary": [
+        {"de": "Mutter", "article": "die", "plural": "Mütter", "ar": "الأم", "example_de": "Meine Mutter heißt Layla."},
+        {"de": "Vater", "article": "der", "plural": "Väter", "ar": "الأب", "example_de": "Mein Vater ist 60 Jahre alt."},
+        {"de": "Bruder", "article": "der", "plural": "Brüder", "ar": "الأخ", "example_de": "Mein Bruder wohnt in Berlin."},
+        {"de": "Schwester", "article": "die", "plural": "Schwestern", "ar": "الأخت", "example_de": "Ich habe eine Schwester."},
+        {"de": "Kind", "article": "das", "plural": "Kinder", "ar": "الطفل", "example_de": "Wir haben drei Kinder."},
+        {"de": "Eltern", "pos": "noun", "ar": "الوالدان", "example_de": "Meine Eltern wohnen in Aleppo."},
+        {"de": "Geschwister", "pos": "noun", "ar": "الإخوة والأخوات", "example_de": "Hast du Geschwister?"},
+        {"de": "ledig", "pos": "adjective", "ar": "أعزب / عزباء", "example_de": "Ich bin ledig."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-07-siblings",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أجب: هل لديك إخوة؟ كم عددهم؟",
+          "prompt_de": "Haben Sie Geschwister?",
+          "reference_answers": ["Ja, ich habe zwei Brüder und eine Schwester.", "Ja, ich habe einen Bruder.", "Nein, ich habe keine Geschwister."],
+          "key_points": ["Antwort mit „Ich habe …“", "einen Bruder (Akkusativ), eine Schwester", "„keine Geschwister“ ist auch richtig"],
+          "hint_de": "Ja, ich habe …",
+          "hint_ar": "استخدم Ich habe … وانتبه: einen Bruder.",
+          "explanation_ar": "بعد haben يأتي Akkusativ: der Bruder ← einen Bruder.",
+          "transfer_tasks": [
+            {"prompt_de": "Haben Sie Kinder?", "instruction_ar": "أجب: هل لديك أطفال؟", "reference_answers": ["Ja, ich habe zwei Kinder.", "Ja, ich habe eine Tochter.", "Nein, ich habe keine Kinder."], "key_points": ["„Ich habe …“", "keine Kinder bei Verneinung"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-07-gap-possessive",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "أكمل بـ mein أو meine.",
+          "prompt_de": "Ergänzen Sie: ___ Schwester heißt Rana.",
+          "reference_answers": ["Meine Schwester heißt Rana.", "Meine", "meine"],
+          "hint_de": "die Schwester → …e",
+          "hint_ar": "Schwester مؤنث.",
+          "explanation_ar": "مع الاسم المؤنث نستخدم meine.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: ___ Vater arbeitet in einem Restaurant.", "instruction_ar": "أكمل بـ mein أو meine.", "reference_answers": ["Mein Vater arbeitet in einem Restaurant.", "Mein", "mein"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-07-describe-family",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "صِف عائلتك في جملتين أو ثلاث: من هم؟ وأين يسكنون؟",
+          "prompt_de": "Erzählen Sie von Ihrer Familie.",
+          "reference_answers": ["Meine Familie ist groß. Mein Vater heißt Ahmad und meine Mutter heißt Huda. Ich habe zwei Brüder."],
+          "key_points": ["Mindestens zwei Sätze", "mein/meine richtig", "Verb richtig konjugiert"],
+          "hint_de": "Mein Vater heißt … Meine Mutter …",
+          "hint_ar": "استخدم mein مع Vater وmeine مع Mutter.",
+          "explanation_ar": "كل جملة تحتاج فعلًا مصرَّفًا في المكان الثاني: Mein Vater heißt …",
+          "transfer_tasks": [
+            {"prompt_de": "Erzählen Sie von einem Freund oder einer Freundin: Wie heißt er/sie, wie alt ist er/sie, wo wohnt er/sie?", "instruction_ar": "صِف صديقًا أو صديقة في جملتين.", "reference_answers": ["Mein Freund heißt Karim. Er ist 30 Jahre alt und wohnt in Essen."], "key_points": ["er/sie + Verb richtig", "mindestens zwei Informationen"]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-07-ask-family",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "اسأل زميلتك في الدورة (بصيغة du) عن اسم أمّها.",
+          "prompt_de": "Fragen Sie Ihre Kollegin im Kurs (du): Wie heißt ihre Mutter?",
+          "reference_answers": ["Wie heißt deine Mutter?"],
+          "key_points": ["„deine Mutter“ (du-Form, feminin)"],
+          "hint_de": "Wie heißt deine …?",
+          "hint_ar": "مع du نقول dein/deine.",
+          "explanation_ar": "du ← dein/deine؛ Sie ← Ihr/Ihre (بحرف كبير).",
+          "transfer_tasks": [
+            {"prompt_de": "Fragen Sie jetzt höflich (Sie) Ihren Nachbarn: Wie alt ist sein Sohn?", "instruction_ar": "اسأل الجار بصيغة Sie عن عمر ابنه.", "reference_answers": ["Wie alt ist Ihr Sohn?"], "key_points": ["„Ihr Sohn“ (Sie-Form)"]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-07-translate-married",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "ترجم: «أنا متزوّج ولديّ ابن واحد.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich bin verheiratet und habe einen Sohn.", "Ich bin verheiratet und ich habe einen Sohn."],
+          "hint_de": "Ich bin … und habe …",
+          "hint_ar": "متزوّج = verheiratet (مع sein).",
+          "explanation_ar": "der Sohn ← einen Sohn بعد haben.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «أختي عزباء وتسكن في كولونيا.»", "reference_answers": ["Meine Schwester ist ledig und wohnt in Köln."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a1-08-hobbies",
+      "level": "A1",
+      "category": "free_time",
+      "sort_order": 50,
+      "title_de": "Hobbys und Freizeit",
+      "title_ar": "الهوايات ووقت الفراغ",
+      "objective_ar": "أن تتحدّث عمّا تحب فعله، وتسأل أسئلة نعم/لا، وتنفي بـ nicht.",
+      "description_ar": "gern / nicht gern، أسئلة نعم/لا (الفعل أولًا)، والنفي بـ nicht.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a1-02-numbers-time"],
+      "estimated_minutes": 45,
+      "review_targets": ["word_order", "negation"],
+      "grammar_notes": [
+        {
+          "title_ar": "سؤال نعم/لا",
+          "body_ar": "في سؤال نعم/لا يأتي الفعل أولًا: Spielst du Fußball? Kochen Sie gern?",
+          "examples_de": ["Lesen Sie gern?", "Spielst du Gitarre?"]
+        },
+        {
+          "title_ar": "gern و nicht",
+          "body_ar": "gern بعد الفعل = أحبّ أن أفعل. للنفي: nicht gern. nicht ينفي الفعل أو الجملة، وkein ينفي الاسم النكرة.",
+          "examples_de": ["Ich koche gern.", "Ich tanze nicht gern.", "Ich spiele nicht Fußball."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Tom", "de": "Was machst du gern in deiner Freizeit?", "ar": "ماذا تحب أن تفعل في وقت فراغك؟"},
+        {"speaker": "Yusuf", "de": "Ich spiele gern Fußball und ich koche gern.", "ar": "أحب لعب كرة القدم وأحب الطبخ."},
+        {"speaker": "Tom", "de": "Liest du auch gern?", "ar": "هل تحب القراءة أيضًا؟"},
+        {"speaker": "Yusuf", "de": "Nein, ich lese nicht so gern. Und du?", "ar": "لا، لا أحب القراءة كثيرًا. وأنت؟"}
+      ],
+      "vocabulary": [
+        {"de": "Freizeit", "article": "die", "ar": "وقت الفراغ", "example_de": "In der Freizeit spiele ich Fußball."},
+        {"de": "Hobby", "article": "das", "plural": "Hobbys", "ar": "الهواية", "example_de": "Mein Hobby ist Kochen."},
+        {"de": "spielen", "pos": "verb", "ar": "يلعب", "example_de": "Wir spielen am Sonntag Fußball."},
+        {"de": "lesen", "pos": "verb", "ar": "يقرأ", "example_de": "Er liest gern Bücher."},
+        {"de": "schwimmen", "pos": "verb", "ar": "يسبح", "example_de": "Im Sommer schwimme ich oft."},
+        {"de": "kochen", "pos": "verb", "ar": "يطبخ", "example_de": "Meine Mutter kocht sehr gut."},
+        {"de": "gern", "pos": "adverb", "ar": "بِرغبة / أحبّ", "example_de": "Ich höre gern Musik."},
+        {"de": "oft", "pos": "adverb", "ar": "غالبًا / كثيرًا", "example_de": "Ich gehe oft spazieren."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-08-free-time",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "قل ماذا تحب أن تفعل في وقت فراغك (نشاطان على الأقل).",
+          "prompt_de": "Was machen Sie gern in Ihrer Freizeit?",
+          "reference_answers": ["Ich spiele gern Fußball und ich lese gern.", "In meiner Freizeit koche ich gern.", "Ich höre gern Musik und gehe gern spazieren."],
+          "key_points": ["Verb + gern", "Verb an Position 2", "Jede Aktivität ist richtig"],
+          "hint_de": "Ich … gern …",
+          "hint_ar": "ضع gern بعد الفعل: Ich koche gern.",
+          "explanation_ar": "إذا بدأت بـ In meiner Freizeit يأتي الفعل بعدها مباشرة: In meiner Freizeit koche ich gern.",
+          "transfer_tasks": [
+            {"prompt_de": "Was macht Ihre Familie gern am Wochenende?", "instruction_ar": "ماذا تحب عائلتك أن تفعل في عطلة نهاية الأسبوع؟", "reference_answers": ["Am Wochenende gehen wir gern in den Park.", "Meine Familie grillt gern am Wochenende."], "key_points": ["gern", "Verb richtig für wir/sie"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-08-yes-no-question",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "word_order",
+          "instruction_ar": "حوّل الجملة إلى سؤال نعم/لا.",
+          "prompt_de": "Machen Sie eine Ja/Nein-Frage: Du spielst Gitarre.",
+          "reference_answers": ["Spielst du Gitarre?"],
+          "hint_de": "Spielst du …?",
+          "hint_ar": "الفعل في أول السؤال.",
+          "explanation_ar": "في سؤال نعم/لا: الفعل ← الفاعل ← الباقي.",
+          "transfer_tasks": [
+            {"prompt_de": "Machen Sie eine Ja/Nein-Frage: Sie kochen gern.", "instruction_ar": "حوّل إلى سؤال نعم/لا.", "reference_answers": ["Kochen Sie gern?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-08-negation-nicht",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "negation",
+          "instruction_ar": "انفِ الجملة باستخدام nicht.",
+          "prompt_de": "Verneinen Sie mit „nicht“: Ich tanze gern.",
+          "reference_answers": ["Ich tanze nicht gern."],
+          "hint_de": "… nicht gern.",
+          "hint_ar": "nicht يأتي قبل gern.",
+          "explanation_ar": "Ich tanze nicht gern = لا أحب الرقص.",
+          "transfer_tasks": [
+            {"prompt_de": "Verneinen Sie mit „nicht“: Er schwimmt oft.", "instruction_ar": "انفِ الجملة بـ nicht.", "reference_answers": ["Er schwimmt nicht oft."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-08-gap-lesen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل lesen (انتبه: يتغيّر حرف العلّة).",
+          "prompt_de": "Ergänzen Sie „lesen“: Sie ___ gern Romane. (sie = Singular)",
+          "reference_answers": ["Sie liest gern Romane.", "liest"],
+          "hint_de": "e → ie",
+          "hint_ar": "lesen مع er/sie: liest.",
+          "explanation_ar": "بعض الأفعال يتغيّر فيها e إلى ie أو i مع du وer/sie: lesen ← liest، sprechen ← spricht.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „sprechen“: Er ___ drei Sprachen.", "instruction_ar": "أكمل بالشكل الصحيح للفعل sprechen.", "reference_answers": ["Er spricht drei Sprachen.", "spricht"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-08-ask-hobby",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "اسأل شخصًا جديدًا (du) سؤالين عن هواياته.",
+          "prompt_de": "Sie lernen eine neue Person kennen (du). Stellen Sie zwei Fragen zu ihren Hobbys.",
+          "reference_answers": ["Was machst du gern? Spielst du Fußball?", "Hast du ein Hobby? Liest du gern?"],
+          "key_points": ["Zwei Fragen", "du-Form richtig (machst, spielst, liest)"],
+          "hint_de": "Was machst du …? Spielst du …?",
+          "hint_ar": "مع du ينتهي الفعل بـ ‎-st‎.",
+          "explanation_ar": "machen ← du machst، spielen ← du spielst.",
+          "transfer_tasks": [
+            {"prompt_de": "Stellen Sie die zwei Fragen jetzt höflich mit „Sie“.", "instruction_ar": "اطرح السؤالين بصيغة Sie.", "reference_answers": ["Was machen Sie gern? Spielen Sie Fußball?"], "key_points": ["Sie-Form: machen Sie, spielen Sie"]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a1-09-meals",
+      "level": "A1",
+      "category": "food",
+      "sort_order": 70,
+      "title_de": "Mahlzeiten und Essgewohnheiten",
+      "title_ar": "الوجبات وعادات الأكل",
+      "objective_ar": "أن تتحدّث عن وجباتك اليومية وما تحبه من الطعام وكم مرة تأكله.",
+      "description_ar": "ظروف التكرار (immer، oft، manchmal، nie) وزمن الوجبات (zum Frühstück، zum Mittagessen).",
+      "skills": ["speaking", "vocabulary", "grammar"],
+      "prerequisites": ["a1-03-shopping-food"],
+      "estimated_minutes": 45,
+      "review_targets": ["word_order", "case_accusative"],
+      "grammar_notes": [
+        {
+          "title_ar": "كم مرة؟",
+          "body_ar": "immer (دائمًا) – oft (غالبًا) – manchmal (أحيانًا) – selten (نادرًا) – nie (أبدًا). تأتي عادة بعد الفعل.",
+          "examples_de": ["Ich trinke immer Tee.", "Wir essen manchmal Fisch.", "Er isst nie Fleisch."]
+        },
+        {
+          "title_ar": "zum Frühstück",
+          "body_ar": "zum Frühstück / zum Mittagessen / zum Abendessen = في الفطور / الغداء / العشاء.",
+          "examples_de": ["Zum Frühstück esse ich Brot mit Käse."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Anna", "de": "Was isst du zum Frühstück?", "ar": "ماذا تأكل في الفطور؟"},
+        {"speaker": "Hani", "de": "Zum Frühstück esse ich Brot mit Käse und Oliven. Und ich trinke immer Tee.", "ar": "في الفطور آكل خبزًا مع جبن وزيتون. وأشرب الشاي دائمًا."},
+        {"speaker": "Anna", "de": "Und mittags?", "ar": "وفي الظهر؟"},
+        {"speaker": "Hani", "de": "Mittags esse ich meistens in der Kantine.", "ar": "في الظهر آكل غالبًا في مطعم العمل."}
+      ],
+      "vocabulary": [
+        {"de": "Mittagessen", "article": "das", "ar": "الغداء", "example_de": "Das Mittagessen ist um zwölf Uhr."},
+        {"de": "Abendessen", "article": "das", "ar": "العشاء", "example_de": "Zum Abendessen essen wir Suppe."},
+        {"de": "Käse", "article": "der", "ar": "الجبن", "example_de": "Ich esse gern Käse."},
+        {"de": "Reis", "article": "der", "ar": "الأرز", "example_de": "Wir kochen oft Reis mit Gemüse."},
+        {"de": "Gemüse", "article": "das", "ar": "الخضار", "example_de": "Gemüse ist gesund."},
+        {"de": "Hähnchen", "article": "das", "plural": "Hähnchen", "ar": "الدجاج", "example_de": "Heute gibt es Hähnchen."},
+        {"de": "manchmal", "pos": "adverb", "ar": "أحيانًا", "example_de": "Manchmal esse ich im Restaurant."},
+        {"de": "nie", "pos": "adverb", "ar": "أبدًا", "example_de": "Ich trinke nie Kaffee am Abend."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-09-breakfast",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "قل ماذا تأكل وتشرب في الفطور.",
+          "prompt_de": "Was essen und trinken Sie zum Frühstück?",
+          "reference_answers": ["Zum Frühstück esse ich Brot mit Käse und trinke Tee.", "Ich esse Eier und trinke Kaffee.", "Zum Frühstück esse ich Müsli."],
+          "key_points": ["essen/trinken richtig konjugiert", "Nach „Zum Frühstück“ steht das Verb an Position 2"],
+          "hint_de": "Zum Frühstück esse ich …",
+          "hint_ar": "بعد Zum Frühstück يأتي الفعل ثم ich.",
+          "explanation_ar": "essen ← ich esse، du isst، er isst.",
+          "transfer_tasks": [
+            {"prompt_de": "Was essen Sie gern zum Abendessen?", "instruction_ar": "ماذا تحب أن تأكل في العشاء؟", "reference_answers": ["Zum Abendessen esse ich gern Suppe.", "Ich esse gern Reis mit Hähnchen zum Abendessen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-09-frequency",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "word_order",
+          "instruction_ar": "أضف كلمة manchmal (أحيانًا) إلى الجملة في المكان الصحيح.",
+          "prompt_de": "Ergänzen Sie „manchmal“: Wir essen im Restaurant.",
+          "reference_answers": ["Wir essen manchmal im Restaurant.", "Manchmal essen wir im Restaurant."],
+          "hint_de": "Wir essen manchmal …",
+          "hint_ar": "ضع manchmal بعد الفعل، أو في أول الجملة ثم الفعل.",
+          "explanation_ar": "إذا بدأت بـ Manchmal يأتي الفعل ثانيًا: Manchmal essen wir …",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „nie“: Er trinkt Alkohol.", "instruction_ar": "أضف nie إلى الجملة.", "reference_answers": ["Er trinkt nie Alkohol."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-09-gap-essen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل essen.",
+          "prompt_de": "Ergänzen Sie „essen“: Was ___ du gern?",
+          "reference_answers": ["Was isst du gern?", "isst"],
+          "hint_de": "du → isst",
+          "hint_ar": "essen فعل يتغيّر: e ← i مع du وer.",
+          "explanation_ar": "ich esse، du isst، er/sie isst.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „nehmen“: Was ___ er? – Er nimmt die Suppe.", "instruction_ar": "أكمل بالشكل الصحيح للفعل nehmen.", "reference_answers": ["Was nimmt er?", "nimmt"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-09-favorite-food",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "تحدّث عن طعامك المفضّل في جملتين: ما هو؟ ومتى تأكله؟",
+          "prompt_de": "Was ist Ihr Lieblingsessen? Wann essen Sie es?",
+          "reference_answers": ["Mein Lieblingsessen ist Maqluba. Ich esse es oft am Freitag mit meiner Familie."],
+          "key_points": ["Mindestens zwei Sätze", "Lieblingsessen nennen", "Zeitangabe oder Häufigkeit"],
+          "hint_de": "Mein Lieblingsessen ist … Ich esse es …",
+          "hint_ar": "Lieblingsessen = الطعام المفضّل. es = هو (للطعام المحايد).",
+          "explanation_ar": "das Essen محايد، لذلك نقول: Ich esse es.",
+          "transfer_tasks": [
+            {"prompt_de": "Was ist Ihr Lieblingsgetränk? Wann trinken Sie es?", "instruction_ar": "ما مشروبك المفضّل ومتى تشربه؟", "reference_answers": ["Mein Lieblingsgetränk ist Tee. Ich trinke ihn jeden Morgen.", "Mein Lieblingsgetränk ist Kaffee. Ich trinke ihn am Nachmittag."]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-09-read-menu",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ قائمة مطعم العمل ثم أجب.",
+          "prompt_de": "Was gibt es am Mittwoch und was kostet es?",
+          "context_de": "Kantine – Wochenplan\nMontag: Gemüsesuppe – 3,50 €\nDienstag: Hähnchen mit Reis – 5,90 €\nMittwoch: Fisch mit Kartoffeln – 6,20 €\nDonnerstag: Pizza – 4,80 €",
+          "context_mode": "read",
+          "reference_answers": ["Am Mittwoch gibt es Fisch mit Kartoffeln. Das kostet 6,20 Euro.", "Fisch mit Kartoffeln für 6,20 €."],
+          "key_points": ["Fisch mit Kartoffeln", "6,20 €"],
+          "hint_de": "Am Mittwoch gibt es …",
+          "hint_ar": "ابحث عن سطر Mittwoch.",
+          "explanation_ar": "es gibt = يوجد / هناك: Am Mittwoch gibt es Fisch.",
+          "transfer_tasks": [
+            {"prompt_de": "In der Kantine gibt es am Freitag „Falafel mit Salat – 4,50 €“. Was gibt es am Freitag und was kostet es?", "instruction_ar": "أجب عن يوم الجمعة.", "reference_answers": ["Am Freitag gibt es Falafel mit Salat. Das kostet 4,50 Euro."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-10-quantities",
+      "level": "A1",
+      "category": "shopping",
+      "sort_order": 80,
+      "title_de": "Mengen, Preise und Plural",
+      "title_ar": "الكميات والأسعار والجمع",
+      "objective_ar": "أن تشتري كميات محددة، وتسأل عن الأسعار، وتستخدم صيغ الجمع الأساسية.",
+      "description_ar": "ein Kilo / eine Packung / ein Liter، Wie viel kostet …؟ والجمع (Äpfel، Tomaten، Eier).",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": ["a1-09-meals"],
+      "estimated_minutes": 45,
+      "review_targets": ["plural", "case_accusative"],
+      "grammar_notes": [
+        {
+          "title_ar": "الجمع",
+          "body_ar": "للجمع نهايات مختلفة؛ تعلّم كل اسم مع جمعه: die Tomate – die Tomaten، der Apfel – die Äpfel، das Ei – die Eier. أداة الجمع دائمًا die.",
+          "examples_de": ["Ich kaufe drei Tomaten.", "Die Äpfel sind frisch."]
+        },
+        {
+          "title_ar": "الكميات",
+          "body_ar": "بعد الكمية يأتي الاسم مباشرة بدون أداة: ein Kilo Äpfel، eine Flasche Wasser، 200 Gramm Käse.",
+          "examples_de": ["Ich möchte ein Kilo Tomaten.", "Eine Packung Reis, bitte."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Verkäufer", "de": "Guten Tag, was darf es sein?", "ar": "نهارك سعيد، ماذا تريد؟"},
+        {"speaker": "Mona", "de": "Ich hätte gern ein Kilo Tomaten und sechs Eier.", "ar": "أريد كيلو طماطم وست بيضات."},
+        {"speaker": "Verkäufer", "de": "Sonst noch etwas?", "ar": "شيء آخر؟"},
+        {"speaker": "Mona", "de": "Ja, wie viel kostet der Käse?", "ar": "نعم، كم سعر الجبن؟"},
+        {"speaker": "Verkäufer", "de": "100 Gramm kosten 1,90 Euro.", "ar": "مئة غرام بـ 1,90 يورو."}
+      ],
+      "vocabulary": [
+        {"de": "Kilo", "article": "das", "ar": "الكيلو", "example_de": "Ein Kilo Äpfel kostet 2 Euro."},
+        {"de": "Gramm", "article": "das", "ar": "الغرام", "example_de": "200 Gramm Käse, bitte."},
+        {"de": "Liter", "article": "der", "ar": "اللتر", "example_de": "Ein Liter Milch."},
+        {"de": "Packung", "article": "die", "plural": "Packungen", "ar": "العلبة / العبوة", "example_de": "Eine Packung Reis."},
+        {"de": "Tomate", "article": "die", "plural": "Tomaten", "ar": "الطماطم", "example_de": "Die Tomaten sind im Angebot."},
+        {"de": "Ei", "article": "das", "plural": "Eier", "ar": "البيضة", "example_de": "Ich brauche sechs Eier."},
+        {"de": "Milch", "article": "die", "ar": "الحليب", "example_de": "Die Milch ist alle."},
+        {"de": "teuer", "pos": "adjective", "ar": "غالٍ", "example_de": "Das ist zu teuer."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-10-buy-quantity",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "أنت في السوق. اطلب كيلو طماطم وست بيضات.",
+          "prompt_de": "Sie sind auf dem Markt. Kaufen Sie ein Kilo Tomaten und sechs Eier.",
+          "reference_answers": ["Ich möchte ein Kilo Tomaten und sechs Eier, bitte.", "Ich hätte gern ein Kilo Tomaten und sechs Eier.", "Ein Kilo Tomaten und sechs Eier, bitte."],
+          "key_points": ["ein Kilo Tomaten", "sechs Eier (Plural)", "höflich"],
+          "hint_de": "Ich hätte gern ein Kilo …",
+          "hint_ar": "بعد Kilo يأتي الاسم مباشرة بالجمع: ein Kilo Tomaten.",
+          "explanation_ar": "Ei ← Eier في الجمع.",
+          "transfer_tasks": [
+            {"prompt_de": "Kaufen Sie jetzt 200 Gramm Käse und einen Liter Milch.", "instruction_ar": "اطلب 200 غرام جبن ولتر حليب.", "reference_answers": ["Ich möchte 200 Gramm Käse und einen Liter Milch, bitte.", "200 Gramm Käse und einen Liter Milch, bitte."], "key_points": ["einen Liter (Akkusativ, der Liter)"]}
+          ],
+          "difficulty": 1,
+          "min_words": 5
+        },
+        {
+          "slug": "a1-10-ask-price",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "اسأل البائع عن سعر التفاح.",
+          "prompt_de": "Fragen Sie nach dem Preis für die Äpfel.",
+          "reference_answers": ["Wie viel kosten die Äpfel?", "Was kosten die Äpfel?", "Entschuldigung, wie viel kosten die Äpfel?"],
+          "key_points": ["„kosten“ im Plural (die Äpfel)"],
+          "hint_de": "Wie viel kosten …?",
+          "hint_ar": "Äpfel جمع، لذلك الفعل kosten وليس kostet.",
+          "explanation_ar": "der Apfel kostet / die Äpfel kosten.",
+          "transfer_tasks": [
+            {"prompt_de": "Fragen Sie nach dem Preis für das Brot.", "instruction_ar": "اسأل عن سعر الخبز.", "reference_answers": ["Wie viel kostet das Brot?", "Was kostet das Brot?"], "key_points": ["„kostet“ im Singular"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-10-plural",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "plural",
+          "instruction_ar": "اكتب صيغة الجمع.",
+          "prompt_de": "Schreiben Sie den Plural: die Tomate → die ___",
+          "reference_answers": ["Tomaten", "die Tomaten"],
+          "hint_de": "-n",
+          "hint_ar": "كثير من الأسماء المؤنثة المنتهية بـ ‎-e‎ تأخذ ‎-n‎ في الجمع.",
+          "explanation_ar": "die Tomate – die Tomaten، die Flasche – die Flaschen.",
+          "transfer_tasks": [
+            {"prompt_de": "Schreiben Sie den Plural: das Ei → die ___", "instruction_ar": "اكتب صيغة الجمع.", "reference_answers": ["Eier", "die Eier"]},
+            {"prompt_de": "Schreiben Sie den Plural: der Apfel → die ___", "instruction_ar": "اكتب صيغة الجمع.", "reference_answers": ["Äpfel", "die Äpfel"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-10-listen-price",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى البائع: كم تكلّف ثلاثة كيلو بطاطس؟",
+          "prompt_de": "Wie viel kosten die Kartoffeln?",
+          "context_de": "Die Kartoffeln kosten heute nur ein Euro zwanzig das Kilo. Drei Kilo kosten also drei Euro sechzig.",
+          "context_mode": "listen",
+          "reference_answers": ["Drei Kilo kosten drei Euro sechzig.", "3,60 Euro.", "Drei Euro sechzig."],
+          "key_points": ["3,60 € für drei Kilo"],
+          "hint_de": "Drei Kilo kosten also …",
+          "hint_ar": "انتبه إلى الجملة الأخيرة.",
+          "explanation_ar": "ein Euro zwanzig = ‎1,20‎ للكيلو، وثلاثة كيلو = ‎3,60‎.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Verkäuferin sagt: „Die Bananen kosten zwei Euro zehn.“ Wie viel kosten die Bananen?", "instruction_ar": "كم سعر الموز؟", "reference_answers": ["Die Bananen kosten zwei Euro zehn.", "2,10 Euro.", "Zwei Euro zehn."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-10-too-expensive",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "ترجم: «هذا غالٍ جدًا. هل عندكم شيء أرخص؟»",
+          "prompt_de": "Übersetzen Sie die Sätze ins Deutsche.",
+          "reference_answers": ["Das ist zu teuer. Haben Sie etwas Billigeres?", "Das ist zu teuer. Haben Sie etwas Günstigeres?", "Das ist sehr teuer. Haben Sie etwas Billigeres?"],
+          "hint_de": "Das ist zu … Haben Sie etwas …?",
+          "hint_ar": "zu teuer = غالٍ أكثر من اللازم.",
+          "explanation_ar": "etwas Billigeres = شيء أرخص (الصفة تُكتب بحرف كبير بعد etwas).",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «الطماطم طازجة اليوم.»", "reference_answers": ["Die Tomaten sind heute frisch.", "Heute sind die Tomaten frisch."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    }
+  ]
+}

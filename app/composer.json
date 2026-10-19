@@ -1,0 +1,39 @@
+{
+    "name": "private/german-ai-coach",
+    "description": "Personal AI-assisted German tutor for Arabic-speaking learners (PHP + MySQL, shared-hosting friendly).",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GermanCoach\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GermanCoach\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:unit": "phpunit --testsuite unit",
+        "test:integration": "phpunit --testsuite integration"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2.0"
+        }
+    }
+}

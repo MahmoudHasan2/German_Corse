@@ -1,0 +1,39 @@
+{
+  "_comment": "Editable pricing metadata in USD. NOT used as a guarantee — verify at the source URL and update 'as_of' when prices change. Rates per 1M tokens unless noted.",
+  "as_of": "2026-10-18",
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "currency": "USD",
+  "models": {
+    "gpt-5-mini": {"service": "text", "input_per_1m": 0.25, "cached_input_per_1m": 0.025, "output_per_1m": 2.00},
+    "gpt-5-nano": {"service": "text", "input_per_1m": 0.05, "cached_input_per_1m": 0.005, "output_per_1m": 0.40},
+    "gpt-5.4-mini": {"service": "text", "input_per_1m": 0.75, "cached_input_per_1m": 0.075, "output_per_1m": 4.50},
+    "gpt-5.4-nano": {"service": "text", "input_per_1m": 0.20, "cached_input_per_1m": 0.02, "output_per_1m": 1.25},
+    "gpt-4.1-mini": {"service": "text", "input_per_1m": 0.40, "cached_input_per_1m": 0.10, "output_per_1m": 1.60},
+    "gpt-4o-mini": {"service": "text", "input_per_1m": 0.15, "cached_input_per_1m": 0.075, "output_per_1m": 0.60},
+
+    "gpt-4o-mini-transcribe": {"service": "stt", "per_minute": 0.003, "input_per_1m": 1.25, "output_per_1m": 5.00},
+    "gpt-4o-transcribe": {"service": "stt", "per_minute": 0.006, "input_per_1m": 2.50, "output_per_1m": 10.00},
+    "gpt-transcribe": {"service": "stt", "per_minute": 0.0045},
+    "whisper-1": {"service": "stt", "per_minute": 0.006},
+
+    "gpt-4o-mini-tts": {"service": "tts", "text_input_per_1m": 0.60, "audio_output_per_1m": 12.00, "estimated_per_minute": 0.015, "chars_per_minute": 750},
+    "tts-1": {"service": "tts", "per_1m_chars": 15.00},
+    "tts-1-hd": {"service": "tts", "per_1m_chars": 30.00},
+
+    "openai/gpt-oss-120b": {"service": "text", "input_per_1m": 0, "cached_input_per_1m": 0, "output_per_1m": 0, "_comment": "Groq free tier. If you upgrade to a paid Groq plan, enter the paid prices from console.groq.com"},
+    "openai/gpt-oss-20b": {"service": "text", "input_per_1m": 0, "cached_input_per_1m": 0, "output_per_1m": 0, "_comment": "Groq free tier"},
+    "whisper-large-v3": {"service": "stt", "per_minute": 0, "_comment": "Groq free tier (paid: about $0.111 per hour)"},
+    "whisper-large-v3-turbo": {"service": "stt", "per_minute": 0, "_comment": "Groq free tier (paid: about $0.04 per hour)"},
+    "gemini-3.5-flash-lite": {"service": "text", "input_per_1m": 0, "cached_input_per_1m": 0, "output_per_1m": 0, "_comment": "Gemini API free tier. Enter paid prices if you enable billing"},
+    "gemini-3.8-flash": {"service": "text", "input_per_1m": 0, "cached_input_per_1m": 0, "output_per_1m": 0, "_comment": "Gemini API free tier"},
+
+    "fake-tutor": {"service": "text", "input_per_1m": 0.25, "cached_input_per_1m": 0.025, "output_per_1m": 2.00, "_comment": "demo/test provider, priced like gpt-5-mini so limits behave realistically"},
+    "fake-stt": {"service": "stt", "per_minute": 0.003},
+    "fake-tts": {"service": "tts", "per_1m_chars": 15.00}
+  },
+  "fallback": {
+    "text": {"input_per_1m": 2.00, "cached_input_per_1m": 0.50, "output_per_1m": 10.00},
+    "stt": {"per_minute": 0.01},
+    "tts": {"per_1m_chars": 30.00}
+  }
+}

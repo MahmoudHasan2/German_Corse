@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-23-invitations",
+      "level": "A1",
+      "category": "social",
+      "sort_order": 230,
+      "title_de": "Einladungen und Verabredungen",
+      "title_ar": "الدعوات والمواعيد مع الأصدقاء",
+      "objective_ar": "أن تدعو شخصًا، وتقبل أو ترفض دعوة بلطف، وتتفق على وقت ومكان.",
+      "description_ar": "Hast du Zeit؟ Wollen wir …؟ وعبارات القبول والرفض والتهنئة.",
+      "skills": ["speaking", "writing"],
+      "prerequisites": ["a1-22-perfekt-intro"],
+      "estimated_minutes": 45,
+      "review_targets": ["register", "word_order"],
+      "grammar_notes": [
+        {
+          "title_ar": "الاقتراح",
+          "body_ar": "Wollen wir …? / Hast du Lust? / Kommst du mit? — كلها أسئلة نعم/لا يبدأ فيها الفعل.",
+          "examples_de": ["Wollen wir am Samstag ins Kino gehen?", "Hast du Lust auf Kaffee?"]
+        },
+        {
+          "title_ar": "القبول والرفض",
+          "body_ar": "قبول: Gern! / Gute Idee! / Ja, das passt. — رفض: Leider kann ich nicht. / Tut mir leid, ich habe keine Zeit.",
+          "examples_de": ["Ja, gern! Um wie viel Uhr?", "Leider kann ich am Samstag nicht."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Julia", "de": "Ich habe am Samstag Geburtstag. Kommst du zu meiner Party?", "ar": "عيد ميلادي يوم السبت. هل تأتي إلى حفلتي؟"},
+        {"speaker": "Hiba", "de": "Gern! Wann fängt die Party an?", "ar": "بكل سرور! متى تبدأ الحفلة؟"},
+        {"speaker": "Julia", "de": "Um sieben Uhr bei mir zu Hause.", "ar": "الساعة السابعة في بيتي."},
+        {"speaker": "Hiba", "de": "Super, ich komme. Soll ich etwas mitbringen?", "ar": "رائع، سآتي. هل أحضر معي شيئًا؟"}
+      ],
+      "vocabulary": [
+        {"de": "Einladung", "article": "die", "plural": "Einladungen", "ar": "الدعوة", "example_de": "Danke für die Einladung!"},
+        {"de": "einladen", "pos": "verb", "ar": "يدعو", "example_de": "Ich lade dich zum Essen ein."},
+        {"de": "Party", "article": "die", "plural": "Partys", "ar": "الحفلة", "example_de": "Die Party ist am Samstag."},
+        {"de": "Lust haben", "pos": "phrase", "ar": "يرغب / مزاجه لـ", "example_de": "Hast du Lust auf Kino?"},
+        {"de": "mitbringen", "pos": "verb", "ar": "يُحضر معه", "example_de": "Ich bringe einen Kuchen mit."},
+        {"de": "Idee", "article": "die", "plural": "Ideen", "ar": "الفكرة", "example_de": "Das ist eine gute Idee!"},
+        {"de": "treffen", "pos": "verb", "ar": "يلتقي", "example_de": "Wir treffen uns um acht."},
+        {"de": "Herzlichen Glückwunsch", "pos": "phrase", "ar": "تهانينا الحارة", "example_de": "Herzlichen Glückwunsch zum Geburtstag!"}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-23-invite",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "ادعُ زميلك (du) إلى السينما يوم الجمعة.",
+          "prompt_de": "Laden Sie einen Kollegen (du) am Freitag ins Kino ein.",
+          "reference_answers": ["Hast du am Freitag Zeit? Wollen wir ins Kino gehen?", "Kommst du am Freitag mit ins Kino?", "Wollen wir am Freitag ins Kino gehen?"],
+          "key_points": ["Einladung als Frage", "Freitag", "Kino"],
+          "hint_de": "Wollen wir am Freitag …?",
+          "hint_ar": "ins Kino gehen = الذهاب إلى السينما.",
+          "explanation_ar": "في سؤال نعم/لا يأتي الفعل أولًا: Wollen wir …?",
+          "transfer_tasks": [
+            {"prompt_de": "Laden Sie Ihre Nachbarin höflich (Sie) zum Kaffee ein.", "instruction_ar": "ادعُ جارتك بأدب لتناول القهوة.", "reference_answers": ["Haben Sie Lust auf einen Kaffee bei mir?", "Möchten Sie am Sonntag zum Kaffee kommen?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 5
+        },
+        {
+          "slug": "a1-23-accept",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "صديقتك تدعوك إلى حفلة. اقبل واسأل عن الوقت.",
+          "prompt_de": "Ihre Freundin lädt Sie zu ihrer Party ein. Sagen Sie zu und fragen Sie nach der Uhrzeit.",
+          "reference_answers": ["Gern! Um wie viel Uhr fängt die Party an?", "Ja, gern. Wann beginnt die Party?", "Danke, ich komme gern! Um wie viel Uhr?"],
+          "key_points": ["Zusage (gern / ja)", "Frage nach der Uhrzeit"],
+          "hint_de": "Gern! Um wie viel Uhr …?",
+          "hint_ar": "Um wie viel Uhr? = في أي ساعة؟",
+          "explanation_ar": "anfangen منفصل: Wann fängt die Party an?",
+          "transfer_tasks": [
+            {"prompt_de": "Ihr Kollege lädt Sie zum Grillen ein, aber Sie haben keine Zeit. Sagen Sie höflich ab.", "instruction_ar": "ارفض الدعوة بلطف.", "reference_answers": ["Danke, aber leider kann ich nicht. Ich habe keine Zeit.", "Tut mir leid, ich habe leider keine Zeit."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-23-congratulate",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "ترجم: «عيد ميلاد سعيد! شكرًا على الدعوة.»",
+          "prompt_de": "Übersetzen Sie ins Deutsche.",
+          "reference_answers": ["Herzlichen Glückwunsch zum Geburtstag! Danke für die Einladung.", "Alles Gute zum Geburtstag! Vielen Dank für die Einladung."],
+          "hint_de": "Herzlichen Glückwunsch zum … Danke für die …",
+          "hint_ar": "zum Geburtstag، für die Einladung.",
+          "explanation_ar": "Danke für + Akkusativ: für die Einladung.",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie ins Deutsche.", "instruction_ar": "ترجم: «عيد مبارك!» (بالتعبير الألماني الشائع)", "reference_answers": ["Frohes Fest!", "Ein schönes Fest!", "Ich wünsche dir ein schönes Fest!"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-23-read-invitation",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الدعوة ثم أجب: متى وأين الحفلة؟ وماذا يجب أن تحضر؟",
+          "prompt_de": "Wann und wo ist das Fest, und was soll man mitbringen?",
+          "context_de": "Liebe Nachbarn, am Sonntag, den 14. Juli, feiern wir unser Hoffest! Beginn: 15 Uhr im Hof, Goethestraße 8. Bitte bringt einen Salat oder einen Kuchen mit. Getränke gibt es bei uns. Viele Grüße, Familie Weber",
+          "context_mode": "read",
+          "reference_answers": ["Das Fest ist am Sonntag, den 14. Juli, um 15 Uhr im Hof in der Goethestraße 8. Man soll einen Salat oder einen Kuchen mitbringen."],
+          "key_points": ["Sonntag, 14. Juli, 15 Uhr", "im Hof, Goethestraße 8", "Salat oder Kuchen"],
+          "hint_de": "am Sonntag … um … im Hof … Salat oder …",
+          "hint_ar": "Hof = الفناء، Hoffest = حفلة في فناء البيت.",
+          "explanation_ar": "Getränke gibt es bei uns = المشروبات علينا.",
+          "transfer_tasks": [
+            {"prompt_de": "Muss man Getränke mitbringen?", "instruction_ar": "هل يجب إحضار مشروبات؟", "reference_answers": ["Nein, Getränke gibt es bei Familie Weber.", "Nein."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "a1-23-gap-trennbar",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "separable_verb",
+          "instruction_ar": "أكمل بالفعل mitbringen (الجملة كاملة).",
+          "prompt_de": "Ergänzen Sie „mitbringen“: Ich ___ einen Kuchen ___.",
+          "reference_answers": ["Ich bringe einen Kuchen mit."],
+          "hint_de": "bringe … mit",
+          "hint_ar": "mit يذهب إلى نهاية الجملة.",
+          "explanation_ar": "mitbringen منفصل: Ich bringe … mit.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „einladen“: Wir ___ unsere Nachbarn ___.", "instruction_ar": "أكمل بالفعل einladen.", "reference_answers": ["Wir laden unsere Nachbarn ein."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        }
+      ]
+    },
+    {
+      "slug": "a1-24-forms-authorities",
+      "level": "A1",
+      "category": "authorities",
+      "sort_order": 240,
+      "title_de": "Formulare und Ämter (A1)",
+      "title_ar": "الاستمارات والدوائر (مستوى A1)",
+      "objective_ar": "أن تفهم الحقول الأساسية في الاستمارات الألمانية وتملأها، وتجيب عن أسئلة الموظف البسيطة.",
+      "description_ar": "مفردات الاستمارات: Geburtsdatum، Geburtsort، Staatsangehörigkeit، Familienstand.",
+      "skills": ["reading", "writing", "speaking"],
+      "prerequisites": ["a1-23-invitations"],
+      "estimated_minutes": 45,
+      "review_targets": ["vocabulary", "comprehension"],
+      "grammar_notes": [
+        {
+          "title_ar": "حقول الاستمارة",
+          "body_ar": "Name/Familienname = اسم العائلة، Vorname = الاسم الأول، Geburtsdatum = تاريخ الميلاد، Geburtsort = مكان الميلاد، Staatsangehörigkeit = الجنسية، Familienstand = الحالة الاجتماعية (ledig، verheiratet، geschieden، verwitwet).",
+          "examples_de": ["Geburtsdatum: 12.03.1990", "Staatsangehörigkeit: syrisch"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Mitarbeiter", "de": "Wann sind Sie geboren?", "ar": "متى وُلدت؟"},
+        {"speaker": "Layla", "de": "Am 12. März 1990.", "ar": "في الثاني عشر من آذار 1990."},
+        {"speaker": "Mitarbeiter", "de": "Und wo sind Sie geboren?", "ar": "وأين وُلدت؟"},
+        {"speaker": "Layla", "de": "In Homs, in Syrien.", "ar": "في حمص، في سوريا."},
+        {"speaker": "Mitarbeiter", "de": "Danke. Unterschreiben Sie bitte hier unten.", "ar": "شكرًا. وقّعي هنا في الأسفل من فضلك."}
+      ],
+      "vocabulary": [
+        {"de": "Geburtsdatum", "article": "das", "ar": "تاريخ الميلاد", "example_de": "Schreiben Sie bitte Ihr Geburtsdatum."},
+        {"de": "Geburtsort", "article": "der", "ar": "مكان الميلاد", "example_de": "Mein Geburtsort ist Aleppo."},
+        {"de": "Staatsangehörigkeit", "article": "die", "ar": "الجنسية", "example_de": "Welche Staatsangehörigkeit haben Sie?"},
+        {"de": "Familienstand", "article": "der", "ar": "الحالة الاجتماعية", "example_de": "Familienstand: verheiratet"},
+        {"de": "geschieden", "pos": "adjective", "ar": "مطلَّق", "example_de": "Er ist geschieden."},
+        {"de": "Unterschrift", "article": "die", "plural": "Unterschriften", "ar": "التوقيع", "example_de": "Hier fehlt Ihre Unterschrift."},
+        {"de": "Ausweis", "article": "der", "plural": "Ausweise", "ar": "بطاقة الهوية", "example_de": "Haben Sie Ihren Ausweis dabei?"},
+        {"de": "geboren", "pos": "adjective", "ar": "مولود", "example_de": "Ich bin 1992 geboren."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-24-born-when",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "أجب الموظف: متى وأين وُلدت؟ (يمكنك اختراع البيانات)",
+          "prompt_de": "Wann und wo sind Sie geboren?",
+          "reference_answers": ["Ich bin am 5. Mai 1990 in Damaskus geboren.", "Ich bin 1988 in Bagdad geboren.", "Am 12. März 1990 in Homs."],
+          "key_points": ["Ich bin … geboren", "Datum oder Jahr", "Ort"],
+          "hint_de": "Ich bin am … in … geboren.",
+          "hint_ar": "نقول: Ich bin … geboren (مع sein).",
+          "explanation_ar": "geboren في آخر الجملة: Ich bin 1990 in Damaskus geboren.",
+          "transfer_tasks": [
+            {"prompt_de": "Wann ist Ihr Kind oder Ihr Bruder geboren?", "instruction_ar": "متى وُلد طفلك أو أخوك؟", "reference_answers": ["Mein Sohn ist 2018 geboren.", "Mein Bruder ist am 3. Juni 1995 geboren."], "key_points": ["ist … geboren"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-24-read-form",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الاستمارة المعبّأة ثم أجب: ما جنسية الشخص وحالته الاجتماعية؟",
+          "prompt_de": "Welche Staatsangehörigkeit hat die Person und wie ist ihr Familienstand?",
+          "context_de": "Familienname: Haddad\nVorname: Mariam\nGeburtsdatum: 03.11.1993\nGeburtsort: Beirut\nStaatsangehörigkeit: libanesisch\nFamilienstand: verheiratet\nKinder: 2",
+          "context_mode": "read",
+          "reference_answers": ["Sie ist Libanesin und verheiratet.", "Libanesisch, verheiratet.", "Sie hat die libanesische Staatsangehörigkeit und ist verheiratet."],
+          "key_points": ["libanesisch", "verheiratet"],
+          "hint_de": "Staatsangehörigkeit … Familienstand …",
+          "hint_ar": "ابحث عن السطرين Staatsangehörigkeit وFamilienstand.",
+          "explanation_ar": "libanesisch = لبنانية، verheiratet = متزوّجة.",
+          "transfer_tasks": [
+            {"prompt_de": "Wann und wo ist Mariam Haddad geboren?", "instruction_ar": "متى وأين وُلدت مريم حداد؟", "reference_answers": ["Am 3. November 1993 in Beirut.", "Sie ist am 03.11.1993 in Beirut geboren."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-24-fill-form",
+          "type": "writing",
+          "skill_area": "writing",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "اكتب بياناتك كما في استمارة: الاسم الأول، اسم العائلة، تاريخ الميلاد، الجنسية (يمكنك الاختراع).",
+          "prompt_de": "Füllen Sie aus: Vorname, Familienname, Geburtsdatum, Staatsangehörigkeit.",
+          "reference_answers": ["Vorname: Ali, Familienname: Hassan, Geburtsdatum: 05.05.1990, Staatsangehörigkeit: syrisch"],
+          "key_points": ["Alle vier Felder", "Datum im Format TT.MM.JJJJ ist gut", "Nationalität als Adjektiv (syrisch, irakisch …) oder Land"],
+          "hint_de": "Vorname: … Familienname: …",
+          "hint_ar": "اكتب كل حقل ثم نقطتين ثم البيان.",
+          "explanation_ar": "الجنسية تُكتب غالبًا كصفة: syrisch، irakisch، afghanisch، eritreisch.",
+          "transfer_tasks": [
+            {"prompt_de": "Füllen Sie aus: Familienstand, Anzahl der Kinder, Geburtsort.", "instruction_ar": "املأ: الحالة الاجتماعية، عدد الأطفال، مكان الميلاد.", "reference_answers": ["Familienstand: verheiratet, Kinder: 2, Geburtsort: Aleppo"]}
+          ],
+          "difficulty": 1,
+          "min_words": 6
+        },
+        {
+          "slug": "a1-24-missing-signature",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الموظفة: ما الذي ينقص في الاستمارة؟",
+          "prompt_de": "Was fehlt im Formular?",
+          "context_de": "Das Formular ist fast fertig. Aber hier fehlt noch Ihre Unterschrift, und bitte schreiben Sie auch Ihre Telefonnummer dazu.",
+          "context_mode": "listen",
+          "reference_answers": ["Die Unterschrift und die Telefonnummer fehlen.", "Meine Unterschrift und meine Telefonnummer."],
+          "key_points": ["Unterschrift", "Telefonnummer"],
+          "hint_de": "Es fehlt …",
+          "hint_ar": "fehlen = ينقص.",
+          "explanation_ar": "ينقص شيئان: التوقيع ورقم الهاتف.",
+          "transfer_tasks": [
+            {"prompt_de": "Der Mitarbeiter sagt: „Bringen Sie bitte noch ein Passfoto mit.“ Was müssen Sie mitbringen?", "instruction_ar": "ماذا يجب أن تُحضر؟", "reference_answers": ["Ein Passfoto.", "Ich muss ein Passfoto mitbringen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-24-nationality",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "vocabulary",
+          "instruction_ar": "ما جنسيتك؟ أجب بجملة.",
+          "prompt_de": "Welche Staatsangehörigkeit haben Sie?",
+          "reference_answers": ["Ich bin Syrer.", "Ich habe die syrische Staatsangehörigkeit.", "Ich bin Irakerin."],
+          "key_points": ["„Ich bin Syrer/Syrerin …“ oder „Ich habe die … Staatsangehörigkeit“", "Jede Nationalität ist richtig"],
+          "hint_de": "Ich bin …",
+          "hint_ar": "للرجل: Syrer، للمرأة: Syrerin.",
+          "explanation_ar": "Ich bin Syrer (بدون أداة)، أو Ich habe die syrische Staatsangehörigkeit.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie ist Ihr Familienstand?", "instruction_ar": "ما حالتك الاجتماعية؟", "reference_answers": ["Ich bin verheiratet.", "Ich bin ledig.", "Ich bin geschieden."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-25-short-messages",
+      "level": "A1",
+      "category": "writing",
+      "sort_order": 250,
+      "title_de": "Kurze Nachrichten schreiben",
+      "title_ar": "كتابة رسائل قصيرة",
+      "objective_ar": "أن تكتب رسالة قصيرة (SMS أو بريد) لتعتذر أو تؤجّل أو تسأل أو تشكر — كما في امتحان A1.",
+      "description_ar": "بنية الرسالة القصيرة: تحية، سبب، طلب أو اقتراح، تحية ختامية.",
+      "skills": ["writing", "reading"],
+      "prerequisites": ["a1-24-forms-authorities"],
+      "estimated_minutes": 50,
+      "review_targets": ["register", "word_order"],
+      "grammar_notes": [
+        {
+          "title_ar": "بنية الرسالة",
+          "body_ar": "لصديق: Hallo/Liebe …، … Viele Grüße. — رسمي: Sehr geehrte Frau …/Sehr geehrter Herr …، … Mit freundlichen Grüßen.",
+          "examples_de": ["Liebe Sara, ich kann heute leider nicht kommen. Viele Grüße, Ali", "Sehr geehrte Frau Schulz, …"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "SMS", "de": "Hallo Tim, ich bin krank und kann heute nicht zum Training kommen. Bis Donnerstag! Malik", "ar": "مرحبًا تيم، أنا مريض ولا أستطيع المجيء إلى التدريب اليوم. إلى يوم الخميس! مالك"},
+        {"speaker": "Antwort", "de": "Gute Besserung, Malik! Bis Donnerstag.", "ar": "الشفاء العاجل يا مالك! إلى الخميس."}
+      ],
+      "vocabulary": [
+        {"de": "Gute Besserung", "pos": "phrase", "ar": "الشفاء العاجل", "example_de": "Du bist krank? Gute Besserung!"},
+        {"de": "Viele Grüße", "pos": "phrase", "ar": "مع التحيات (ودّي)", "example_de": "Viele Grüße, Ali"},
+        {"de": "Mit freundlichen Grüßen", "pos": "phrase", "ar": "مع خالص التحيات (رسمي)", "example_de": "Mit freundlichen Grüßen, Ali Hassan"},
+        {"de": "absagen", "pos": "verb", "ar": "يلغي / يعتذر عن", "example_de": "Ich muss den Termin absagen."},
+        {"de": "sich entschuldigen", "pos": "verb", "ar": "يعتذر", "example_de": "Ich entschuldige mich für die Verspätung."},
+        {"de": "bis bald", "pos": "phrase", "ar": "إلى اللقاء قريبًا", "example_de": "Danke und bis bald!"},
+        {"de": "E-Mail", "article": "die", "plural": "E-Mails", "ar": "البريد الإلكتروني", "example_de": "Ich schreibe dir eine E-Mail."},
+        {"de": "antworten", "pos": "verb", "ar": "يجيب / يردّ", "example_de": "Bitte antworten Sie bis Freitag."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-25-sms-sick",
+          "type": "writing",
+          "skill_area": "writing",
+          "grammar_focus": "register",
+          "instruction_ar": "اكتب رسالة قصيرة لصديقك كريم: أنت مريض ولا تستطيع المجيء إلى الموعد اليوم. اقترح يومًا آخر.",
+          "prompt_de": "Schreiben Sie Ihrem Freund Karim eine SMS: Sie sind krank und können heute nicht kommen. Schlagen Sie einen anderen Tag vor.",
+          "reference_answers": ["Hallo Karim, ich bin leider krank und kann heute nicht kommen. Geht es am Samstag? Viele Grüße, Ali"],
+          "key_points": ["Anrede", "krank + kann nicht kommen", "neuer Tag als Vorschlag", "Gruß"],
+          "hint_de": "Hallo Karim, ich bin leider … Geht es am …?",
+          "hint_ar": "أربعة أجزاء: التحية، السبب، الاقتراح، الختام.",
+          "explanation_ar": "Geht es am Samstag? = هل يناسبك يوم السبت؟",
+          "transfer_tasks": [
+            {"prompt_de": "Schreiben Sie Ihrer Kollegin Anna eine SMS: Ihr Bus hat Verspätung, Sie kommen 20 Minuten später.", "instruction_ar": "اكتب لزميلتك آنا أن الحافلة متأخرة وستتأخر 20 دقيقة.", "reference_answers": ["Hallo Anna, mein Bus hat Verspätung. Ich komme 20 Minuten später. Bis gleich, Ali"]}
+          ],
+          "difficulty": 2,
+          "min_words": 12
+        },
+        {
+          "slug": "a1-25-email-cancel",
+          "type": "writing",
+          "skill_area": "writing",
+          "grammar_focus": "register",
+          "instruction_ar": "اكتب بريدًا رسميًا قصيرًا لعيادة الدكتورة كلاين: يجب أن تلغي موعدك يوم الاثنين واطلب موعدًا جديدًا.",
+          "prompt_de": "Schreiben Sie eine kurze E-Mail an die Praxis Dr. Klein: Sie müssen Ihren Termin am Montag absagen und bitten um einen neuen Termin.",
+          "reference_answers": ["Sehr geehrte Damen und Herren, leider muss ich meinen Termin am Montag absagen. Können Sie mir bitte einen neuen Termin geben? Mit freundlichen Grüßen, Ali Hassan"],
+          "key_points": ["formelle Anrede", "Termin am Montag absagen", "Bitte um neuen Termin", "formeller Gruß"],
+          "hint_de": "Sehr geehrte Damen und Herren, leider muss ich …",
+          "hint_ar": "رسالة رسمية: Sehr geehrte … / Mit freundlichen Grüßen.",
+          "explanation_ar": "Sehr geehrte Damen und Herren تُستخدم إذا لم تعرف اسم الشخص.",
+          "transfer_tasks": [
+            {"prompt_de": "Schreiben Sie eine kurze E-Mail an Ihre Kursleiterin, Frau Schulz: Sie fragen, wann der Test ist.", "instruction_ar": "اكتب لمعلّمتك السيدة شولتس وتسأل متى الاختبار.", "reference_answers": ["Liebe Frau Schulz, wann ist der Test? Können Sie mir das bitte schreiben? Viele Grüße, Ali"]}
+          ],
+          "difficulty": 2,
+          "min_words": 15
+        },
+        {
+          "slug": "a1-25-reply-thanks",
+          "type": "writing",
+          "skill_area": "writing",
+          "grammar_focus": "register",
+          "instruction_ar": "جارتك أعطتك كعكة. اكتب لها رسالة شكر قصيرة.",
+          "prompt_de": "Ihre Nachbarin hat Ihnen einen Kuchen gebracht. Schreiben Sie eine kurze Dankesnachricht.",
+          "reference_answers": ["Liebe Frau Müller, vielen Dank für den Kuchen! Er war sehr lecker. Viele Grüße, Huda"],
+          "key_points": ["Dank", "für den Kuchen (Akkusativ)", "Gruß"],
+          "hint_de": "Vielen Dank für den …",
+          "hint_ar": "Danke für + Akkusativ: für den Kuchen.",
+          "explanation_ar": "der Kuchen ← für den Kuchen.",
+          "transfer_tasks": [
+            {"prompt_de": "Ein Freund hat Ihnen beim Umzug geholfen. Bedanken Sie sich kurz.", "instruction_ar": "اشكر صديقًا ساعدك في الانتقال.", "reference_answers": ["Hallo Omar, vielen Dank für deine Hilfe beim Umzug! Viele Grüße, Ali"]}
+          ],
+          "difficulty": 1,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-25-read-message",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الرسالة ثم أجب: لماذا تكتب سارة، وماذا تطلب؟",
+          "prompt_de": "Warum schreibt Sara und was möchte sie?",
+          "context_de": "Hallo Mona, morgen habe ich um 9 Uhr einen Termin beim Jobcenter. Kannst du bitte meine Kinder zur Schule bringen? Ich komme um 11 Uhr zurück. Danke! Sara",
+          "context_mode": "read",
+          "reference_answers": ["Sara hat morgen einen Termin beim Jobcenter. Mona soll ihre Kinder zur Schule bringen."],
+          "key_points": ["Termin beim Jobcenter", "Kinder zur Schule bringen"],
+          "hint_de": "Sara hat … Mona soll …",
+          "hint_ar": "عندها موعد، وتطلب مساعدة مع الأطفال.",
+          "explanation_ar": "Kannst du …? = هل تستطيع …؟ (طلب).",
+          "transfer_tasks": [
+            {"prompt_de": "Wann kommt Sara zurück?", "instruction_ar": "متى تعود سارة؟", "reference_answers": ["Um 11 Uhr.", "Sara kommt um 11 Uhr zurück."]}
+          ],
+          "difficulty": 1,
+          "min_words": 6
+        },
+        {
+          "slug": "a1-25-correct-greeting",
+          "type": "transform",
+          "skill_area": "writing",
+          "grammar_focus": "register",
+          "instruction_ar": "حوّل التحية الودية إلى تحية رسمية لرسالة إلى السيد كرامر.",
+          "prompt_de": "Machen Sie formell: „Hallo Herr Krämer, … Tschüss!“",
+          "reference_answers": ["Sehr geehrter Herr Krämer, … Mit freundlichen Grüßen", "Sehr geehrter Herr Krämer, Mit freundlichen Grüßen"],
+          "hint_de": "Sehr geehrter … / Mit freundlichen …",
+          "hint_ar": "للرجل: Sehr geehrter Herr، للمرأة: Sehr geehrte Frau.",
+          "explanation_ar": "Tschüss غير رسمية؛ في الرسالة الرسمية: Mit freundlichen Grüßen.",
+          "transfer_tasks": [
+            {"prompt_de": "Machen Sie formell: „Hi Frau Lang, … Viele Grüße!“", "instruction_ar": "حوّل إلى صيغة رسمية.", "reference_answers": ["Sehr geehrte Frau Lang, … Mit freundlichen Grüßen", "Sehr geehrte Frau Lang, Mit freundlichen Grüßen"]}
+          ],
+          "difficulty": 1,
+          "min_words": 6
+        }
+      ]
+    },
+    {
+      "slug": "a1-26-listening-everyday",
+      "level": "A1",
+      "category": "listening",
+      "sort_order": 260,
+      "title_de": "Hören im Alltag",
+      "title_ar": "الاستماع في الحياة اليومية",
+      "objective_ar": "أن تفهم المعلومة المهمة في إعلانات المحطة والسوبرماركت ورسائل المجيب الآلي.",
+      "description_ar": "التركيز على: الوقت، الرقم، المكان، والتغيير.",
+      "skills": ["listening"],
+      "prerequisites": ["a1-25-short-messages"],
+      "estimated_minutes": 45,
+      "review_targets": ["comprehension"],
+      "grammar_notes": [
+        {
+          "title_ar": "استراتيجية الاستماع",
+          "body_ar": "اقرأ السؤال أولًا، وابحث فقط عن المعلومة المطلوبة (وقت، رقم، مكان). لا تحتاج لفهم كل كلمة. استمع مرتين.",
+          "examples_de": ["Gleis 4", "um 14:30 Uhr", "im ersten Stock"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Durchsage", "de": "Liebe Kunden, heute sind alle Getränke 20 Prozent billiger.", "ar": "زبائننا الأعزاء، اليوم كل المشروبات أرخص بـ 20 بالمئة."},
+        {"speaker": "Durchsage", "de": "Der Zug nach München fährt heute von Gleis 5.", "ar": "القطار إلى ميونخ ينطلق اليوم من الرصيف 5."}
+      ],
+      "vocabulary": [
+        {"de": "Kunde", "article": "der", "plural": "Kunden", "ar": "الزبون", "example_de": "Liebe Kunden, wir schließen in zehn Minuten."},
+        {"de": "Prozent", "article": "das", "ar": "بالمئة", "example_de": "Heute gibt es 20 Prozent Rabatt."},
+        {"de": "Abfahrt", "article": "die", "ar": "المغادرة", "example_de": "Die Abfahrt ist um 10:15 Uhr."},
+        {"de": "Ankunft", "article": "die", "ar": "الوصول", "example_de": "Die Ankunft in Berlin ist um 12 Uhr."},
+        {"de": "Praxis", "article": "die", "plural": "Praxen", "ar": "العيادة", "example_de": "Die Praxis ist heute geschlossen."},
+        {"de": "zurzeit", "pos": "adverb", "ar": "حاليًا", "example_de": "Wir sind zurzeit nicht erreichbar."},
+        {"de": "erreichbar", "pos": "adjective", "ar": "يمكن الوصول إليه", "example_de": "Ich bin ab 14 Uhr erreichbar."},
+        {"de": "Kasse drei", "pos": "phrase", "ar": "الصندوق رقم ثلاثة", "example_de": "Bitte kommen Sie zur Kasse drei."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-26-supermarket",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الإعلان في السوبرماركت: ما الأرخص اليوم؟",
+          "prompt_de": "Was ist heute billiger?",
+          "context_de": "Liebe Kundinnen und Kunden, heute im Angebot: Alle Äpfel und Bananen sind dreißig Prozent billiger. Nur heute!",
+          "context_mode": "listen",
+          "reference_answers": ["Äpfel und Bananen sind dreißig Prozent billiger.", "Äpfel und Bananen.", "Die Äpfel und die Bananen."],
+          "key_points": ["Äpfel und Bananen", "30 %"],
+          "hint_de": "Alle … und … sind billiger.",
+          "hint_ar": "ابحث عن نوعين من الفاكهة.",
+          "explanation_ar": "im Angebot = بسعر مخفّض.",
+          "transfer_tasks": [
+            {"prompt_de": "Eine Durchsage: „Der Markt schließt heute schon um 18 Uhr.“ Wann schließt der Markt?", "instruction_ar": "متى يغلق السوق اليوم؟", "reference_answers": ["Um 18 Uhr.", "Heute um 18 Uhr."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-26-train",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى إعلان المحطة: من أي رصيف وفي أي ساعة ينطلق القطار؟",
+          "prompt_de": "Von welchem Gleis und um wie viel Uhr fährt der Zug nach Dresden?",
+          "context_de": "Gleis vier: Bitte einsteigen. Der Regionalexpress nach Dresden, Abfahrt sechzehn Uhr zehn, fährt in wenigen Minuten ab.",
+          "context_mode": "listen",
+          "reference_answers": ["Von Gleis 4 um 16:10 Uhr.", "Gleis vier, sechzehn Uhr zehn."],
+          "key_points": ["Gleis 4", "16:10 Uhr"],
+          "hint_de": "Gleis … Abfahrt …",
+          "hint_ar": "معلومتان: الرصيف والساعة.",
+          "explanation_ar": "sechzehn Uhr zehn = ‎16:10‎.",
+          "transfer_tasks": [
+            {"prompt_de": "Durchsage: „Der ICE nach Berlin hat circa 15 Minuten Verspätung.“ Was ist mit dem Zug?", "instruction_ar": "ما الذي حدث للقطار؟", "reference_answers": ["Er hat 15 Minuten Verspätung.", "Der Zug kommt etwa 15 Minuten später."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-26-voicemail",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى المجيب الآلي للعيادة: متى العيادة مفتوحة مرة أخرى؟",
+          "prompt_de": "Wann ist die Praxis wieder geöffnet?",
+          "context_de": "Guten Tag, Sie sind verbunden mit der Praxis Dr. Yilmaz. Wir sind zurzeit im Urlaub. Ab Montag, dem 2. September, sind wir wieder für Sie da. In Notfällen rufen Sie bitte die 116 117 an.",
+          "context_mode": "listen",
+          "reference_answers": ["Ab Montag, dem 2. September.", "Am Montag, 2. September.", "Ab dem 2. September."],
+          "key_points": ["Montag, 2. September"],
+          "hint_de": "Ab Montag, dem …",
+          "hint_ar": "ab = ابتداءً من.",
+          "explanation_ar": "116 117 = رقم الطوارئ الطبية خارج أوقات العيادات في ألمانيا.",
+          "transfer_tasks": [
+            {"prompt_de": "Welche Nummer soll man im Notfall anrufen?", "instruction_ar": "ما الرقم في حالة الطوارئ؟", "reference_answers": ["116 117", "Die 116 117."]}
+          ],
+          "difficulty": 2,
+          "min_words": 2
+        },
+        {
+          "slug": "a1-26-office-floor",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى موظف الاستقبال: إلى أي غرفة وطابق يجب أن تذهب؟",
+          "prompt_de": "Wohin müssen Sie gehen?",
+          "context_de": "Für die Anmeldung gehen Sie bitte in den zweiten Stock, Zimmer 207. Der Aufzug ist hier rechts.",
+          "context_mode": "listen",
+          "reference_answers": ["In den zweiten Stock, Zimmer 207.", "Zimmer 207 im zweiten Stock."],
+          "key_points": ["zweiter Stock", "Zimmer 207"],
+          "hint_de": "Stock … Zimmer …",
+          "hint_ar": "Zimmer = غرفة، Stock = طابق.",
+          "explanation_ar": "in den zweiten Stock = إلى الطابق الثاني.",
+          "transfer_tasks": [
+            {"prompt_de": "„Die Toiletten sind im Erdgeschoss, links neben dem Eingang.“ Wo sind die Toiletten?", "instruction_ar": "أين الحمّامات؟", "reference_answers": ["Im Erdgeschoss, links neben dem Eingang.", "Im Erdgeschoss links."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-26-weather-radio",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الراديو: هل تحتاج مظلة يوم الأحد؟",
+          "prompt_de": "Brauchen Sie am Sonntag einen Regenschirm?",
+          "context_de": "Am Samstag ist es sonnig und warm. Am Sonntag gibt es dann viele Wolken und am Nachmittag Regen.",
+          "context_mode": "listen",
+          "reference_answers": ["Ja, am Sonntag regnet es am Nachmittag.", "Ja.", "Ja, am Nachmittag kommt Regen."],
+          "key_points": ["Ja – Regen am Sonntagnachmittag"],
+          "hint_de": "Am Sonntag … Regen.",
+          "hint_ar": "Regenschirm = مظلة، Regen = مطر.",
+          "explanation_ar": "السبت مشمس، والأحد غيوم ومطر بعد الظهر.",
+          "transfer_tasks": [
+            {"prompt_de": "Wie ist das Wetter am Samstag?", "instruction_ar": "كيف الطقس يوم السبت؟", "reference_answers": ["Sonnig und warm.", "Am Samstag ist es sonnig und warm."]}
+          ],
+          "difficulty": 1,
+          "min_words": 1
+        }
+      ]
+    },
+    {
+      "slug": "a1-27-exam-practice",
+      "level": "A1",
+      "category": "exam_a1",
+      "sort_order": 270,
+      "title_de": "Prüfungstraining A1: Sprechen",
+      "title_ar": "التحضير لامتحان A1: المحادثة",
+      "objective_ar": "أن تتدرّب على أجزاء محادثة امتحان A1: التعريف بالنفس، طرح الأسئلة والإجابة عنها، وصياغة الطلبات.",
+      "description_ar": "مراجعة شاملة لمهارات A1 بصيغة الامتحان. تقدير داخلي — ليس امتحانًا رسميًا.",
+      "skills": ["speaking"],
+      "prerequisites": ["a1-26-listening-everyday"],
+      "estimated_minutes": 50,
+      "review_targets": ["word_order", "verb_conjugation", "register"],
+      "grammar_notes": [
+        {
+          "title_ar": "أجزاء محادثة A1",
+          "body_ar": "1) تقديم نفسك (الاسم، العمر، البلد، السكن، اللغات، المهنة، الهوايات). 2) سؤال وجواب حول موضوع (مثلًا: الطعام). 3) طلب شيء بأدب والرد على طلب.",
+          "examples_de": ["Ich heiße …, ich bin … Jahre alt …", "Was essen Sie gern?", "Können Sie bitte das Fenster öffnen?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Prüferin", "de": "Bitte stellen Sie sich vor.", "ar": "قدّم نفسك من فضلك."},
+        {"speaker": "Kandidat", "de": "Ich heiße Ali, ich bin 32 Jahre alt und komme aus Syrien. Ich wohne in Leipzig.", "ar": "اسمي علي، عمري 32 سنة ومن سوريا. أسكن في لايبزيغ."},
+        {"speaker": "Prüferin", "de": "Danke. Buchstabieren Sie bitte Ihren Namen.", "ar": "شكرًا. تهجَّ اسمك من فضلك."},
+        {"speaker": "Kandidat", "de": "A – L – I.", "ar": "A – L – I."}
+      ],
+      "vocabulary": [
+        {"de": "Prüfung", "article": "die", "plural": "Prüfungen", "ar": "الامتحان", "example_de": "Die Prüfung ist im Mai."},
+        {"de": "sich vorstellen", "pos": "verb", "ar": "يقدّم نفسه", "example_de": "Bitte stellen Sie sich vor."},
+        {"de": "Frage", "article": "die", "plural": "Fragen", "ar": "السؤال", "example_de": "Ich habe eine Frage."},
+        {"de": "Antwort", "article": "die", "plural": "Antworten", "ar": "الجواب", "example_de": "Die Antwort ist richtig."},
+        {"de": "Bitte", "article": "die", "plural": "Bitten", "ar": "الطلب / الرجاء", "example_de": "Ich habe eine Bitte."},
+        {"de": "richtig", "pos": "adjective", "ar": "صحيح", "example_de": "Das ist richtig."},
+        {"de": "falsch", "pos": "adjective", "ar": "خاطئ", "example_de": "Die Antwort ist falsch."},
+        {"de": "Fenster", "article": "das", "plural": "Fenster", "ar": "النافذة", "example_de": "Können Sie das Fenster öffnen?"}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-27-introduce",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "قدّم نفسك كما في الامتحان: الاسم، العمر، البلد، السكن، اللغات، المهنة أو الدراسة، الهوايات (خمس معلومات على الأقل).",
+          "prompt_de": "Prüfung Teil 1: Stellen Sie sich bitte vor.",
+          "reference_answers": ["Ich heiße Ali Hassan. Ich bin 32 Jahre alt und komme aus Syrien. Ich wohne in Leipzig. Ich spreche Arabisch, Englisch und ein bisschen Deutsch. Ich bin Elektriker von Beruf und spiele gern Fußball."],
+          "key_points": ["Mindestens fünf Informationen: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby", "Verben richtig konjugiert"],
+          "hint_de": "Ich heiße … Ich bin … Jahre alt … Ich komme aus … Ich wohne in …",
+          "hint_ar": "اتبع الترتيب: الاسم، العمر، البلد، السكن، اللغات، المهنة، الهوايات.",
+          "explanation_ar": "كل جملة بفعل مصرَّف في المكان الثاني.",
+          "transfer_tasks": [
+            {"prompt_de": "Stellen Sie jetzt eine Person aus Ihrer Familie vor (mindestens vier Informationen).", "instruction_ar": "قدّم شخصًا من عائلتك (أربع معلومات على الأقل).", "reference_answers": ["Das ist meine Schwester. Sie heißt Rana und ist 25 Jahre alt. Sie wohnt in Bonn und arbeitet als Friseurin."], "key_points": ["er/sie-Formen richtig (heißt, ist, wohnt, arbeitet)"]}
+          ],
+          "difficulty": 2,
+          "min_words": 20
+        },
+        {
+          "slug": "a1-27-ask-topic",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "الجزء الثاني: الموضوع «Essen» وكلمة البطاقة «Frühstück». اطرح سؤالًا على شريكك.",
+          "prompt_de": "Prüfung Teil 2: Thema „Essen“, Karte „Frühstück“. Stellen Sie eine Frage.",
+          "reference_answers": ["Was essen Sie zum Frühstück?", "Wann frühstücken Sie?", "Was isst du gern zum Frühstück?"],
+          "key_points": ["Eine passende Frage zum Wort „Frühstück“", "korrekte Fragestellung"],
+          "hint_de": "Was essen Sie zum …?",
+          "hint_ar": "اطرح سؤال W أو سؤال نعم/لا يحتوي الكلمة.",
+          "explanation_ar": "في سؤال W: كلمة السؤال + الفعل + الفاعل.",
+          "transfer_tasks": [
+            {"prompt_de": "Thema „Freizeit“, Karte „Sport“. Stellen Sie eine Frage.", "instruction_ar": "الموضوع «Freizeit» والبطاقة «Sport». اطرح سؤالًا.", "reference_answers": ["Machen Sie gern Sport?", "Welchen Sport machst du?", "Spielen Sie Fußball?"]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-27-answer-topic",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "أجب عن سؤال شريكك بجملة كاملة.",
+          "prompt_de": "Ihr Partner fragt: „Was trinken Sie gern?“",
+          "reference_answers": ["Ich trinke gern Tee.", "Ich trinke gern Kaffee mit Milch.", "Am liebsten trinke ich Wasser."],
+          "key_points": ["Ganzer Satz", "trinke + gern"],
+          "hint_de": "Ich trinke gern …",
+          "hint_ar": "أجب بجملة كاملة، ليس بكلمة واحدة.",
+          "explanation_ar": "في الامتحان الجملة الكاملة تحصل على نقاط أكثر من الكلمة الواحدة.",
+          "transfer_tasks": [
+            {"prompt_de": "Ihr Partner fragt: „Wo kaufen Sie ein?“", "instruction_ar": "أجب بجملة كاملة.", "reference_answers": ["Ich kaufe im Supermarkt ein.", "Ich kaufe meistens auf dem Markt ein."], "key_points": ["einkaufen getrennt: kaufe … ein"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-27-request",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "الجزء الثالث: البطاقة تُظهر نافذة. اطلب من شريكك بأدب أن يفتح النافذة.",
+          "prompt_de": "Prüfung Teil 3: Auf Ihrer Karte ist ein Fenster. Bitten Sie Ihren Partner höflich.",
+          "reference_answers": ["Können Sie bitte das Fenster öffnen?", "Öffnen Sie bitte das Fenster.", "Machst du bitte das Fenster auf?"],
+          "key_points": ["Höfliche Bitte mit „bitte“", "Fenster öffnen / aufmachen"],
+          "hint_de": "Können Sie bitte das Fenster …?",
+          "hint_ar": "طلب مهذّب: Können Sie bitte … ? أو صيغة الأمر مع bitte.",
+          "explanation_ar": "öffnen أو aufmachen (منفصل): Machen Sie bitte das Fenster auf.",
+          "transfer_tasks": [
+            {"prompt_de": "Auf Ihrer Karte ist ein Kugelschreiber. Bitten Sie Ihren Partner.", "instruction_ar": "البطاقة تُظهر قلمًا. اطلبه بأدب.", "reference_answers": ["Haben Sie bitte einen Kugelschreiber für mich?", "Kann ich bitte Ihren Kugelschreiber haben?", "Gib mir bitte einen Kugelschreiber."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-27-react-request",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "شريكك يقول: «Können Sie mir bitte helfen?» أجب بالموافقة.",
+          "prompt_de": "Ihr Partner sagt: „Können Sie mir bitte helfen?“ Reagieren Sie.",
+          "reference_answers": ["Ja, gern. Was kann ich für Sie tun?", "Ja, natürlich!", "Klar, gern."],
+          "key_points": ["Zustimmung (ja, gern, natürlich)"],
+          "hint_de": "Ja, gern …",
+          "hint_ar": "عبارات الموافقة: Ja, gern / Natürlich / Kein Problem.",
+          "explanation_ar": "Was kann ich für Sie tun? = ماذا يمكنني أن أفعل لك؟",
+          "transfer_tasks": [
+            {"prompt_de": "Ihr Partner fragt: „Kann ich Ihr Handy kurz benutzen?“ Sagen Sie höflich nein und nennen Sie einen Grund.", "instruction_ar": "ارفض بأدب واذكر سببًا.", "reference_answers": ["Tut mir leid, mein Akku ist leer.", "Leider nicht, mein Handy ist kaputt."]}
+          ],
+          "difficulty": 1,
+          "min_words": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "version": 1,
+  "level": "A1",
+  "lessons": [
+    {
+      "slug": "a1-11-koennen",
+      "level": "A1",
+      "category": "abilities",
+      "sort_order": 100,
+      "title_de": "Das kann ich! – können",
+      "title_ar": "أستطيع! — الفعل können",
+      "objective_ar": "أن تتحدّث عن قدراتك، وتسأل إن كان شيء ممكنًا أو مسموحًا، وتطلب المساعدة.",
+      "description_ar": "können في المكان الثاني والفعل الأساسي بصيغة المصدر في آخر الجملة.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a1-04-daily-routine"],
+      "estimated_minutes": 45,
+      "review_targets": ["modal_verb", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "können",
+          "body_ar": "ich kann، du kannst، er/sie kann، wir können، Sie können. الفعل الثاني في نهاية الجملة بصيغة المصدر.",
+          "examples_de": ["Ich kann gut kochen.", "Kannst du Auto fahren?", "Hier kann man nicht parken."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Chefin", "de": "Können Sie gut Deutsch sprechen?", "ar": "هل تستطيع التحدث بالألمانية جيدًا؟"},
+        {"speaker": "Bilal", "de": "Ich kann schon ein bisschen Deutsch sprechen. Ich lerne jeden Tag.", "ar": "أستطيع التحدث قليلًا بالألمانية. أتعلّم كل يوم."},
+        {"speaker": "Chefin", "de": "Und können Sie Auto fahren?", "ar": "وهل تستطيع قيادة السيارة؟"},
+        {"speaker": "Bilal", "de": "Ja, ich habe einen Führerschein aus Syrien.", "ar": "نعم، لديّ رخصة قيادة من سوريا."}
+      ],
+      "vocabulary": [
+        {"de": "können", "pos": "verb", "ar": "يستطيع", "example_de": "Ich kann schwimmen."},
+        {"de": "fahren", "pos": "verb", "ar": "يقود / يسافر بوسيلة", "example_de": "Kannst du Fahrrad fahren?"},
+        {"de": "sprechen", "pos": "verb", "ar": "يتكلّم", "example_de": "Er spricht Arabisch und Deutsch."},
+        {"de": "helfen", "pos": "verb", "ar": "يساعد", "example_de": "Kannst du mir helfen?"},
+        {"de": "parken", "pos": "verb", "ar": "يركن السيارة", "example_de": "Hier kann man nicht parken."},
+        {"de": "ein bisschen", "pos": "phrase", "ar": "قليلًا", "example_de": "Ich spreche ein bisschen Deutsch."},
+        {"de": "Sprache", "article": "die", "plural": "Sprachen", "ar": "اللغة", "example_de": "Ich spreche drei Sprachen."},
+        {"de": "schon", "pos": "adverb", "ar": "بالفعل / سابقًا", "example_de": "Ich kann schon gut lesen."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-11-abilities",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "قل شيئين تستطيع فعلهما جيدًا.",
+          "prompt_de": "Was können Sie gut?",
+          "reference_answers": ["Ich kann gut kochen und schwimmen.", "Ich kann gut Fußball spielen.", "Ich kann gut Auto fahren und kochen."],
+          "key_points": ["kann + Infinitiv am Ende", "Jede Fähigkeit ist richtig"],
+          "hint_de": "Ich kann gut …",
+          "hint_ar": "الفعل الثاني بصيغة المصدر في آخر الجملة.",
+          "explanation_ar": "«Ich kann gut koche» خطأ؛ الصحيح «Ich kann gut kochen».",
+          "transfer_tasks": [
+            {"prompt_de": "Was können Sie noch nicht gut?", "instruction_ar": "قل شيئًا لا تستطيع فعله جيدًا بعد.", "reference_answers": ["Ich kann noch nicht gut Deutsch schreiben.", "Ich kann noch nicht Auto fahren."], "key_points": ["kann … nicht + Infinitiv"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-11-build-kann",
+          "type": "build_sentence",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "كوّن جملة من الكلمات.",
+          "prompt_de": "Bilden Sie einen Satz: meine Tochter / können / gut schwimmen",
+          "reference_answers": ["Meine Tochter kann gut schwimmen."],
+          "hint_de": "Meine Tochter kann …",
+          "hint_ar": "kann في المكان الثاني، schwimmen في النهاية.",
+          "explanation_ar": "können مع er/sie: kann (بدون ‎-t‎).",
+          "transfer_tasks": [
+            {"prompt_de": "Bilden Sie einen Satz: wir / können / am Samstag / kommen", "instruction_ar": "كوّن جملة من الكلمات.", "reference_answers": ["Wir können am Samstag kommen.", "Am Samstag können wir kommen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-11-ask-help",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "لا تفهم استمارة. اطلب من الموظفة المساعدة بأدب.",
+          "prompt_de": "Sie verstehen ein Formular nicht. Bitten Sie die Mitarbeiterin um Hilfe.",
+          "reference_answers": ["Können Sie mir bitte helfen?", "Entschuldigung, können Sie mir helfen? Ich verstehe das Formular nicht.", "Könnten Sie mir bitte helfen?"],
+          "key_points": ["Können Sie … helfen?", "mir (Dativ)"],
+          "hint_de": "Können Sie mir bitte …?",
+          "hint_ar": "helfen يأخذ mir (لي).",
+          "explanation_ar": "Können Sie mir helfen? — الفعل الثاني helfen في آخر السؤال.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie möchten wissen, ob Sie hier parken dürfen. Fragen Sie mit „können“.", "instruction_ar": "اسأل إن كنت تستطيع الركن هنا.", "reference_answers": ["Kann ich hier parken?", "Entschuldigung, kann man hier parken?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-11-gap-kannst",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل können.",
+          "prompt_de": "Ergänzen Sie „können“: ___ du Gitarre spielen?",
+          "reference_answers": ["Kannst du Gitarre spielen?", "Kannst"],
+          "hint_de": "du → kannst",
+          "hint_ar": "können مع du: kannst.",
+          "explanation_ar": "ich kann، du kannst، er kann، wir können.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „können“: Wir ___ leider nicht kommen.", "instruction_ar": "أكمل بالشكل الصحيح.", "reference_answers": ["Wir können leider nicht kommen.", "können"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-11-languages",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "قل ما اللغات التي تتكلّمها وكيف.",
+          "prompt_de": "Welche Sprachen sprechen Sie?",
+          "reference_answers": ["Ich spreche Arabisch, Englisch und ein bisschen Deutsch.", "Ich spreche Arabisch und Kurdisch.", "Ich kann Arabisch und ein bisschen Deutsch sprechen."],
+          "key_points": ["„Ich spreche …“ oder „Ich kann … sprechen“", "Sprachen ohne Artikel"],
+          "hint_de": "Ich spreche …",
+          "hint_ar": "أسماء اللغات بدون أداة: Arabisch، Deutsch.",
+          "explanation_ar": "sprechen ← ich spreche، du sprichst، er spricht.",
+          "transfer_tasks": [
+            {"prompt_de": "Welche Sprachen spricht Ihre Mutter oder Ihr Vater?", "instruction_ar": "ما اللغات التي تتكلّمها أمك أو أبوك؟", "reference_answers": ["Meine Mutter spricht Arabisch und Türkisch.", "Mein Vater spricht nur Arabisch."], "key_points": ["„spricht“ mit er/sie"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-12-muessen-wollen",
+      "level": "A1",
+      "category": "duties_wishes",
+      "sort_order": 110,
+      "title_de": "Pflichten und Wünsche – müssen und wollen",
+      "title_ar": "الواجبات والرغبات — müssen و wollen",
+      "objective_ar": "أن تتحدّث عمّا يجب أن تفعله وما تريد أن تفعله في الحياة اليومية.",
+      "description_ar": "müssen (يجب) و wollen (يريد) — نفس قاعدة können.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a1-11-koennen"],
+      "estimated_minutes": 45,
+      "review_targets": ["modal_verb", "verb_position"],
+      "grammar_notes": [
+        {
+          "title_ar": "müssen و wollen",
+          "body_ar": "müssen: ich muss، du musst، er muss، wir müssen. wollen: ich will، du willst، er will، wir wollen. الفعل الأساسي في آخر الجملة.",
+          "examples_de": ["Ich muss heute zum Jobcenter.", "Ich will Deutsch lernen.", "Musst du morgen arbeiten?"]
+        },
+        {
+          "title_ar": "möchten أم wollen؟",
+          "body_ar": "möchten أكثر لطفًا (أودّ)، وwollen أقوى (أريد). في الطلبات المهذّبة استخدم möchten.",
+          "examples_de": ["Ich möchte einen Termin.", "Ich will später Arzt werden."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Nachbar", "de": "Kommst du heute mit ins Kino?", "ar": "هل تأتي معنا إلى السينما اليوم؟"},
+        {"speaker": "Rami", "de": "Leider nicht. Ich muss heute lernen. Morgen habe ich einen Test.", "ar": "للأسف لا. يجب أن أدرس اليوم. غدًا عندي اختبار."},
+        {"speaker": "Nachbar", "de": "Und am Wochenende?", "ar": "وفي عطلة نهاية الأسبوع؟"},
+        {"speaker": "Rami", "de": "Am Samstag will ich gern mitkommen!", "ar": "يوم السبت أريد أن آتي معكم بكل سرور!"}
+      ],
+      "vocabulary": [
+        {"de": "müssen", "pos": "verb", "ar": "يجب عليه", "example_de": "Ich muss jetzt gehen."},
+        {"de": "wollen", "pos": "verb", "ar": "يريد", "example_de": "Wir wollen eine Wohnung mieten."},
+        {"de": "lernen", "pos": "verb", "ar": "يتعلّم / يدرس", "example_de": "Ich lerne jeden Tag Deutsch."},
+        {"de": "aufräumen", "pos": "verb", "ar": "يرتّب", "example_de": "Ich muss die Küche aufräumen."},
+        {"de": "Test", "article": "der", "plural": "Tests", "ar": "الاختبار", "example_de": "Morgen schreiben wir einen Test."},
+        {"de": "leider", "pos": "adverb", "ar": "للأسف", "example_de": "Ich habe leider keine Zeit."},
+        {"de": "Zeit", "article": "die", "ar": "الوقت", "example_de": "Hast du heute Zeit?"},
+        {"de": "später", "pos": "adverb", "ar": "لاحقًا", "example_de": "Ich rufe später an."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-12-must-today",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "قل شيئين يجب أن تفعلهما اليوم.",
+          "prompt_de": "Was müssen Sie heute machen?",
+          "reference_answers": ["Heute muss ich arbeiten und einkaufen.", "Ich muss heute Deutsch lernen und die Küche aufräumen.", "Ich muss heute zum Arzt gehen."],
+          "key_points": ["muss + Infinitiv am Ende", "trennbare Verben im Infinitiv zusammen (einkaufen)"],
+          "hint_de": "Heute muss ich …",
+          "hint_ar": "بعد muss تبقى الأفعال المنفصلة متصلة في النهاية: einkaufen.",
+          "explanation_ar": "Ich kaufe ein، لكن مع muss: Ich muss einkaufen.",
+          "transfer_tasks": [
+            {"prompt_de": "Was muss Ihre Familie am Wochenende machen?", "instruction_ar": "ماذا يجب على عائلتك أن تفعل في عطلة نهاية الأسبوع؟", "reference_answers": ["Am Wochenende müssen wir die Wohnung putzen.", "Meine Familie muss am Samstag einkaufen."], "key_points": ["müssen + Infinitiv"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-12-want-future",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "ماذا تريد أن تفعل في ألمانيا؟ استخدم wollen.",
+          "prompt_de": "Was wollen Sie in Deutschland machen?",
+          "reference_answers": ["Ich will in Deutschland arbeiten.", "Ich will eine Ausbildung machen.", "Ich will gut Deutsch lernen und studieren."],
+          "key_points": ["will + Infinitiv am Ende"],
+          "hint_de": "Ich will …",
+          "hint_ar": "wollen مع ich: will (وليس wolle).",
+          "explanation_ar": "ich will، du willst، er will.",
+          "transfer_tasks": [
+            {"prompt_de": "Was will Ihr Kind oder Ihr Freund später machen?", "instruction_ar": "ماذا يريد طفلك أو صديقك أن يفعل لاحقًا؟", "reference_answers": ["Mein Sohn will später Arzt werden.", "Mein Freund will ein Restaurant eröffnen."], "key_points": ["„will“ mit er"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-12-gap-muss",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل müssen.",
+          "prompt_de": "Ergänzen Sie „müssen“: Er ___ morgen früh aufstehen.",
+          "reference_answers": ["Er muss morgen früh aufstehen.", "muss"],
+          "hint_de": "er → muss",
+          "hint_ar": "müssen مع er: muss.",
+          "explanation_ar": "ich muss، du musst، er muss — بدون Umlaut في المفرد.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „wollen“: ___ du mit uns essen?", "instruction_ar": "أكمل بالشكل الصحيح للفعل wollen.", "reference_answers": ["Willst du mit uns essen?", "Willst"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-12-decline",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "صديقك يدعوك الليلة، لكن عندك عمل. ارفض بلطف واذكر السبب.",
+          "prompt_de": "Ihr Freund lädt Sie heute Abend ein. Sie haben keine Zeit, weil Sie arbeiten müssen. Was sagen Sie?",
+          "reference_answers": ["Leider kann ich heute nicht. Ich muss arbeiten.", "Tut mir leid, ich habe heute keine Zeit. Ich muss arbeiten."],
+          "key_points": ["Höfliche Absage (leider / tut mir leid)", "Grund mit „muss … arbeiten“"],
+          "hint_de": "Leider kann ich nicht. Ich muss …",
+          "hint_ar": "leider = للأسف، Tut mir leid = آسف.",
+          "explanation_ar": "Ich muss arbeiten — arbeiten في آخر الجملة.",
+          "transfer_tasks": [
+            {"prompt_de": "Ihre Kollegin fragt: „Kommst du morgen zum Grillen?“ Sie müssen zum Arzt. Antworten Sie.", "instruction_ar": "ارفض بلطف لأنك يجب أن تذهب إلى الطبيب.", "reference_answers": ["Leider nicht, ich muss morgen zum Arzt.", "Tut mir leid, ich muss morgen zum Arzt gehen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        },
+        {
+          "slug": "a1-12-translate-must",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "modal_verb",
+          "instruction_ar": "ترجم: «يجب أن أتصل بالمؤجّر اليوم.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich muss heute den Vermieter anrufen.", "Heute muss ich den Vermieter anrufen.", "Ich muss heute meinen Vermieter anrufen."],
+          "hint_de": "Ich muss heute … anrufen.",
+          "hint_ar": "anrufen يبقى متصلًا في النهاية بعد muss.",
+          "explanation_ar": "der Vermieter ← den Vermieter (Akkusativ).",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «نريد أن نشتري سيارة.»", "reference_answers": ["Wir wollen ein Auto kaufen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        }
+      ]
+    },
+    {
+      "slug": "a1-13-housing",
+      "level": "A1",
+      "category": "housing",
+      "sort_order": 120,
+      "title_de": "Meine Wohnung",
+      "title_ar": "شقتي",
+      "objective_ar": "أن تصف شقتك: الغرف، الحجم، وما فيها، وأن تفهم إعلان سكن بسيطًا.",
+      "description_ar": "es gibt + Akkusativ، والصفة بعد sein (Die Küche ist klein).",
+      "skills": ["speaking", "reading", "vocabulary"],
+      "prerequisites": ["a1-12-muessen-wollen"],
+      "estimated_minutes": 45,
+      "review_targets": ["case_accusative", "vocabulary"],
+      "grammar_notes": [
+        {
+          "title_ar": "es gibt",
+          "body_ar": "es gibt = يوجد. بعده Akkusativ: Es gibt einen Balkon / eine Küche / ein Bad.",
+          "examples_de": ["In der Wohnung gibt es zwei Zimmer.", "Es gibt keinen Aufzug."]
+        },
+        {
+          "title_ar": "الصفة بعد sein",
+          "body_ar": "بعد sein لا تأخذ الصفة نهاية: Die Wohnung ist groß. Das Zimmer ist klein.",
+          "examples_de": ["Das Bad ist neu.", "Die Wohnung ist nicht teuer."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Kollegin", "de": "Wie ist deine neue Wohnung?", "ar": "كيف شقتك الجديدة؟"},
+        {"speaker": "Huda", "de": "Sie ist klein, aber schön. Es gibt zwei Zimmer, eine Küche und ein Bad.", "ar": "صغيرة لكنها جميلة. فيها غرفتان ومطبخ وحمّام."},
+        {"speaker": "Kollegin", "de": "Gibt es auch einen Balkon?", "ar": "هل فيها شرفة أيضًا؟"},
+        {"speaker": "Huda", "de": "Nein, leider gibt es keinen Balkon.", "ar": "لا، للأسف لا توجد شرفة."}
+      ],
+      "vocabulary": [
+        {"de": "Wohnung", "article": "die", "plural": "Wohnungen", "ar": "الشقة", "example_de": "Die Wohnung hat drei Zimmer."},
+        {"de": "Zimmer", "article": "das", "plural": "Zimmer", "ar": "الغرفة", "example_de": "Mein Zimmer ist klein."},
+        {"de": "Küche", "article": "die", "plural": "Küchen", "ar": "المطبخ", "example_de": "Die Küche ist neu."},
+        {"de": "Bad", "article": "das", "plural": "Bäder", "ar": "الحمّام", "example_de": "Das Bad hat ein Fenster."},
+        {"de": "Wohnzimmer", "article": "das", "plural": "Wohnzimmer", "ar": "غرفة الجلوس", "example_de": "Das Wohnzimmer ist groß."},
+        {"de": "Schlafzimmer", "article": "das", "plural": "Schlafzimmer", "ar": "غرفة النوم", "example_de": "Im Schlafzimmer steht ein Bett."},
+        {"de": "Aufzug", "article": "der", "plural": "Aufzüge", "ar": "المصعد", "example_de": "Das Haus hat keinen Aufzug."},
+        {"de": "Stock", "article": "der", "ar": "الطابق", "example_de": "Ich wohne im dritten Stock."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-13-describe-flat",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "صِف شقتك في جملتين أو ثلاث: كم غرفة؟ كيف هي؟",
+          "prompt_de": "Beschreiben Sie Ihre Wohnung.",
+          "reference_answers": ["Meine Wohnung ist klein. Es gibt zwei Zimmer, eine Küche und ein Bad. Ich wohne im ersten Stock."],
+          "key_points": ["Mindestens zwei Sätze", "es gibt / hat + Akkusativ richtig", "Adjektiv nach „ist“ ohne Endung"],
+          "hint_de": "Meine Wohnung ist … Es gibt …",
+          "hint_ar": "استخدم es gibt مع Akkusativ: einen Balkon.",
+          "explanation_ar": "Es gibt einen Balkon (der ← einen)، eine Küche، ein Bad.",
+          "transfer_tasks": [
+            {"prompt_de": "Beschreiben Sie Ihr Zimmer oder Ihr Wohnzimmer in zwei Sätzen.", "instruction_ar": "صِف غرفتك أو غرفة الجلوس في جملتين.", "reference_answers": ["Mein Zimmer ist hell und gemütlich. Es gibt ein Bett, einen Tisch und einen Schrank."]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "a1-13-gap-es-gibt",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "case_accusative",
+          "instruction_ar": "أكمل بالأداة الصحيحة بعد es gibt.",
+          "prompt_de": "Ergänzen Sie: In der Wohnung gibt es ___ Balkon. (der Balkon)",
+          "reference_answers": ["In der Wohnung gibt es einen Balkon.", "einen"],
+          "hint_de": "der → einen",
+          "hint_ar": "es gibt + Akkusativ.",
+          "explanation_ar": "المذكر في Akkusativ: einen.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie mit „kein“: Im Haus gibt es ___ Aufzug. (der Aufzug)", "instruction_ar": "أكمل بالنفي المناسب.", "reference_answers": ["Im Haus gibt es keinen Aufzug.", "keinen"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "a1-13-read-ad",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الإعلان ثم أجب: كم غرفة؟ وكم الإيجار؟",
+          "prompt_de": "Wie viele Zimmer hat die Wohnung und wie hoch ist die Miete?",
+          "context_de": "Schöne 2-Zimmer-Wohnung in Leipzig-Gohlis, 55 m², 2. Stock, Küche mit Fenster, Bad mit Dusche. Miete: 480 € warm. Frei ab 1. März. Tel.: 0341 556677",
+          "context_mode": "read",
+          "reference_answers": ["Die Wohnung hat zwei Zimmer und die Miete ist 480 Euro warm.", "Zwei Zimmer, 480 Euro warm."],
+          "key_points": ["2 Zimmer", "480 € warm"],
+          "hint_de": "2-Zimmer-Wohnung … Miete …",
+          "hint_ar": "warm = الإيجار مع التدفئة والتكاليف الإضافية.",
+          "explanation_ar": "m² = متر مربع، frei ab = متاحة ابتداءً من.",
+          "transfer_tasks": [
+            {"prompt_de": "Im Text steht: „Frei ab 1. März.“ Ab wann kann man einziehen?", "instruction_ar": "متى يمكن السكن في الشقة؟", "reference_answers": ["Ab dem ersten März.", "Ab 1. März.", "Man kann ab dem 1. März einziehen."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-13-floor",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "في أي طابق تسكن؟",
+          "prompt_de": "In welchem Stock wohnen Sie?",
+          "reference_answers": ["Ich wohne im ersten Stock.", "Ich wohne im Erdgeschoss.", "Ich wohne im dritten Stock."],
+          "key_points": ["im + Ordinalzahl + Stock (im ersten, zweiten, dritten …)", "„im Erdgeschoss“ ist richtig"],
+          "hint_de": "Ich wohne im … Stock.",
+          "hint_ar": "im ersten Stock = في الطابق الأول، Erdgeschoss = الطابق الأرضي.",
+          "explanation_ar": "الأعداد الترتيبية بعد im تنتهي بـ ‎-en‎: im zweiten Stock.",
+          "transfer_tasks": [
+            {"prompt_de": "In welchem Stock ist Ihr Deutschkurs?", "instruction_ar": "في أي طابق دورة الألمانية؟", "reference_answers": ["Mein Deutschkurs ist im zweiten Stock.", "Der Kurs ist im Erdgeschoss."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-13-adjective-predicative",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "adjective_ending",
+          "instruction_ar": "قل العكس باستخدام الصفة المضادة.",
+          "prompt_de": "Sagen Sie das Gegenteil: Die Küche ist groß.",
+          "reference_answers": ["Die Küche ist klein."],
+          "hint_de": "groß ↔ …",
+          "hint_ar": "عكس groß هو klein.",
+          "explanation_ar": "بعد ist تبقى الصفة بدون نهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Sagen Sie das Gegenteil: Die Wohnung ist teuer.", "instruction_ar": "قل العكس.", "reference_answers": ["Die Wohnung ist billig.", "Die Wohnung ist günstig."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-14-where-things",
+      "level": "A1",
+      "category": "location",
+      "sort_order": 130,
+      "title_de": "Wo ist …? – Dinge im Zimmer",
+      "title_ar": "أين …؟ — الأشياء في الغرفة",
+      "objective_ar": "أن تسأل أين يوجد شيء وتجيب باستخدام auf، in، neben، unter.",
+      "description_ar": "حروف جرّ المكان مع Dativ للإجابة عن Wo؟ (auf dem Tisch، im Schrank).",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": ["a1-13-housing"],
+      "estimated_minutes": 45,
+      "review_targets": ["case_dative", "preposition"],
+      "grammar_notes": [
+        {
+          "title_ar": "Wo? + Dativ",
+          "body_ar": "للإجابة عن Wo؟ نستخدم Dativ: der/das ← dem، die ← der. in dem = im.",
+          "examples_de": ["Das Handy liegt auf dem Tisch.", "Die Jacke ist im Schrank.", "Die Tasche steht neben der Tür."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Malik", "de": "Mama, wo ist mein Schlüssel?", "ar": "ماما، أين مفتاحي؟"},
+        {"speaker": "Mutter", "de": "Er liegt auf dem Tisch in der Küche.", "ar": "إنه على الطاولة في المطبخ."},
+        {"speaker": "Malik", "de": "Da ist er nicht. Und meine Tasche?", "ar": "ليس هناك. وحقيبتي؟"},
+        {"speaker": "Mutter", "de": "Die Tasche steht neben der Tür.", "ar": "الحقيبة بجانب الباب."}
+      ],
+      "vocabulary": [
+        {"de": "Tisch", "article": "der", "plural": "Tische", "ar": "الطاولة", "example_de": "Das Buch liegt auf dem Tisch."},
+        {"de": "Stuhl", "article": "der", "plural": "Stühle", "ar": "الكرسي", "example_de": "Die Tasche ist unter dem Stuhl."},
+        {"de": "Schrank", "article": "der", "plural": "Schränke", "ar": "الخزانة", "example_de": "Die Kleider sind im Schrank."},
+        {"de": "Bett", "article": "das", "plural": "Betten", "ar": "السرير", "example_de": "Die Katze schläft auf dem Bett."},
+        {"de": "Tür", "article": "die", "plural": "Türen", "ar": "الباب", "example_de": "Die Schuhe stehen neben der Tür."},
+        {"de": "Schlüssel", "article": "der", "plural": "Schlüssel", "ar": "المفتاح", "example_de": "Wo ist mein Schlüssel?"},
+        {"de": "Tasche", "article": "die", "plural": "Taschen", "ar": "الحقيبة", "example_de": "Meine Tasche ist rot."},
+        {"de": "neben", "pos": "preposition", "ar": "بجانب", "example_de": "Neben dem Sofa steht eine Lampe."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-14-where-key",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "المفتاح على الطاولة. أجب بجملة كاملة.",
+          "prompt_de": "Wo ist der Schlüssel? (auf / der Tisch)",
+          "reference_answers": ["Der Schlüssel ist auf dem Tisch.", "Er liegt auf dem Tisch.", "Er ist auf dem Tisch."],
+          "key_points": ["auf dem Tisch (Dativ)"],
+          "hint_de": "… auf dem …",
+          "hint_ar": "der Tisch ← auf dem Tisch.",
+          "explanation_ar": "مع Wo؟ نستخدم Dativ: der ← dem.",
+          "transfer_tasks": [
+            {"prompt_de": "Wo ist die Jacke? (in / der Schrank)", "instruction_ar": "أجب بجملة كاملة.", "reference_answers": ["Die Jacke ist im Schrank.", "Sie ist im Schrank.", "Sie hängt im Schrank."], "key_points": ["im Schrank = in dem Schrank"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-14-gap-der-tuer",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "أكمل بالأداة الصحيحة في Dativ.",
+          "prompt_de": "Ergänzen Sie: Die Schuhe stehen neben ___ Tür. (die Tür)",
+          "reference_answers": ["Die Schuhe stehen neben der Tür.", "der"],
+          "hint_de": "die → der",
+          "hint_ar": "المؤنث في Dativ: der.",
+          "explanation_ar": "Dativ: der/das ← dem، die ← der.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Die Katze liegt auf ___ Bett. (das Bett)", "instruction_ar": "أكمل بالأداة الصحيحة.", "reference_answers": ["Die Katze liegt auf dem Bett.", "dem"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-14-ask-where",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "أنت عند صديق وتبحث عن الحمّام. اسأله.",
+          "prompt_de": "Sie sind bei einem Freund (du). Sie suchen das Bad. Was fragen Sie?",
+          "reference_answers": ["Wo ist das Bad?", "Entschuldigung, wo ist hier das Bad?", "Wo ist die Toilette?"],
+          "key_points": ["W-Frage mit „Wo ist …?“"],
+          "hint_de": "Wo ist …?",
+          "hint_ar": "Wo ist das Bad? = أين الحمّام؟",
+          "explanation_ar": "سؤال W: Wo + الفعل + الفاعل.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie suchen Ihr Handy. Fragen Sie Ihre Mitbewohnerin.", "instruction_ar": "اسأل عن هاتفك.", "reference_answers": ["Wo ist mein Handy?", "Weißt du, wo mein Handy ist?"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-14-describe-room",
+          "type": "describe",
+          "skill_area": "writing",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "صِف ثلاثة أشياء في غرفتك وأين هي.",
+          "prompt_de": "Was ist in Ihrem Zimmer und wo? Nennen Sie drei Dinge.",
+          "reference_answers": ["Das Bett steht neben dem Fenster. Der Schrank ist neben der Tür. Auf dem Tisch liegt mein Laptop."],
+          "key_points": ["Drei Dinge mit Ortsangabe", "Präposition + Dativ richtig"],
+          "hint_de": "Das Bett steht neben dem … Auf dem Tisch liegt …",
+          "hint_ar": "steht للأشياء الواقفة (سرير، خزانة)، liegt للأشياء الممدّدة (كتاب، هاتف).",
+          "explanation_ar": "إذا بدأت بـ Auf dem Tisch يأتي الفعل بعدها مباشرة: Auf dem Tisch liegt …",
+          "transfer_tasks": [
+            {"prompt_de": "Was ist in Ihrer Küche und wo? Nennen Sie zwei Dinge.", "instruction_ar": "صِف شيئين في مطبخك وأين هما.", "reference_answers": ["Der Kühlschrank steht neben dem Herd. Auf dem Tisch steht eine Vase."]}
+          ],
+          "difficulty": 2,
+          "min_words": 10
+        },
+        {
+          "slug": "a1-14-listen-where",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع ثم أجب: أين النظارة؟",
+          "prompt_de": "Wo ist die Brille?",
+          "context_de": "Deine Brille? Die ist nicht im Bad. Sie liegt im Wohnzimmer, unter der Zeitung auf dem Sofa.",
+          "context_mode": "listen",
+          "reference_answers": ["Die Brille liegt im Wohnzimmer unter der Zeitung auf dem Sofa.", "Im Wohnzimmer, unter der Zeitung.", "Auf dem Sofa unter der Zeitung."],
+          "key_points": ["Wohnzimmer", "unter der Zeitung / auf dem Sofa"],
+          "hint_de": "Sie liegt im …",
+          "hint_ar": "انتبه: ليست في الحمّام.",
+          "explanation_ar": "unter = تحت، auf = على.",
+          "transfer_tasks": [
+            {"prompt_de": "Jemand sagt: „Die Schlüssel hängen neben der Tür.“ Wo sind die Schlüssel?", "instruction_ar": "أين المفاتيح؟", "reference_answers": ["Neben der Tür.", "Die Schlüssel hängen neben der Tür."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        }
+      ]
+    },
+    {
+      "slug": "a1-15-city-places",
+      "level": "A1",
+      "category": "city",
+      "sort_order": 150,
+      "title_de": "In der Stadt",
+      "title_ar": "في المدينة",
+      "objective_ar": "أن تقول إلى أين تذهب وأين أنت الآن في المدينة (البنك، البريد، الصيدلية…).",
+      "description_ar": "Wohin؟ ← zum/zur، Wo؟ ← im/in der/bei.",
+      "skills": ["speaking", "grammar", "vocabulary"],
+      "prerequisites": ["a1-05-transport"],
+      "estimated_minutes": 45,
+      "review_targets": ["case_dative", "preposition"],
+      "grammar_notes": [
+        {
+          "title_ar": "Wohin؟ zum / zur",
+          "body_ar": "zu + dem = zum (للمذكر والمحايد)، zu + der = zur (للمؤنث). Ich gehe zum Arzt / zur Post.",
+          "examples_de": ["Ich gehe zur Bank.", "Wir fahren zum Bahnhof.", "Sie geht zum Supermarkt."]
+        },
+        {
+          "title_ar": "Wo؟ im / in der / beim",
+          "body_ar": "Ich bin in der Apotheke / im Supermarkt / beim Arzt (bei + dem).",
+          "examples_de": ["Ich bin gerade in der Bank.", "Er ist beim Friseur."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Nachbarin", "de": "Hallo Ahmad! Wohin gehst du?", "ar": "مرحبًا أحمد! إلى أين تذهب؟"},
+        {"speaker": "Ahmad", "de": "Ich gehe zur Post und dann zur Apotheke.", "ar": "أذهب إلى البريد ثم إلى الصيدلية."},
+        {"speaker": "Nachbarin", "de": "Die Apotheke ist heute bis 18 Uhr geöffnet.", "ar": "الصيدلية مفتوحة اليوم حتى السادسة."},
+        {"speaker": "Ahmad", "de": "Danke! Und du? Bist du auf dem Weg zum Supermarkt?", "ar": "شكرًا! وأنتِ؟ هل أنتِ في طريقك إلى السوبرماركت؟"}
+      ],
+      "vocabulary": [
+        {"de": "Post", "article": "die", "ar": "مكتب البريد", "example_de": "Ich bringe ein Paket zur Post."},
+        {"de": "Bank", "article": "die", "plural": "Banken", "ar": "البنك", "example_de": "Die Bank ist am Marktplatz."},
+        {"de": "Apotheke", "article": "die", "plural": "Apotheken", "ar": "الصيدلية", "example_de": "Die Apotheke hat heute Notdienst."},
+        {"de": "Supermarkt", "article": "der", "plural": "Supermärkte", "ar": "السوبرماركت", "example_de": "Ich gehe zum Supermarkt."},
+        {"de": "Rathaus", "article": "das", "plural": "Rathäuser", "ar": "مبنى البلدية", "example_de": "Das Bürgeramt ist im Rathaus."},
+        {"de": "Friseur", "article": "der", "plural": "Friseure", "ar": "الحلّاق", "example_de": "Morgen gehe ich zum Friseur."},
+        {"de": "geöffnet", "pos": "adjective", "ar": "مفتوح", "example_de": "Die Bank ist bis 16 Uhr geöffnet."},
+        {"de": "geschlossen", "pos": "adjective", "ar": "مغلق", "example_de": "Am Sonntag ist der Supermarkt geschlossen."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-15-where-go",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "أنت ذاهب إلى البريد. أجب بجملة كاملة.",
+          "prompt_de": "Wohin gehen Sie? (die Post)",
+          "reference_answers": ["Ich gehe zur Post."],
+          "key_points": ["zur Post (zu + der)"],
+          "hint_de": "Ich gehe zur …",
+          "hint_ar": "die Post مؤنث ← zur Post.",
+          "explanation_ar": "zu + der = zur.",
+          "transfer_tasks": [
+            {"prompt_de": "Wohin fahren Sie? (der Bahnhof)", "instruction_ar": "أجب بجملة كاملة.", "reference_answers": ["Ich fahre zum Bahnhof."], "key_points": ["zum Bahnhof (zu + dem)"]}
+          ],
+          "difficulty": 1,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-15-gap-zum-zur",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "preposition",
+          "instruction_ar": "أكمل بـ zum أو zur.",
+          "prompt_de": "Ergänzen Sie: Morgen gehe ich ___ Friseur. (der Friseur)",
+          "reference_answers": ["Morgen gehe ich zum Friseur.", "zum"],
+          "hint_de": "der → zum",
+          "hint_ar": "مذكر ← zum.",
+          "explanation_ar": "zum للمذكر والمحايد، zur للمؤنث.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie: Wir müssen ___ Bank. (die Bank)", "instruction_ar": "أكمل بـ zum أو zur.", "reference_answers": ["Wir müssen zur Bank.", "zur"]}
+          ],
+          "difficulty": 1
+        },
+        {
+          "slug": "a1-15-where-are-you",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "صديقك يتصل بك. أنت الآن في الصيدلية. أجب.",
+          "prompt_de": "Wo bist du gerade? (die Apotheke)",
+          "reference_answers": ["Ich bin gerade in der Apotheke.", "Ich bin in der Apotheke."],
+          "key_points": ["in der Apotheke (Wo? + Dativ)"],
+          "hint_de": "Ich bin in der …",
+          "hint_ar": "Wo؟ ← in + Dativ: in der Apotheke.",
+          "explanation_ar": "Wohin؟ ← zur Apotheke، لكن Wo؟ ← in der Apotheke.",
+          "transfer_tasks": [
+            {"prompt_de": "Wo ist deine Frau? (der Arzt)", "instruction_ar": "زوجتك عند الطبيب. أجب.", "reference_answers": ["Sie ist beim Arzt.", "Meine Frau ist beim Arzt."], "key_points": ["beim Arzt (bei + dem)"]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-15-opening-hours",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ مواعيد الفتح ثم أجب: هل يمكنك الذهاب إلى البنك يوم السبت؟",
+          "prompt_de": "Kann man am Samstag zur Bank gehen?",
+          "context_de": "Sparkasse – Öffnungszeiten\nMontag bis Freitag: 9:00 – 16:00 Uhr\nDonnerstag: 9:00 – 18:00 Uhr\nSamstag und Sonntag: geschlossen",
+          "context_mode": "read",
+          "reference_answers": ["Nein, am Samstag ist die Bank geschlossen.", "Nein, samstags ist die Bank zu.", "Nein."],
+          "key_points": ["Nein – samstags geschlossen"],
+          "hint_de": "Samstag: …",
+          "hint_ar": "geschlossen = مغلق.",
+          "explanation_ar": "البنك مغلق يومي السبت والأحد.",
+          "transfer_tasks": [
+            {"prompt_de": "Bis wann ist die Bank am Donnerstag geöffnet?", "instruction_ar": "حتى متى يفتح البنك يوم الخميس؟", "reference_answers": ["Bis 18 Uhr.", "Am Donnerstag ist die Bank bis 18 Uhr geöffnet."]}
+          ],
+          "difficulty": 1,
+          "min_words": 1
+        },
+        {
+          "slug": "a1-15-errands",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "preposition",
+          "instruction_ar": "قل أين ستذهب اليوم بالترتيب (مكانان على الأقل).",
+          "prompt_de": "Wohin gehen Sie heute? Nennen Sie mindestens zwei Orte.",
+          "reference_answers": ["Zuerst gehe ich zur Bank, dann gehe ich zum Supermarkt.", "Heute gehe ich zur Post und dann zur Apotheke."],
+          "key_points": ["Mindestens zwei Orte", "zum/zur richtig", "zuerst/dann mit Verb an Position 2"],
+          "hint_de": "Zuerst gehe ich zur …, dann …",
+          "hint_ar": "zuerst = أولًا، dann = ثم.",
+          "explanation_ar": "بعد zuerst أو dann يأتي الفعل مباشرة.",
+          "transfer_tasks": [
+            {"prompt_de": "Wohin geht Ihre Familie am Samstag? Nennen Sie zwei Orte.", "instruction_ar": "إلى أين تذهب عائلتك يوم السبت؟", "reference_answers": ["Am Samstag gehen wir zum Markt und dann zum Park."]}
+          ],
+          "difficulty": 2,
+          "min_words": 7
+        }
+      ]
+    },
+    {
+      "slug": "a1-16-imperative",
+      "level": "A1",
+      "category": "instructions",
+      "sort_order": 160,
+      "title_de": "Bitte machen Sie …! – Anweisungen",
+      "title_ar": "من فضلك افعل… — التعليمات وصيغة الأمر",
+      "objective_ar": "أن تفهم التعليمات في الدورة وعند الطبيب والدوائر، وأن تعطي تعليمات بسيطة بأدب.",
+      "description_ar": "صيغة الأمر مع Sie (Kommen Sie bitte!) ومع du (Komm bitte!).",
+      "skills": ["listening", "speaking", "grammar"],
+      "prerequisites": ["a1-15-city-places"],
+      "estimated_minutes": 45,
+      "review_targets": ["verb_position", "register"],
+      "grammar_notes": [
+        {
+          "title_ar": "الأمر مع Sie",
+          "body_ar": "الفعل أولًا ثم Sie: Kommen Sie bitte! Öffnen Sie das Buch! الفعل المنفصل: Rufen Sie mich an!",
+          "examples_de": ["Nehmen Sie bitte Platz.", "Füllen Sie das Formular aus."]
+        },
+        {
+          "title_ar": "الأمر مع du",
+          "body_ar": "جذر الفعل بدون du: kommen ← Komm!، machen ← Mach!، nehmen ← Nimm!",
+          "examples_de": ["Komm bitte!", "Mach das Fenster zu!", "Nimm einen Stift."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Lehrerin", "de": "Öffnen Sie bitte das Buch auf Seite 20.", "ar": "افتحوا الكتاب من فضلكم على الصفحة 20."},
+        {"speaker": "Lehrerin", "de": "Hören Sie den Dialog und markieren Sie die Uhrzeiten.", "ar": "استمعوا إلى الحوار وضعوا علامة على الأوقات."},
+        {"speaker": "Mustafa", "de": "Entschuldigung, wiederholen Sie bitte die Seite?", "ar": "عفوًا، هل تعيدين رقم الصفحة من فضلك؟"},
+        {"speaker": "Lehrerin", "de": "Seite zwanzig. Und arbeiten Sie dann zu zweit.", "ar": "الصفحة عشرون. ثم اعملوا في أزواج."}
+      ],
+      "vocabulary": [
+        {"de": "öffnen", "pos": "verb", "ar": "يفتح", "example_de": "Öffnen Sie bitte das Fenster."},
+        {"de": "schließen", "pos": "verb", "ar": "يغلق", "example_de": "Schließen Sie bitte die Tür."},
+        {"de": "ausfüllen", "pos": "verb", "ar": "يملأ (استمارة)", "example_de": "Füllen Sie das Formular aus."},
+        {"de": "Formular", "article": "das", "plural": "Formulare", "ar": "الاستمارة", "example_de": "Das Formular ist auf Deutsch."},
+        {"de": "unterschreiben", "pos": "verb", "ar": "يوقّع", "example_de": "Unterschreiben Sie bitte hier."},
+        {"de": "warten", "pos": "verb", "ar": "ينتظر", "example_de": "Warten Sie bitte einen Moment."},
+        {"de": "Platz nehmen", "pos": "phrase", "ar": "يجلس / يتفضّل بالجلوس", "example_de": "Nehmen Sie bitte Platz."},
+        {"de": "Seite", "article": "die", "plural": "Seiten", "ar": "الصفحة", "example_de": "Lesen Sie Seite 12."}
+      ],
+      "exercises": [
+        {
+          "slug": "a1-16-imperative-sie",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "حوّل الجملة إلى طلب بصيغة الأمر مع Sie وbitte.",
+          "prompt_de": "Formulieren Sie als Bitte mit „Sie“: das Formular ausfüllen",
+          "reference_answers": ["Füllen Sie bitte das Formular aus.", "Bitte füllen Sie das Formular aus.", "Füllen Sie das Formular bitte aus."],
+          "hint_de": "Füllen Sie bitte … aus.",
+          "hint_ar": "الفعل أولًا، والجزء aus في النهاية.",
+          "explanation_ar": "ausfüllen منفصل: Füllen Sie … aus.",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie als Bitte mit „Sie“: hier unterschreiben", "instruction_ar": "حوّل إلى طلب مهذّب.", "reference_answers": ["Unterschreiben Sie bitte hier.", "Bitte unterschreiben Sie hier."]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-16-imperative-du",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "حوّل إلى صيغة الأمر مع du.",
+          "prompt_de": "Formulieren Sie mit „du“: Du kommst bitte morgen pünktlich.",
+          "reference_answers": ["Komm bitte morgen pünktlich.", "Komm morgen bitte pünktlich!", "Bitte komm morgen pünktlich."],
+          "hint_de": "Komm …!",
+          "hint_ar": "احذف du والنهاية ‎-st‎: kommst ← Komm.",
+          "explanation_ar": "الأمر مع du: جذر الفعل فقط، بدون du.",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie mit „du“: Du nimmst einen Regenschirm mit.", "instruction_ar": "حوّل إلى صيغة الأمر مع du.", "reference_answers": ["Nimm einen Regenschirm mit.", "Nimm einen Regenschirm mit!"]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-16-listen-doctor",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى موظفة العيادة: ماذا يجب أن تفعل؟ (شيئان)",
+          "prompt_de": "Was sollen Sie machen?",
+          "context_de": "Guten Tag. Geben Sie mir bitte Ihre Versichertenkarte. Und nehmen Sie dann im Wartezimmer Platz.",
+          "context_mode": "listen",
+          "reference_answers": ["Ich soll die Versichertenkarte geben und im Wartezimmer warten.", "Die Versichertenkarte geben und im Wartezimmer Platz nehmen."],
+          "key_points": ["Versichertenkarte geben", "im Wartezimmer Platz nehmen / warten"],
+          "hint_de": "Geben Sie … Nehmen Sie …",
+          "hint_ar": "هناك أمران: إعطاء البطاقة، والجلوس في غرفة الانتظار.",
+          "explanation_ar": "Wartezimmer = غرفة الانتظار، Platz nehmen = يجلس.",
+          "transfer_tasks": [
+            {"prompt_de": "Die Lehrerin sagt: „Schließen Sie bitte die Bücher und hören Sie zu.“ Was sollen Sie machen?", "instruction_ar": "ماذا يجب أن تفعل؟", "reference_answers": ["Die Bücher schließen und zuhören.", "Ich soll das Buch schließen und zuhören."]}
+          ],
+          "difficulty": 2,
+          "min_words": 4
+        },
+        {
+          "slug": "a1-16-give-instruction",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "زائر عندك في البيت. اطلب منه بأدب أن يجلس (صيغة Sie).",
+          "prompt_de": "Ein Gast kommt zu Ihnen nach Hause. Sagen Sie höflich, dass er Platz nehmen soll.",
+          "reference_answers": ["Nehmen Sie bitte Platz.", "Bitte nehmen Sie Platz.", "Kommen Sie herein und nehmen Sie bitte Platz."],
+          "key_points": ["Imperativ mit Sie", "bitte"],
+          "hint_de": "Nehmen Sie bitte …",
+          "hint_ar": "Platz nehmen = يتفضّل بالجلوس.",
+          "explanation_ar": "الأمر المهذّب: الفعل + Sie + bitte.",
+          "transfer_tasks": [
+            {"prompt_de": "Ihr Kind (du) soll die Tür zumachen. Was sagen Sie?", "instruction_ar": "اطلب من طفلك أن يغلق الباب.", "reference_answers": ["Mach bitte die Tür zu.", "Bitte mach die Tür zu!"]}
+          ],
+          "difficulty": 1,
+          "min_words": 3
+        },
+        {
+          "slug": "a1-16-read-sign",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ اللافتة في الدائرة ثم أجب: ماذا يجب أن تفعل أولًا؟",
+          "prompt_de": "Was müssen Sie zuerst machen?",
+          "context_de": "Bitte ziehen Sie zuerst eine Wartenummer am Automaten. Warten Sie dann, bis Ihre Nummer auf dem Bildschirm erscheint.",
+          "context_mode": "read",
+          "reference_answers": ["Zuerst muss ich eine Wartenummer ziehen.", "Eine Wartenummer am Automaten ziehen."],
+          "key_points": ["Wartenummer ziehen"],
+          "hint_de": "Ziehen Sie zuerst …",
+          "hint_ar": "Wartenummer = رقم الانتظار.",
+          "explanation_ar": "ziehen = يسحب (رقمًا من الجهاز).",
+          "transfer_tasks": [
+            {"prompt_de": "Was machen Sie danach?", "instruction_ar": "ماذا تفعل بعد ذلك؟", "reference_answers": ["Ich warte, bis meine Nummer auf dem Bildschirm erscheint.", "Warten, bis die Nummer erscheint."]}
+          ],
+          "difficulty": 2,
+          "min_words": 3
+        }
+      ]
+    }
+  ]
+}

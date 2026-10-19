@@ -1,0 +1,586 @@
+{
+  "version": 1,
+  "level": "B1",
+  "lessons": [
+    {
+      "slug": "b1-01-opinions",
+      "level": "B1",
+      "category": "opinions",
+      "title_de": "Meinungen äußern und begründen",
+      "title_ar": "التعبير عن الرأي وتعليله",
+      "objective_ar": "أن تعبّر عن رأيك وتعلّله، وتوافق أو تخالف بأدب، وتستخدم obwohl.",
+      "description_ar": "Meiner Meinung nach + الفعل مباشرة، Ich finde, dass …، والجمل مع obwohl.",
+      "skills": ["speaking", "grammar"],
+      "prerequisites": ["a2-06-work-training"],
+      "estimated_minutes": 60,
+      "review_targets": ["verb_position", "conjunction"],
+      "grammar_notes": [
+        {
+          "title_ar": "Meiner Meinung nach",
+          "body_ar": "تُحسب عبارة Meiner Meinung nach موقعًا أول، فيأتي الفعل بعدها مباشرة.",
+          "examples_de": ["Meiner Meinung nach ist das zu teuer.", "Ich finde, dass das zu teuer ist."]
+        },
+        {
+          "title_ar": "obwohl",
+          "body_ar": "obwohl = «مع أنّ». الفعل في نهاية الجملة الفرعية. إذا بدأت الجملة بها يأتي الفعل الرئيسي مباشرة بعد الفاصلة.",
+          "examples_de": ["Obwohl es regnet, gehen wir spazieren.", "Wir gehen spazieren, obwohl es regnet."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Jana", "de": "Ich finde, dass man in der Stadt besser leben kann.", "ar": "أرى أنّ العيش في المدينة أفضل."},
+        {"speaker": "Hamid", "de": "Da bin ich anderer Meinung. Auf dem Land ist es ruhiger und die Mieten sind günstiger.", "ar": "لديّ رأي مختلف. في الريف الجو أهدأ والإيجارات أرخص."},
+        {"speaker": "Jana", "de": "Das stimmt, aber obwohl die Mieten günstiger sind, braucht man dort oft ein Auto.", "ar": "صحيح، لكن مع أنّ الإيجارات أرخص، تحتاج هناك غالبًا إلى سيارة."},
+        {"speaker": "Hamid", "de": "Da hast du recht. Beides hat Vor- und Nachteile.", "ar": "معك حق. لكلٍّ منهما مزايا وعيوب."}
+      ],
+      "vocabulary": [
+        {"de": "Meinung", "article": "die", "plural": "Meinungen", "ar": "الرأي", "example_de": "Was ist Ihre Meinung?"},
+        {"de": "Vorteil", "article": "der", "plural": "Vorteile", "ar": "الميزة", "example_de": "Ein Vorteil ist der Preis."},
+        {"de": "Nachteil", "article": "der", "plural": "Nachteile", "ar": "العيب", "example_de": "Der Nachteil ist die Entfernung."},
+        {"de": "zustimmen", "pos": "verb", "ar": "يوافق", "example_de": "Da stimme ich Ihnen zu."},
+        {"de": "widersprechen", "pos": "verb", "ar": "يعارض", "example_de": "Ich muss Ihnen widersprechen."},
+        {"de": "überzeugen", "pos": "verb", "ar": "يُقنع", "example_de": "Das Argument überzeugt mich nicht."},
+        {"de": "Argument", "article": "das", "plural": "Argumente", "ar": "الحجّة", "example_de": "Das ist ein gutes Argument."},
+        {"de": "einerseits … andererseits", "pos": "phrase", "ar": "من جهة … ومن جهة أخرى", "example_de": "Einerseits ist es praktisch, andererseits teuer."}
+      ],
+      "exercises": [
+        {
+          "slug": "b1-01-phone-children",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "عبّر عن رأيك مع تعليل (جملتان على الأقل).",
+          "prompt_de": "Sollten Kinder schon in der Grundschule ein Handy haben? Sagen Sie Ihre Meinung und begründen Sie sie.",
+          "reference_answers": ["Meiner Meinung nach brauchen Kinder in der Grundschule noch kein Handy, weil sie lieber draußen spielen sollten.", "Ich finde, dass Kinder ein einfaches Handy haben sollten, damit sie ihre Eltern anrufen können."],
+          "key_points": ["Klare Meinung", "Begründung mit weil, denn, deshalb oder damit", "Korrekte Wortstellung im Nebensatz", "Pro und Contra sind beide richtig"],
+          "hint_de": "Meiner Meinung nach …, weil …",
+          "hint_ar": "اذكر رأيك ثم السبب بـ weil أو denn.",
+          "explanation_ar": "denn لا يغيّر ترتيب الكلمات، أما weil فيرسل الفعل إلى النهاية.",
+          "transfer_tasks": [
+            {"prompt_de": "Ist es besser, in der Stadt oder auf dem Land zu wohnen? Begründen Sie Ihre Meinung.", "instruction_ar": "المدينة أم الريف؟ عبّر عن رأيك مع تعليل.", "reference_answers": ["Ich finde, dass das Leben in der Stadt besser ist, weil es mehr Arbeit und bessere Verbindungen gibt.", "Meiner Meinung nach ist das Land besser, denn dort ist es ruhiger."], "key_points": ["Meinung + Begründung"]}
+          ],
+          "difficulty": 3,
+          "min_words": 10
+        },
+        {
+          "slug": "b1-01-meiner-meinung",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "أعد كتابة الجملة لتبدأ بـ «Meiner Meinung nach».",
+          "prompt_de": "Beginnen Sie mit „Meiner Meinung nach“: Öffentliche Verkehrsmittel sind zu teuer.",
+          "reference_answers": ["Meiner Meinung nach sind öffentliche Verkehrsmittel zu teuer.", "Meiner Meinung nach sind die öffentlichen Verkehrsmittel zu teuer."],
+          "hint_de": "Meiner Meinung nach sind …",
+          "hint_ar": "الفعل sind يأتي مباشرة بعد Meiner Meinung nach.",
+          "explanation_ar": "Meiner Meinung nach تشغل الموقع الأول، والفعل في الموقع الثاني.",
+          "transfer_tasks": [
+            {"prompt_de": "Beginnen Sie mit „Meiner Meinung nach“: Man sollte mehr Fahrrad fahren.", "instruction_ar": "ابدأ بـ Meiner Meinung nach.", "reference_answers": ["Meiner Meinung nach sollte man mehr Fahrrad fahren."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        },
+        {
+          "slug": "b1-01-obwohl",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "اربط الجملتين بـ obwohl.",
+          "prompt_de": "Verbinden Sie mit „obwohl“: Er ist müde. Er arbeitet weiter.",
+          "reference_answers": ["Obwohl er müde ist, arbeitet er weiter.", "Er arbeitet weiter, obwohl er müde ist."],
+          "hint_de": "Obwohl er müde ist, …",
+          "hint_ar": "الفعل ist يذهب إلى نهاية جملة obwohl.",
+          "explanation_ar": "إذا بدأت بـ Obwohl …, يأتي الفعل الرئيسي (arbeitet) أولًا بعد الفاصلة.",
+          "transfer_tasks": [
+            {"prompt_de": "Verbinden Sie mit „obwohl“: Es regnet. Wir gehen spazieren.", "instruction_ar": "اربط بـ obwohl.", "reference_answers": ["Obwohl es regnet, gehen wir spazieren.", "Wir gehen spazieren, obwohl es regnet."]},
+            {"prompt_de": "Verbinden Sie mit „obwohl“: Sie hat wenig Zeit. Sie hilft ihrer Nachbarin.", "instruction_ar": "اربط بـ obwohl.", "reference_answers": ["Obwohl sie wenig Zeit hat, hilft sie ihrer Nachbarin.", "Sie hilft ihrer Nachbarin, obwohl sie wenig Zeit hat."]}
+          ],
+          "difficulty": 3,
+          "min_words": 6
+        },
+        {
+          "slug": "b1-01-disagree",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "زميلك يقول: «العمل من المنزل أفضل دائمًا من المكتب». خالفه بأدب مع سبب.",
+          "prompt_de": "Ihr Kollege sagt: „Homeoffice ist immer besser als das Büro.“ Widersprechen Sie höflich.",
+          "reference_answers": ["Da bin ich anderer Meinung. Im Büro kann man besser mit den Kollegen sprechen.", "Das sehe ich nicht ganz so. Im Büro ist die Zusammenarbeit oft einfacher."],
+          "key_points": ["Höflicher Widerspruch (z. B. „Da bin ich anderer Meinung“, „Das sehe ich anders“)", "Ein Grund"],
+          "hint_de": "Da bin ich anderer Meinung, …",
+          "hint_ar": "عبارات المخالفة المهذّبة: Da bin ich anderer Meinung / Das sehe ich anders.",
+          "explanation_ar": "تجنّب «Das ist falsch!» في الحوار المهني؛ استخدم صيغًا أكثر لطفًا.",
+          "transfer_tasks": [
+            {"prompt_de": "Ihre Freundin sagt: „Deutsch lernt man am besten mit Filmen.“ Stimmen Sie teilweise zu.", "instruction_ar": "وافق صديقتك جزئيًا وأضف رأيك.", "reference_answers": ["Da hast du teilweise recht, aber man muss auch Grammatik lernen.", "Das stimmt zum Teil, aber man sollte auch viel sprechen."]}
+          ],
+          "difficulty": 3,
+          "min_words": 8
+        }
+      ]
+    },
+    {
+      "slug": "b1-02-future-plans",
+      "level": "B1",
+      "category": "future_plans",
+      "title_de": "Pläne und Ziele",
+      "title_ar": "الخطط والأهداف",
+      "objective_ar": "أن تتحدّث عن خططك المستقبلية بـ werden وvorhaben … zu وجمل الشرط بـ wenn.",
+      "description_ar": "werden + مصدر، Ich habe vor, … zu …، وwenn (الفعل في النهاية).",
+      "skills": ["speaking", "grammar", "writing"],
+      "prerequisites": ["b1-01-opinions"],
+      "estimated_minutes": 50,
+      "review_targets": ["verb_tense", "conjunction"],
+      "grammar_notes": [
+        {
+          "title_ar": "werden للمستقبل",
+          "body_ar": "werden مصرَّف في المكان الثاني والفعل الأساسي في النهاية. في الحياة اليومية يُستخدم المضارع مع ظرف زمان كثيرًا أيضًا.",
+          "examples_de": ["Ich werde nächstes Jahr eine Ausbildung machen.", "Nächstes Jahr mache ich eine Ausbildung."]
+        },
+        {
+          "title_ar": "vorhaben … zu",
+          "body_ar": "Ich habe vor, + … + zu + مصدر في النهاية. مع الأفعال المنفصلة تأتي zu في الوسط: anzufangen.",
+          "examples_de": ["Ich habe vor, den Führerschein zu machen.", "Ich habe vor, im Herbst anzufangen."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Beraterin", "de": "Was haben Sie nach dem Integrationskurs vor?", "ar": "ماذا تنوي بعد دورة الاندماج؟"},
+        {"speaker": "Lina", "de": "Ich habe vor, eine Ausbildung als Zahnarzthelferin zu machen.", "ar": "أنوي القيام بتدريب كمساعدة طبيب أسنان."},
+        {"speaker": "Beraterin", "de": "Sehr gut. Wenn Sie die B1-Prüfung bestehen, können Sie sich bewerben.", "ar": "ممتاز. إذا نجحتِ في امتحان B1 يمكنك التقديم."},
+        {"speaker": "Lina", "de": "Ich werde jeden Tag lernen, damit ich es schaffe.", "ar": "سأدرس كل يوم حتى أنجح."}
+      ],
+      "vocabulary": [
+        {"de": "Ziel", "article": "das", "plural": "Ziele", "ar": "الهدف", "example_de": "Mein Ziel ist die B1-Prüfung."},
+        {"de": "vorhaben", "pos": "verb", "ar": "ينوي", "example_de": "Was hast du am Wochenende vor?"},
+        {"de": "bestehen", "pos": "verb", "ar": "ينجح (في امتحان)", "example_de": "Ich habe die Prüfung bestanden."},
+        {"de": "sich bewerben", "pos": "verb", "ar": "يتقدّم بطلب", "example_de": "Ich bewerbe mich um eine Stelle."},
+        {"de": "Führerschein", "article": "der", "plural": "Führerscheine", "ar": "رخصة القيادة", "example_de": "Ich mache den Führerschein."},
+        {"de": "Zukunft", "article": "die", "ar": "المستقبل", "example_de": "In der Zukunft möchte ich selbstständig sein."},
+        {"de": "schaffen", "pos": "verb", "ar": "يتمكّن / ينجح في", "example_de": "Du schaffst das!"},
+        {"de": "Stelle", "article": "die", "plural": "Stellen", "ar": "الوظيفة", "example_de": "Ich suche eine feste Stelle."}
+      ],
+      "exercises": [
+        {
+          "slug": "b1-02-five-years",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "verb_tense",
+          "instruction_ar": "ما خططك للسنوات الخمس القادمة؟ (جملتان على الأقل)",
+          "prompt_de": "Was haben Sie in den nächsten fünf Jahren vor?",
+          "reference_answers": ["In den nächsten fünf Jahren möchte ich meine Ausbildung abschließen und eine feste Stelle finden.", "Ich habe vor, die B1-Prüfung zu bestehen und dann als Pflegefachkraft zu arbeiten."],
+          "key_points": ["Mindestens ein konkretes Ziel", "Zukunft: werden, möchten, vorhaben … zu oder Präsens + Zeitangabe"],
+          "hint_de": "In den nächsten fünf Jahren möchte ich …",
+          "hint_ar": "استخدم möchte أو werde أو habe vor … zu.",
+          "explanation_ar": "بعد In den nächsten fünf Jahren يأتي الفعل مباشرة: … möchte ich …",
+          "transfer_tasks": [
+            {"prompt_de": "Was werden Sie nach dem Deutschkurs machen?", "instruction_ar": "ماذا ستفعل بعد دورة الألمانية؟ استخدم werden.", "reference_answers": ["Nach dem Deutschkurs werde ich eine Arbeit suchen.", "Ich werde eine Ausbildung anfangen."], "key_points": ["werden + Infinitiv am Ende"]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "b1-02-vorhaben-zu",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_position",
+          "instruction_ar": "أعد الصياغة بـ «Ich habe vor, … zu …».",
+          "prompt_de": "Formulieren Sie mit „Ich habe vor, … zu …“: Ich mache nächstes Jahr den Führerschein.",
+          "reference_answers": ["Ich habe vor, nächstes Jahr den Führerschein zu machen."],
+          "hint_de": "Ich habe vor, … zu machen.",
+          "hint_ar": "zu + المصدر في آخر الجملة.",
+          "explanation_ar": "Ich habe vor, [الإضافات] zu machen.",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie mit „Ich habe vor, … zu …“: Ich besuche im Sommer meine Familie.", "instruction_ar": "أعد الصياغة بـ Ich habe vor, … zu …", "reference_answers": ["Ich habe vor, im Sommer meine Familie zu besuchen."]},
+            {"prompt_de": "Formulieren Sie mit „Ich habe vor, … zu …“: Ich fange im Herbst einen Kurs an.", "instruction_ar": "انتبه: anfangen فعل منفصل.", "reference_answers": ["Ich habe vor, im Herbst einen Kurs anzufangen."]}
+          ],
+          "difficulty": 3,
+          "min_words": 7
+        },
+        {
+          "slug": "b1-02-wenn",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "اربط الجملتين بـ wenn.",
+          "prompt_de": "Verbinden Sie mit „wenn“: Ich habe Zeit. Ich lerne jeden Tag eine Stunde.",
+          "reference_answers": ["Wenn ich Zeit habe, lerne ich jeden Tag eine Stunde.", "Ich lerne jeden Tag eine Stunde, wenn ich Zeit habe."],
+          "hint_de": "Wenn ich Zeit habe, …",
+          "hint_ar": "habe إلى نهاية جملة wenn، ثم الفعل الرئيسي بعد الفاصلة مباشرة.",
+          "explanation_ar": "Wenn ich Zeit habe, lerne ich … — فعل، فاصلة، فعل.",
+          "transfer_tasks": [
+            {"prompt_de": "Verbinden Sie mit „wenn“: Das Wetter ist schön. Wir grillen im Park.", "instruction_ar": "اربط بـ wenn.", "reference_answers": ["Wenn das Wetter schön ist, grillen wir im Park.", "Wir grillen im Park, wenn das Wetter schön ist."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        },
+        {
+          "slug": "b1-02-gap-werden",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "verb_conjugation",
+          "instruction_ar": "أكمل بالشكل الصحيح للفعل werden.",
+          "prompt_de": "Ergänzen Sie „werden“: Morgen ___ es regnen.",
+          "reference_answers": ["Morgen wird es regnen.", "wird"],
+          "hint_de": "es → wird",
+          "hint_ar": "werden مع es: wird.",
+          "explanation_ar": "werden: ich werde، du wirst، er/sie/es wird، wir werden.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie „werden“: Wir ___ im Juni umziehen.", "instruction_ar": "أكمل بالشكل الصحيح مع wir.", "reference_answers": ["Wir werden im Juni umziehen.", "werden"]}
+          ],
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "slug": "b1-03-adjectives-cases",
+      "level": "B1",
+      "category": "grammar_cases",
+      "title_de": "Adjektivendungen und Fälle",
+      "title_ar": "نهايات الصفات والحالات الإعرابية",
+      "objective_ar": "أن تستخدم نهايات الصفات بعد ein/der في Nominativ وAkkusativ وDativ، والضمائر في Dativ.",
+      "description_ar": "قاعدة عملية: بعد der/die/das في Dativ تنتهي الصفة بـ ‎-en‎؛ بعد ein في Akkusativ المذكّر: einen neuen.",
+      "skills": ["grammar", "writing"],
+      "prerequisites": ["b1-02-future-plans"],
+      "estimated_minutes": 60,
+      "review_targets": ["adjective_ending", "case_dative", "pronoun"],
+      "grammar_notes": [
+        {
+          "title_ar": "نهايات الصفات مع ein",
+          "body_ar": "Nominativ: ein neuer Job / eine neue Stelle / ein neues Auto. Akkusativ: einen neuen Job. Dativ: einem neuen Job / einer neuen Stelle.",
+          "examples_de": ["Ich suche eine günstige Wohnung.", "Er hat einen neuen Job.", "Ich wohne in einer kleinen Stadt."]
+        },
+        {
+          "title_ar": "ضمائر Dativ",
+          "body_ar": "mir، dir، ihm، ihr، uns، euch، ihnen/Ihnen. أفعال شائعة مع Dativ: helfen، geben، gefallen، gehören.",
+          "examples_de": ["Können Sie mir helfen?", "Ich gebe ihm das Buch."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Makler", "de": "Was für eine Wohnung suchen Sie?", "ar": "أي نوع من الشقق تبحث عنه؟"},
+        {"speaker": "Rami", "de": "Ich suche eine helle Wohnung mit einem großen Balkon.", "ar": "أبحث عن شقة مضيئة مع شرفة كبيرة."},
+        {"speaker": "Makler", "de": "Ich habe eine schöne Wohnung in einem ruhigen Viertel.", "ar": "لديّ شقة جميلة في حيّ هادئ."},
+        {"speaker": "Rami", "de": "Das klingt gut. Können Sie mir die Adresse schicken?", "ar": "يبدو هذا جيدًا. هل يمكنك إرسال العنوان لي؟"}
+      ],
+      "vocabulary": [
+        {"de": "günstig", "pos": "adjective", "ar": "رخيص / بسعر مناسب", "example_de": "Die Wohnung ist günstig."},
+        {"de": "hell", "pos": "adjective", "ar": "مضيء", "example_de": "Das Zimmer ist sehr hell."},
+        {"de": "ruhig", "pos": "adjective", "ar": "هادئ", "example_de": "Wir wohnen in einer ruhigen Straße."},
+        {"de": "hilfsbereit", "pos": "adjective", "ar": "متعاون / يحب المساعدة", "example_de": "Meine Nachbarin ist sehr hilfsbereit."},
+        {"de": "Viertel", "article": "das", "plural": "Viertel", "ar": "الحيّ", "example_de": "Das Viertel ist sehr lebendig."},
+        {"de": "gehören", "pos": "verb", "ar": "يخصّ / يملكه", "example_de": "Das Fahrrad gehört mir."},
+        {"de": "gefallen", "pos": "verb", "ar": "يُعجب", "example_de": "Die Wohnung gefällt mir."},
+        {"de": "Nachbarin", "article": "die", "plural": "Nachbarinnen", "ar": "الجارة", "example_de": "Ich helfe meiner Nachbarin."}
+      ],
+      "exercises": [
+        {
+          "slug": "b1-03-gap-guenstige",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "adjective_ending",
+          "instruction_ar": "أكمل نهاية الصفة (اكتب الكلمة أو الجملة كاملة).",
+          "prompt_de": "Ergänzen Sie die Endung: Ich suche eine günstig__ Wohnung.",
+          "reference_answers": ["Ich suche eine günstige Wohnung.", "günstige"],
+          "hint_de": "eine … -e",
+          "hint_ar": "مؤنث، Akkusativ، بعد eine: ‎-e‎.",
+          "explanation_ar": "die Wohnung مؤنث؛ في Akkusativ بعد eine تبقى النهاية ‎-e‎: eine günstige Wohnung.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie die Endung: Er hat einen neu__ Job.", "instruction_ar": "أكمل نهاية الصفة.", "reference_answers": ["Er hat einen neuen Job.", "neuen"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "b1-03-gap-kleinen",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "adjective_ending",
+          "instruction_ar": "أكمل نهاية الصفة بعد حرف جرّ يأخذ Dativ.",
+          "prompt_de": "Ergänzen Sie die Endung: Ich wohne in einer klein__ Stadt.",
+          "reference_answers": ["Ich wohne in einer kleinen Stadt.", "kleinen"],
+          "hint_de": "Dativ → -en",
+          "hint_ar": "wohnen in + Dativ ← النهاية ‎-en‎.",
+          "explanation_ar": "في Dativ تنتهي الصفة دائمًا بـ ‎-en‎ بعد أداة: einer kleinen Stadt.",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie die Endung: Mit dem alt__ Auto fahre ich nicht mehr.", "instruction_ar": "أكمل نهاية الصفة.", "reference_answers": ["Mit dem alten Auto fahre ich nicht mehr.", "alten"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "b1-03-dream-flat",
+          "type": "describe",
+          "skill_area": "writing",
+          "grammar_focus": "adjective_ending",
+          "instruction_ar": "صِف شقة أحلامك مستخدمًا ثلاث صفات على الأقل.",
+          "prompt_de": "Beschreiben Sie Ihre Traumwohnung mit mindestens drei Adjektiven.",
+          "reference_answers": ["Meine Traumwohnung ist hell und groß. Sie hat einen schönen Balkon und eine moderne Küche."],
+          "key_points": ["Mindestens drei Adjektive", "Adjektivendungen vor Nomen korrekt", "Mindestens zwei Sätze"],
+          "hint_de": "Sie hat einen schönen … und eine moderne …",
+          "hint_ar": "الصفة بعد ist لا تأخذ نهاية (Die Wohnung ist groß)، وقبل الاسم تأخذ نهاية (eine große Wohnung).",
+          "explanation_ar": "انتبه للفرق: Die Küche ist modern / eine moderne Küche.",
+          "transfer_tasks": [
+            {"prompt_de": "Beschreiben Sie einen guten Kollegen oder eine gute Kollegin mit mindestens zwei Adjektiven.", "instruction_ar": "صِف زميلًا جيدًا بصفتين على الأقل.", "reference_answers": ["Ein guter Kollege ist freundlich und hilfsbereit.", "Meine Kollegin ist eine sehr geduldige und zuverlässige Frau."]}
+          ],
+          "difficulty": 3,
+          "min_words": 10
+        },
+        {
+          "slug": "b1-03-dative-pronoun",
+          "type": "gap_fill",
+          "skill_area": "grammar",
+          "grammar_focus": "pronoun",
+          "instruction_ar": "أكمل بضمير Dativ المناسب.",
+          "prompt_de": "Ergänzen Sie das Pronomen im Dativ: Können Sie ___ helfen? (ich)",
+          "reference_answers": ["Können Sie mir helfen?", "mir"],
+          "hint_de": "ich → mir",
+          "hint_ar": "helfen + Dativ: ich ← mir.",
+          "explanation_ar": "helfen فعل يأخذ Dativ دائمًا: mir، dir، ihm، ihr …",
+          "transfer_tasks": [
+            {"prompt_de": "Ergänzen Sie das Pronomen im Dativ: Ich gebe ___ das Buch. (er)", "instruction_ar": "أكمل بضمير Dativ.", "reference_answers": ["Ich gebe ihm das Buch.", "ihm"]}
+          ],
+          "difficulty": 2
+        },
+        {
+          "slug": "b1-03-translate-gave",
+          "type": "translate",
+          "skill_area": "writing",
+          "grammar_focus": "case_dative",
+          "instruction_ar": "ترجم إلى الألمانية: «أعطيتُ المعلّمةَ الكتابَ الجديد.»",
+          "prompt_de": "Übersetzen Sie den Satz ins Deutsche.",
+          "reference_answers": ["Ich habe der Lehrerin das neue Buch gegeben.", "Ich gab der Lehrerin das neue Buch."],
+          "key_points": ["Dativ für die Person: der Lehrerin", "Akkusativ für die Sache: das neue Buch", "Perfekt oder Präteritum"],
+          "hint_de": "Ich habe der … das neue … gegeben.",
+          "hint_ar": "الشخص الذي يُعطى له في Dativ، والشيء في Akkusativ.",
+          "explanation_ar": "die Lehrerin ← der Lehrerin (Dativ)؛ das Buch ← das neue Buch (Akkusativ محايد).",
+          "transfer_tasks": [
+            {"prompt_de": "Übersetzen Sie den Satz ins Deutsche.", "instruction_ar": "ترجم: «أرسلتُ لأخي رسالة طويلة.»", "reference_answers": ["Ich habe meinem Bruder eine lange Nachricht geschickt.", "Ich habe meinem Bruder einen langen Brief geschickt."]}
+          ],
+          "difficulty": 3,
+          "min_words": 6
+        }
+      ]
+    },
+    {
+      "slug": "b1-04-speaking-exam",
+      "level": "B1",
+      "category": "exam_speaking",
+      "title_de": "B1-Prüfung: Sprechen",
+      "title_ar": "امتحان B1: المحادثة",
+      "objective_ar": "أن تتدرّب على أجزاء امتحان المحادثة: التخطيط المشترك، عرض موضوع، والتعامل مع عدم الفهم.",
+      "description_ar": "عبارات الاقتراح والردّ عليه (Wie wäre es …? / Ich schlage vor, dass …)، ومزايا وعيوب.",
+      "skills": ["speaking"],
+      "prerequisites": ["b1-03-adjectives-cases"],
+      "estimated_minutes": 60,
+      "review_targets": ["register", "conjunction"],
+      "grammar_notes": [
+        {
+          "title_ar": "الاقتراح والردّ",
+          "body_ar": "اقتراح: Wie wäre es, wenn …? / Ich schlage vor, dass … / Sollen wir …? — قبول: Gute Idee! — رفض مهذّب: Das passt mir leider nicht, aber …",
+          "examples_de": ["Wie wäre es, wenn wir am Freitag feiern?", "Am Samstag kann ich leider nicht. Wollen wir uns lieber am Sonntag treffen?"]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Partnerin", "de": "Wir müssen die Abschiedsfeier für Herrn Wolf planen. Hast du eine Idee?", "ar": "يجب أن نخطّط لحفلة وداع السيد فولف. هل لديك فكرة؟"},
+        {"speaker": "Tarek", "de": "Wie wäre es, wenn wir am Freitagnachmittag im Pausenraum feiern?", "ar": "ما رأيك أن نحتفل يوم الجمعة بعد الظهر في غرفة الاستراحة؟"},
+        {"speaker": "Partnerin", "de": "Gute Idee. Und wer kümmert sich um das Essen?", "ar": "فكرة جيدة. ومن سيهتم بالطعام؟"},
+        {"speaker": "Tarek", "de": "Ich kann einen Kuchen mitbringen. Kannst du die Getränke organisieren?", "ar": "يمكنني إحضار كعكة. هل يمكنك تنظيم المشروبات؟"}
+      ],
+      "vocabulary": [
+        {"de": "Vorschlag", "article": "der", "plural": "Vorschläge", "ar": "الاقتراح", "example_de": "Ich habe einen Vorschlag."},
+        {"de": "vorschlagen", "pos": "verb", "ar": "يقترح", "example_de": "Ich schlage vor, dass wir früher anfangen."},
+        {"de": "sich kümmern um", "pos": "verb", "ar": "يهتمّ بـ", "example_de": "Ich kümmere mich um die Getränke."},
+        {"de": "organisieren", "pos": "verb", "ar": "ينظّم", "example_de": "Wer organisiert die Feier?"},
+        {"de": "Abschiedsfeier", "article": "die", "plural": "Abschiedsfeiern", "ar": "حفلة الوداع", "example_de": "Die Abschiedsfeier ist am Freitag."},
+        {"de": "überlegen", "pos": "verb", "ar": "يفكّر / يتأمّل", "example_de": "Lassen Sie mich kurz überlegen."},
+        {"de": "Erfahrung", "article": "die", "plural": "Erfahrungen", "ar": "التجربة / الخبرة", "example_de": "Ich habe gute Erfahrungen gemacht."},
+        {"de": "außerdem", "pos": "adverb", "ar": "بالإضافة إلى ذلك", "example_de": "Außerdem ist es billiger."}
+      ],
+      "exercises": [
+        {
+          "slug": "b1-04-plan-party",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "مهمة امتحان: تخطّط مع زميلة لحفلة وداع. اقترح مكانًا ووقتًا.",
+          "prompt_de": "Prüfungsaufgabe: Sie planen mit einer Kollegin eine Abschiedsfeier. Machen Sie einen Vorschlag für Ort und Zeit.",
+          "reference_answers": ["Wie wäre es, wenn wir die Feier am Freitagnachmittag im Pausenraum machen?", "Ich schlage vor, dass wir am Freitag um 16 Uhr in einem Restaurant feiern."],
+          "key_points": ["Vorschlag mit Redemittel (Wie wäre es …? / Ich schlage vor …)", "Ort und Zeit"],
+          "hint_de": "Wie wäre es, wenn wir …?",
+          "hint_ar": "عبارات الاقتراح: Wie wäre es, wenn … / Ich schlage vor, dass …",
+          "explanation_ar": "بعد wenn وdass يذهب الفعل إلى النهاية: … wenn wir am Freitag feiern?",
+          "transfer_tasks": [
+            {"prompt_de": "Ihre Partnerin schlägt Samstag vor, aber Sie haben keine Zeit. Reagieren Sie und machen Sie einen neuen Vorschlag.", "instruction_ar": "ارفض بأدب واقترح موعدًا آخر.", "reference_answers": ["Am Samstag kann ich leider nicht. Wollen wir uns lieber am Sonntag treffen?", "Samstag passt mir leider nicht. Wie wäre es mit Freitagabend?"]}
+          ],
+          "difficulty": 3,
+          "min_words": 8
+        },
+        {
+          "slug": "b1-04-online-shopping-pros",
+          "type": "describe",
+          "skill_area": "speaking",
+          "grammar_focus": "conjunction",
+          "instruction_ar": "مهمة امتحان: قدّم موضوع «التسوّق عبر الإنترنت» واذكر ميزتين.",
+          "prompt_de": "Prüfungsaufgabe: Stellen Sie das Thema „Einkaufen im Internet“ vor. Nennen Sie zwei Vorteile.",
+          "reference_answers": ["Ein Vorteil ist, dass man rund um die Uhr einkaufen kann. Außerdem kann man die Preise leicht vergleichen."],
+          "key_points": ["Zwei Vorteile", "Strukturierende Wörter (Ein Vorteil ist …, Außerdem …)", "Nebensatz mit dass korrekt"],
+          "hint_de": "Ein Vorteil ist, dass … Außerdem …",
+          "hint_ar": "رتّب كلامك: Ein Vorteil ist … / Außerdem … / Ein weiterer Vorteil …",
+          "explanation_ar": "بعد Außerdem يأتي الفعل مباشرة: Außerdem kann man …",
+          "transfer_tasks": [
+            {"prompt_de": "Nennen Sie zwei Nachteile beim Einkaufen im Internet.", "instruction_ar": "اذكر عيبين للتسوّق عبر الإنترنت.", "reference_answers": ["Ein Nachteil ist, dass man die Ware nicht anfassen kann. Außerdem ist die Rücksendung manchmal kompliziert."]}
+          ],
+          "difficulty": 3,
+          "min_words": 15
+        },
+        {
+          "slug": "b1-04-home-country",
+          "type": "answer_question",
+          "skill_area": "speaking",
+          "grammar_focus": "word_order",
+          "instruction_ar": "الممتحِن يسأل عن الوضع في بلدك. أجب بجملتين.",
+          "prompt_de": "Prüfer: Wie ist die Situation in Ihrem Heimatland? Kauft man dort viel online?",
+          "reference_answers": ["In meinem Heimatland kauft man nicht so viel online. Die meisten Menschen gehen lieber auf den Markt."],
+          "key_points": ["Bezug auf das Heimatland", "Mindestens zwei Sätze", "Verb an Position 2 nach „In meinem Heimatland“"],
+          "hint_de": "In meinem Heimatland …",
+          "hint_ar": "بعد In meinem Heimatland يأتي الفعل مباشرة.",
+          "explanation_ar": "In meinem Heimatland kauft man … — Dativ بعد in (المكان).",
+          "transfer_tasks": [
+            {"prompt_de": "Prüfer: Wie kaufen Sie persönlich am liebsten ein? Warum?", "instruction_ar": "كيف تفضّل أنت التسوّق؟ ولماذا؟", "reference_answers": ["Ich kaufe am liebsten im Supermarkt ein, weil ich die Produkte sehen möchte."]}
+          ],
+          "difficulty": 3,
+          "min_words": 10
+        },
+        {
+          "slug": "b1-04-clarify",
+          "type": "role_play",
+          "skill_area": "speaking",
+          "grammar_focus": "register",
+          "instruction_ar": "لم تفهم سؤال الممتحِن جيدًا. اطلب توضيحًا بأدب.",
+          "prompt_de": "Sie haben eine Frage nicht genau verstanden. Bitten Sie höflich um eine Erklärung.",
+          "reference_answers": ["Entschuldigung, ich habe die Frage nicht ganz verstanden. Könnten Sie sie bitte anders formulieren?", "Könnten Sie die Frage bitte noch einmal erklären?"],
+          "key_points": ["Höflich nachfragen", "Konjunktiv II (Könnten Sie …?) ist ideal"],
+          "hint_de": "Könnten Sie die Frage bitte …?",
+          "hint_ar": "anders formulieren = يعيد الصياغة بشكل آخر.",
+          "explanation_ar": "طلب التوضيح في الامتحان مسموح ويُظهر مهارة تواصلية جيدة.",
+          "transfer_tasks": [
+            {"prompt_de": "Sie brauchen kurz Zeit zum Nachdenken. Was sagen Sie?", "instruction_ar": "تحتاج وقتًا قصيرًا للتفكير. ماذا تقول؟", "reference_answers": ["Moment, darüber muss ich kurz nachdenken.", "Das ist eine gute Frage. Lassen Sie mich kurz überlegen."]}
+          ],
+          "difficulty": 2,
+          "min_words": 6
+        }
+      ]
+    },
+    {
+      "slug": "b1-05-writing-reading-listening",
+      "level": "B1",
+      "category": "exam_writing_reading",
+      "title_de": "B1-Prüfung: Schreiben, Lesen und Hören",
+      "title_ar": "امتحان B1: الكتابة والقراءة والاستماع",
+      "objective_ar": "أن تكتب رسالة إلكترونية قصيرة رسمية، وتفهم إعلانًا وإعلانًا صوتيًا، وتستخدم المبني للمجهول البسيط.",
+      "description_ar": "بنية الرسالة الرسمية (التحية، السبب، الطلب، الختام)، وPassiv: wird + Partizip II.",
+      "skills": ["writing", "reading", "listening", "grammar"],
+      "prerequisites": ["b1-04-speaking-exam"],
+      "estimated_minutes": 60,
+      "review_targets": ["register", "comprehension"],
+      "grammar_notes": [
+        {
+          "title_ar": "الرسالة الرسمية",
+          "body_ar": "Sehr geehrte Frau … / Sehr geehrter Herr … — السبب — الطلب (Könnten Sie …?) — Mit freundlichen Grüßen. لشخص تعرفه: Liebe Frau … / Viele Grüße.",
+          "examples_de": ["Sehr geehrter Herr Becker,", "Mit freundlichen Grüßen"]
+        },
+        {
+          "title_ar": "Passiv بالمضارع",
+          "body_ar": "werden + Partizip II: Man repariert die Heizung → Die Heizung wird repariert.",
+          "examples_de": ["Der Müll wird getrennt.", "Die Heizung wird morgen repariert."]
+        }
+      ],
+      "dialogue": [
+        {"speaker": "Durchsage", "de": "Achtung an Gleis 3: Der Regionalexpress nach Hannover fährt heute von Gleis 7.", "ar": "انتباه على الرصيف 3: القطار الإقليمي إلى هانوفر ينطلق اليوم من الرصيف 7."},
+        {"speaker": "Reisende", "de": "Entschuldigung, habe ich richtig verstanden? Gleis 7?", "ar": "عفوًا، هل فهمت جيدًا؟ الرصيف 7؟"},
+        {"speaker": "Mitarbeiter", "de": "Ja, genau. Sie haben noch zehn Minuten Zeit.", "ar": "نعم، بالضبط. لديك عشر دقائق."}
+      ],
+      "vocabulary": [
+        {"de": "Durchsage", "article": "die", "plural": "Durchsagen", "ar": "الإعلان الصوتي", "example_de": "Ich habe die Durchsage nicht verstanden."},
+        {"de": "Teilnahme", "article": "die", "ar": "المشاركة", "example_de": "Die Teilnahme ist kostenlos."},
+        {"de": "kostenlos", "pos": "adjective", "ar": "مجاني", "example_de": "Der Kurs ist kostenlos."},
+        {"de": "begrenzt", "pos": "adjective", "ar": "محدود", "example_de": "Die Plätze sind begrenzt."},
+        {"de": "Ehrenamtliche", "article": "die", "ar": "المتطوّعون", "example_de": "Ehrenamtliche helfen im Sprachcafé."},
+        {"de": "Rücksendung", "article": "die", "ar": "الإرجاع (إعادة البضاعة)", "example_de": "Die Rücksendung ist kostenlos."},
+        {"de": "pünktlich", "pos": "adjective", "ar": "في الموعد", "example_de": "Bitte seien Sie pünktlich."},
+        {"de": "Gruß", "article": "der", "plural": "Grüße", "ar": "التحية", "example_de": "Viele Grüße aus Köln!"}
+      ],
+      "exercises": [
+        {
+          "slug": "b1-05-email-teacher",
+          "type": "writing",
+          "skill_area": "writing",
+          "grammar_focus": "register",
+          "instruction_ar": "اكتب رسالة إلكترونية قصيرة لمعلّمتك: لا تستطيع الحضور غدًا. اذكر السبب واسأل عن الواجبات.",
+          "prompt_de": "Schreiben Sie eine kurze E-Mail an Ihre Kursleiterin, Frau Müller: Sie können morgen nicht zum Kurs kommen. Nennen Sie den Grund und fragen Sie nach den Hausaufgaben.",
+          "reference_answers": ["Liebe Frau Müller, leider kann ich morgen nicht zum Kurs kommen, weil ich einen Termin beim Jobcenter habe. Könnten Sie mir bitte die Hausaufgaben schicken? Viele Grüße, Ali"],
+          "key_points": ["Anrede (Liebe Frau Müller / Sehr geehrte Frau Müller)", "Absage für morgen", "Grund", "Frage nach den Hausaufgaben", "Grußformel"],
+          "hint_de": "Liebe Frau Müller, leider kann ich morgen …",
+          "hint_ar": "أربعة أجزاء: التحية، الاعتذار مع السبب، الطلب، الختام.",
+          "explanation_ar": "للمعلّمة التي تعرفها: Liebe Frau … / Viele Grüße مقبولة. للجهات الرسمية: Sehr geehrte … / Mit freundlichen Grüßen.",
+          "transfer_tasks": [
+            {"prompt_de": "Schreiben Sie eine kurze E-Mail an Ihren Vermieter, Herrn Becker: Die Waschmaschine im Keller ist kaputt. Bitten Sie um Reparatur.", "instruction_ar": "اكتب رسالة رسمية قصيرة للمؤجّر عن الغسالة المعطّلة.", "reference_answers": ["Sehr geehrter Herr Becker, die Waschmaschine im Keller ist seit zwei Tagen kaputt. Könnten Sie bitte einen Techniker schicken? Mit freundlichen Grüßen, Ali Hassan"], "key_points": ["Formelle Anrede und Gruß", "Problem", "Bitte"]}
+          ],
+          "difficulty": 3,
+          "min_words": 25
+        },
+        {
+          "slug": "b1-05-read-language-cafe",
+          "type": "reading",
+          "skill_area": "reading",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "اقرأ الإعلان ثم أجب: كم التكلفة؟ متى؟ وهل يجب التسجيل؟",
+          "prompt_de": "Was kostet der Sprachtreff, wann findet er statt, und muss man sich anmelden?",
+          "context_de": "Die Stadtbibliothek bietet ab Oktober einen kostenlosen Sprachtreff an. Jeden Dienstag von 18 bis 19:30 Uhr können Deutschlernende mit Ehrenamtlichen sprechen. Eine Anmeldung ist nicht nötig, aber die Plätze sind begrenzt. Bitte kommen Sie pünktlich.",
+          "context_mode": "read",
+          "reference_answers": ["Der Sprachtreff ist kostenlos. Er findet jeden Dienstag von 18 bis 19:30 Uhr statt. Man muss sich nicht anmelden."],
+          "key_points": ["kostenlos", "dienstags 18–19:30 Uhr", "keine Anmeldung nötig"],
+          "hint_de": "kostenlos … Dienstag … Anmeldung …",
+          "hint_ar": "ثلاث معلومات: السعر، الوقت، التسجيل.",
+          "explanation_ar": "Eine Anmeldung ist nicht nötig = التسجيل غير ضروري.",
+          "transfer_tasks": [
+            {"prompt_de": "Im Text steht: „Die Plätze sind begrenzt.“ Was bedeutet das für Sie?", "instruction_ar": "ماذا تعني «الأماكن محدودة» بالنسبة لك؟", "reference_answers": ["Es gibt nicht viele Plätze, deshalb sollte ich pünktlich kommen.", "Nicht alle können teilnehmen, deshalb muss ich früh da sein."]}
+          ],
+          "difficulty": 2,
+          "min_words": 8
+        },
+        {
+          "slug": "b1-05-listen-announcement",
+          "type": "listening",
+          "skill_area": "listening",
+          "grammar_focus": "comprehension",
+          "instruction_ar": "استمع إلى الإعلان في المحطة: ما الذي تغيّر؟",
+          "prompt_de": "Was ändert sich beim Zug nach Hannover?",
+          "context_de": "Achtung, eine Durchsage: Der Regionalexpress nach Hannover, planmäßige Abfahrt 14:12 Uhr, fährt heute von Gleis 7 statt von Gleis 3. Wir bitten um Entschuldigung.",
+          "context_mode": "listen",
+          "reference_answers": ["Der Zug fährt heute von Gleis 7 statt von Gleis 3.", "Das Gleis ändert sich: Gleis 7 statt Gleis 3."],
+          "key_points": ["Gleiswechsel: 7 statt 3"],
+          "hint_de": "Gleis … statt Gleis …",
+          "hint_ar": "statt = بدلًا من.",
+          "explanation_ar": "الوقت لم يتغيّر، تغيّر الرصيف فقط: من 3 إلى 7.",
+          "transfer_tasks": [
+            {"prompt_de": "Durchsage: „Die S-Bahn hat etwa zehn Minuten Verspätung.“ Was bedeutet das?", "instruction_ar": "ماذا يعني هذا الإعلان؟", "reference_answers": ["Die S-Bahn kommt etwa zehn Minuten später.", "Die S-Bahn kommt ungefähr zehn Minuten zu spät."]}
+          ],
+          "difficulty": 2,
+          "min_words": 5
+        },
+        {
+          "slug": "b1-05-passive",
+          "type": "transform",
+          "skill_area": "grammar",
+          "grammar_focus": "other",
+          "instruction_ar": "حوّل الجملة إلى المبني للمجهول (Passiv).",
+          "prompt_de": "Formulieren Sie im Passiv: Man trennt den Müll.",
+          "reference_answers": ["Der Müll wird getrennt."],
+          "hint_de": "Der Müll wird …",
+          "hint_ar": "werden + Partizip II: wird getrennt.",
+          "explanation_ar": "المفعول (den Müll) يصبح فاعلًا (der Müll)، والفعل: wird + getrennt.",
+          "transfer_tasks": [
+            {"prompt_de": "Formulieren Sie im Passiv: Man repariert die Heizung morgen.", "instruction_ar": "حوّل إلى Passiv.", "reference_answers": ["Die Heizung wird morgen repariert."]}
+          ],
+          "difficulty": 3,
+          "min_words": 3
+        }
+      ]
+    }
+  ]
+}
